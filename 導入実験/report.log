@@ -1,0 +1,1368 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.5.3)  3 MAY 2025 19:04
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**/Users/myml12/Documents/電気電子情報通信実験/導入実験/report.tex
+(/Users/myml12/Documents/電気電子情報通信実験/導入実験/report.tex
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-04-14>
+(/usr/local/texlive/2025/texmf-dist/tex/latex/jlreq/jlreq.cls
+Document Class: jlreq 2025/3/16 jlreq
+(/usr/local/texlive/2025/texmf-dist/tex/latex/jlreq/jlreq-helpers.sty
+Package: jlreq-helpers 2024/02/13 jlreq-helpers
+\jlreq@tempcnta=\count272
+\jlreq@tempcntb=\count273
+\jlreq@tempcntc=\count274
+\jlreq@tempdima=\dimen146
+\jlreq@tempdimb=\dimen147
+\jlreq@tempdimc=\dimen148
+\jlreq@tempskipa=\skip49
+\jlreq@tempskipb=\skip50
+\jlreq@tempskipc=\skip51
+\jlreq@tempboxa=\box53
+\jlreq@tempboxb=\box54
+\jlreq@tempboxc=\box55
+\jlreq@resultdimen=\dimen149
+\jlreq@resultskip=\skip52
+\jlreq@resultbox=\box56
+\jlreq@resultcnt=\count275
+\jlreq@reference@count=\count276
+\jlreq@currentpage=\count277
+)
+\l__jlreq_tmpa_int=\count278
+\l__jlreq_tmpb_int=\count279
+\l__jlreq_tmpc_int=\count280
+\l__jlreq_tmpa_dim=\dimen150
+\l__jlreq_tmpb_dim=\dimen151
+\l__jlreq_tmpc_dim=\dimen152
+\l__jlreq_tmpa_skip=\skip53
+\l__jlreq_tmpb_skip=\skip54
+\l__jlreq_tmpc_skip=\skip55
+\l__jlreq_tmpa_box=\box57
+\l__jlreq_tmpb_box=\box58
+\l__jlreq_tmpc_box=\box59
+ jlreq guessed engine: platex (/usr/local/texlive/2025/texmf-dist/tex/latex/everyhook/everyhook.sty (/usr/local/texlive/2025/texmf-dist/tex/latex/svn-prov/svn-prov.sty
+Package: svn-prov 2010/04/24 v3.1862 Package Date/Version from SVN Keywords
+)
+Package: everyhook 2014/11/26 v1.2 (SVN Rev: 12)\ Hooks for low level TeX everyX primitives.
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2025/02/11 v2.5l e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count281
+)
+\everypar=\toks17
+\frozen@everymath=\toks18
+\frozen@everydisplay=\toks19
+\everyhbox=\toks20
+\everyvbox=\toks21
+\everycr=\toks22
+)
+/usr/local/texlive/2025/texmf-dist/tex/latex/jlreq/jlreq.cls:493: Undefined control sequence.
+l.493   \epTeXinputencoding
+                            utf8
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+/usr/local/texlive/2025/texmf-dist/tex/latex/jlreq/jlreq.cls:493: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.493   \epTeXinputencoding u
+                             tf8
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no u in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no 8 in font nullfont!
+Missing character: There is no - in font nullfont!
+/usr/local/texlive/2025/texmf-dist/tex/latex/jlreq/jlreq.cls:593: Undefined control sequence.
+l.593       - \pdfvariable
+                           horigin - \hoffset
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no h in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no - in font nullfont!
+/usr/local/texlive/2025/texmf-dist/tex/latex/jlreq/jlreq.cls:594: Missing number, treated as zero.
+<to be read again> 
+                   \relax 
+l.594     \relax
+                
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+/usr/local/texlive/2025/texmf-dist/tex/latex/jlreq/jlreq.cls:594: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.594     \relax
+                
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+/usr/local/texlive/2025/texmf-dist/tex/latex/jlreq/jlreq.cls:595: Too many }'s.
+l.595   }
+         
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
+
+/usr/local/texlive/2025/texmf-dist/tex/latex/jlreq/jlreq.cls:596: Extra \else.
+l.596 \else
+           
+I'm ignoring this; it doesn't match any \if.
+
+\jlreq@current@linewidth=\dimen153
+\jlreq@rest@linewidth=\dimen154
+\jlreq@lastnodechar=\count282
+\jlreq@fontsize=\dimen155
+\jlreq@jafontsize=\dimen156
+
+/usr/local/texlive/2025/texmf-dist/tex/latex/jlreq/jlreq.cls:839: LaTeX Error: Font family `JY1+mc' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.839 ...->s*[\jlreq@jafontscale]\jlreq@jfmname}{}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2025/texmf-dist/tex/latex/jlreq/jlreq.cls:840: LaTeX Error: Font family `JY1+gt' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.840 ...>s*[\jlreq@jafontscale]\jlreq@jfmnameg}{}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2025/texmf-dist/tex/latex/jlreq/jlreq.cls:841: LaTeX Error: Font family `JT1+mc' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.841 ...s*[\jlreq@jafontscale]\jlreq@jfmname-v}{}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2025/texmf-dist/tex/latex/jlreq/jlreq.cls:842: LaTeX Error: Font family `JT1+gt' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.842 ...*[\jlreq@jafontscale]\jlreq@jfmnameg-v}{}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2025/texmf-dist/tex/latex/jlreq/jlreq.cls:844: LaTeX Error: Font family `JY1+mc' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.844 ...@jafontscale]\jlreq@tempa jlreq-jidori}{}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2025/texmf-dist/tex/latex/jlreq/jlreq.cls:845: LaTeX Error: Font family `JY1+gt' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.845 ...jafontscale]\jlreq@tempa jlreqg-jidori}{}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2025/texmf-dist/tex/latex/jlreq/jlreq.cls:846: LaTeX Error: Font family `JT1+mc' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.846 ...afontscale]\jlreq@tempa jlreq-v-jidori}{}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2025/texmf-dist/tex/latex/jlreq/jlreq.cls:847: LaTeX Error: Font family `JT1+gt' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.847 ...fontscale]\jlreq@tempa jlreqg-v-jidori}{}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2025/texmf-dist/tex/latex/jlreq/jlreq.cls:869: LaTeX Error: Font family `JY1+gt' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.869 }
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2025/texmf-dist/tex/latex/jlreq/jlreq.cls:869: LaTeX Error: Font family `JY1+gt' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.869 }
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2025/texmf-dist/tex/latex/jlreq/jlreq.cls:869: LaTeX Error: Font family `JY1+gt' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.869 }
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2025/texmf-dist/tex/latex/jlreq/jlreq.cls:869: LaTeX Error: Font family `JY1+gt' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.869 }
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2025/texmf-dist/tex/latex/jlreq/jlreq.cls:869: LaTeX Error: Font family `JY1+gt' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.869 }
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2025/texmf-dist/tex/latex/jlreq/jlreq.cls:869: LaTeX Error: Font family `JY1+gt' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.869 }
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2025/texmf-dist/tex/latex/jlreq/jlreq.cls:869: LaTeX Error: Font family `JY1+gt' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.869 }
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2025/texmf-dist/tex/latex/jlreq/jlreq.cls:869: LaTeX Error: Font family `JY1+gt' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.869 }
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2025/texmf-dist/tex/latex/jlreq/jlreq.cls:869: LaTeX Error: Font family `JY1+mc' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.869 }
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2025/texmf-dist/tex/latex/jlreq/jlreq.cls:869: LaTeX Error: Font family `JY1+mc' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.869 }
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2025/texmf-dist/tex/latex/jlreq/jlreq.cls:869: LaTeX Error: Font family `JY1+mc' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.869 }
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2025/texmf-dist/tex/latex/jlreq/jlreq.cls:869: LaTeX Error: Font family `JY1+mc' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.869 }
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2025/texmf-dist/tex/latex/jlreq/jlreq.cls:869: LaTeX Error: Font family `JY1+mc' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.869 }
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2025/texmf-dist/tex/latex/jlreq/jlreq.cls:869: LaTeX Error: Font family `JY1+mc' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.869 }
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2025/texmf-dist/tex/latex/jlreq/jlreq.cls:869: LaTeX Error: Font family `JY1+mc' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.869 }
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2025/texmf-dist/tex/latex/jlreq/jlreq.cls:869: LaTeX Error: Font family `JY1+mc' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.869 }
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2025/texmf-dist/tex/latex/jlreq/jlreq.cls:869: LaTeX Error: Font family `JY1+gt' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.869 }
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2025/texmf-dist/tex/latex/jlreq/jlreq.cls:869: LaTeX Error: Font family `JY1+gt' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.869 }
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2025/texmf-dist/tex/latex/jlreq/jlreq.cls:869: LaTeX Error: Font family `JY1+gt' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.869 }
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2025/texmf-dist/tex/latex/jlreq/jlreq.cls:869: LaTeX Error: Font family `JY1+gt' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.869 }
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2025/texmf-dist/tex/latex/jlreq/jlreq.cls:869: LaTeX Error: Font family `JY1+gt' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.869 }
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2025/texmf-dist/tex/latex/jlreq/jlreq.cls:869: LaTeX Error: Font family `JY1+gt' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.869 }
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2025/texmf-dist/tex/latex/jlreq/jlreq.cls:869: LaTeX Error: Font family `JY1+gt' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.869 }
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2025/texmf-dist/tex/latex/jlreq/jlreq.cls:869: LaTeX Error: Font family `JY1+gt' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.869 }
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2025/texmf-dist/tex/latex/jlreq/jlreq.cls:869: LaTeX Error: Font family `JY1+gt' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.869 }
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2025/texmf-dist/tex/latex/jlreq/jlreq.cls:869: LaTeX Error: Font family `JY1+gt' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.869 }
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2025/texmf-dist/tex/latex/jlreq/jlreq.cls:869: LaTeX Error: Font family `JY1+mc' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.869 }
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2025/texmf-dist/tex/latex/jlreq/jlreq.cls:869: LaTeX Error: Font family `JY1+mc' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.869 }
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2025/texmf-dist/tex/latex/jlreq/jlreq.cls:869: LaTeX Error: Font family `JY1+mc' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.869 }
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2025/texmf-dist/tex/latex/jlreq/jlreq.cls:869: LaTeX Error: Font family `JY1+mc' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.869 }
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2025/texmf-dist/tex/latex/jlreq/jlreq.cls:869: LaTeX Error: Font family `JY1+mc' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.869 }
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2025/texmf-dist/tex/latex/jlreq/jlreq.cls:869: LaTeX Error: Font family `JY1+mc' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.869 }
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2025/texmf-dist/tex/latex/jlreq/jlreq.cls:869: LaTeX Error: Font family `JY1+mc' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.869 }
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2025/texmf-dist/tex/latex/jlreq/jlreq.cls:869: LaTeX Error: Font family `JY1+mc' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.869 }
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2025/texmf-dist/tex/latex/jlreq/jlreq.cls:869: LaTeX Error: Font family `JY1+mc' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.869 }
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2025/texmf-dist/tex/latex/jlreq/jlreq.cls:869: LaTeX Error: Font family `JY1+mc' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.869 }
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2025/texmf-dist/tex/latex/jlreq/jlreq.cls:869: LaTeX Error: Font family `JY1+gt' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.869 }
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2025/texmf-dist/tex/latex/jlreq/jlreq.cls:869: LaTeX Error: Font family `JY1+gt' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.869 }
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2025/texmf-dist/tex/latex/jlreq/jlreq.cls:869: LaTeX Error: Font family `JY1+gt' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.869 }
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2025/texmf-dist/tex/latex/jlreq/jlreq.cls:869: LaTeX Error: Font family `JY1+gt' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.869 }
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2025/texmf-dist/tex/latex/jlreq/jlreq.cls:869: LaTeX Error: Font family `JY1+gt' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.869 }
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2025/texmf-dist/tex/latex/jlreq/jlreq.cls:869: LaTeX Error: Font family `JY1+gt' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.869 }
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2025/texmf-dist/tex/latex/jlreq/jlreq.cls:869: LaTeX Error: Font family `JY1+gt' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.869 }
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2025/texmf-dist/tex/latex/jlreq/jlreq.cls:869: LaTeX Error: Font family `JY1+gt' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.869 }
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2025/texmf-dist/tex/latex/jlreq/jlreq.cls:869: LaTeX Error: Font family `JY1+gt' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.869 }
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2025/texmf-dist/tex/latex/jlreq/jlreq.cls:869: LaTeX Error: Font family `JY1+gt' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.869 }
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2025/texmf-dist/tex/latex/jlreq/jlreq.cls:869: LaTeX Error: Font family `JY1+mc' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.869 }
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2025/texmf-dist/tex/latex/jlreq/jlreq.cls:869: LaTeX Error: Font family `JY1+mc' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.869 }
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2025/texmf-dist/tex/latex/jlreq/jlreq.cls:869: LaTeX Error: Font family `JY1+mc' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.869 }
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2025/texmf-dist/tex/latex/jlreq/jlreq.cls:869: LaTeX Error: Font family `JY1+mc' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.869 }
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2025/texmf-dist/tex/latex/jlreq/jlreq.cls:869: LaTeX Error: Font family `JY1+mc' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.869 }
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2025/texmf-dist/tex/latex/jlreq/jlreq.cls:869: LaTeX Error: Font family `JY1+mc' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.869 }
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2025/texmf-dist/tex/latex/jlreq/jlreq.cls:869: LaTeX Error: Font family `JY1+mc' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.869 }
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2025/texmf-dist/tex/latex/jlreq/jlreq.cls:869: LaTeX Error: Font family `JY1+mc' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.869 }
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2025/texmf-dist/tex/latex/jlreq/jlreq.cls:869: LaTeX Error: Font family `JY1+mc' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.869 }
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2025/texmf-dist/tex/latex/jlreq/jlreq.cls:869: LaTeX Error: Font family `JY1+mc' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.869 }
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2025/texmf-dist/tex/latex/jlreq/jlreq.cls:869: LaTeX Error: Font family `JY1+gt' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.869 }
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2025/texmf-dist/tex/latex/jlreq/jlreq.cls:869: LaTeX Error: Font family `JY1+gt' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.869 }
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2025/texmf-dist/tex/latex/jlreq/jlreq.cls:869: LaTeX Error: Font family `JY1+gt' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.869 }
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2025/texmf-dist/tex/latex/jlreq/jlreq.cls:869: LaTeX Error: Font family `JY1+gt' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.869 }
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2025/texmf-dist/tex/latex/jlreq/jlreq.cls:869: LaTeX Error: Font family `JY1+gt' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.869 }
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2025/texmf-dist/tex/latex/jlreq/jlreq.cls:869: LaTeX Error: Font family `JY1+gt' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.869 }
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2025/texmf-dist/tex/latex/jlreq/jlreq.cls:869: LaTeX Error: Font family `JY1+gt' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.869 }
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2025/texmf-dist/tex/latex/jlreq/jlreq.cls:869: LaTeX Error: Font family `JY1+gt' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.869 }
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2025/texmf-dist/tex/latex/jlreq/jlreq.cls:869: LaTeX Error: Font family `JY1+gt' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.869 }
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2025/texmf-dist/tex/latex/jlreq/jlreq.cls:869: LaTeX Error: Font family `JY1+gt' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.869 }
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2025/texmf-dist/tex/latex/jlreq/jlreq.cls:869: LaTeX Error: Font family `JY1+mc' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.869 }
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2025/texmf-dist/tex/latex/jlreq/jlreq.cls:869: LaTeX Error: Font family `JY1+mc' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.869 }
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2025/texmf-dist/tex/latex/jlreq/jlreq.cls:869: LaTeX Error: Font family `JY1+mc' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.869 }
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2025/texmf-dist/tex/latex/jlreq/jlreq.cls:869: LaTeX Error: Font family `JY1+mc' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.869 }
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2025/texmf-dist/tex/latex/jlreq/jlreq.cls:869: LaTeX Error: Font family `JY1+mc' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.869 }
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2025/texmf-dist/tex/latex/jlreq/jlreq.cls:869: LaTeX Error: Font family `JY1+mc' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.869 }
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2025/texmf-dist/tex/latex/jlreq/jlreq.cls:869: LaTeX Error: Font family `JY1+mc' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.869 }
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2025/texmf-dist/tex/latex/jlreq/jlreq.cls:869: LaTeX Error: Font family `JY1+mc' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.869 }
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2025/texmf-dist/tex/latex/jlreq/jlreq.cls:869: LaTeX Error: Font family `JY1+mc' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.869 }
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2025/texmf-dist/tex/latex/jlreq/jlreq.cls:869: LaTeX Error: Font family `JY1+mc' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.869 }
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2025/texmf-dist/tex/latex/jlreq/jlreq.cls:869: LaTeX Error: Font family `JT1+gt' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.869 }
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2025/texmf-dist/tex/latex/jlreq/jlreq.cls:869: LaTeX Error: Font family `JT1+gt' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.869 }
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2025/texmf-dist/tex/latex/jlreq/jlreq.cls:869: LaTeX Error: Font family `JT1+gt' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.869 }
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2025/texmf-dist/tex/latex/jlreq/jlreq.cls:869: LaTeX Error: Font family `JT1+gt' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.869 }
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2025/texmf-dist/tex/latex/jlreq/jlreq.cls:869: LaTeX Error: Font family `JT1+gt' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.869 }
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2025/texmf-dist/tex/latex/jlreq/jlreq.cls:869: LaTeX Error: Font family `JT1+gt' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.869 }
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2025/texmf-dist/tex/latex/jlreq/jlreq.cls:869: LaTeX Error: Font family `JT1+gt' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.869 }
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2025/texmf-dist/tex/latex/jlreq/jlreq.cls:869: LaTeX Error: Font family `JT1+gt' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.869 }
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2025/texmf-dist/tex/latex/jlreq/jlreq.cls:869: LaTeX Error: Font family `JT1+mc' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.869 }
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/usr/local/texlive/2025/texmf-dist/tex/latex/jlreq/jlreq.cls:869: LaTeX Error: Font family `JT1+mc' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.869 }
+       
+(That makes 100 errors; please try again.) 
+Here is how much of TeX's memory you used:
+ 969 strings out of 469608
+ 18571 string characters out of 5470601
+ 424183 words of memory out of 5000000
+ 27880 multiletter control sequences out of 15000+600000
+ 626825 words of font info for 40 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 57i,0n,65p,415b,26s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+/usr/local/texlive/2025/texmf-dist/tex/latex/jlreq/jlreq.cls:869:  ==> Fatal error occurred, no output PDF file produced!

@@ -1,0 +1,16 @@
+PWD /Users/myml12/Documents/電気電子情報通信実験/導入実験
+INPUT /usr/local/texlive/2025/texmf.cnf
+INPUT /usr/local/texlive/2025/texmf-dist/web2c/texmf.cnf
+INPUT /usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT /Users/myml12/Documents/電気電子情報通信実験/導入実験/report.tex
+OUTPUT report.log
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/jlreq/jlreq.cls
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/jlreq/jlreq.cls
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/jlreq/jlreq-helpers.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/jlreq/jlreq-helpers.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/everyhook/everyhook.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/everyhook/everyhook.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/svn-prov/svn-prov.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/svn-prov/svn-prov.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/etoolbox/etoolbox.sty
