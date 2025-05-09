@@ -1,9 +1,0 @@
-.DS_Store
-*.aux
-*.log
-*.out
-*.toc
-*.dvi
-*.fdb_latexmk
-*.fls
-*.synctex.gz
