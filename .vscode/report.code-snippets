@@ -1,0 +1,36 @@
+{
+	"Insert Report Template": {
+		"prefix": "report",
+		"body": [
+			"\\documentclass{jlreq}",
+			"\\usepackage[dvipdfmx]{graphicx}",
+			"\\usepackage{amsmath}",
+			"\\usepackage{geometry}",
+			"\\usepackage{float}",
+			"\\usepackage{caption}",
+			"\\usepackage{hyperref}",
+			"\\linespread{1.2}",
+			"\\numberwithin{equation}{section}",
+			"\\counterwithin{figure}{section}",
+			"\\counterwithin{table}{section}",
+			"",
+			"\\begin{document}",
+			"",
+			"\\section{目的}",
+			"",
+			"\\section{原理}",
+			"",
+			"\\section{実験方法}",
+			"",
+			"\\section{実験結果}",
+			"",
+			"\\subsection{使用機材}",
+			"",
+			"\\subsection{参考文献}",
+			"",
+			"\\section{感想}",
+			"",
+			"\\end{document}"
+		]
+	}
+}
