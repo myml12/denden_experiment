@@ -159,8 +159,54 @@ INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/jlreq/jlreqg-v.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/jlreq/jlreqg.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/rm-lmss12.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/rm-lmssbx10.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/rm-lmr7.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/rm-lmr5.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/lm/omllmm.fd
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/lm/omllmm.fd
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/lm/omllmm.fd
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/lmmi10.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/lmmi7.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/lmmi5.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/lm/omslmsy.fd
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/lm/omslmsy.fd
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/lm/omslmsy.fd
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/lmsy10.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/lmsy7.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/lmsy5.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/lm/omxlmex.fd
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/lm/omxlmex.fd
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/lm/omxlmex.fd
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/lmex10.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/jlreq/jlreq.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/jlreq/jlreq.tfm
+INPUT ./assets/not.png
+INPUT ./assets/not.png
+INPUT ./assets/not.png
+INPUT extractbb -B cropbox -O assets/not.png
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/rm-lmr9.tfm
 OUTPUT out/report.dvi
+INPUT ./assets/nand.png
+INPUT ./assets/nand.png
+INPUT ./assets/nand.png
+INPUT extractbb -B cropbox -O assets/nand.png
+INPUT ./assets/nor.png
+INPUT ./assets/nor.png
+INPUT ./assets/nor.png
+INPUT extractbb -B cropbox -O assets/nor.png
+INPUT ./assets/jk-ff.png
+INPUT ./assets/jk-ff.png
+INPUT ./assets/jk-ff.png
+INPUT extractbb -B cropbox -O assets/jk-ff.png
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/jlreq/jlreq-v.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/jlreq/jlreq-v.tfm
+INPUT ./assets/d-ff.png
+INPUT ./assets/d-ff.png
+INPUT ./assets/d-ff.png
+INPUT extractbb -B cropbox -O assets/d-ff.png
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/lm/ts1lmr.fd
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/lm/ts1lmr.fd
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/lm/ts1lmr.fd
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/ts1-lmr10.tfm
 INPUT out/report.aux
 INPUT out/report.out
 INPUT out/report.out
