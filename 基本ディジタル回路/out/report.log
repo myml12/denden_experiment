@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.2-u2.00-250202-2.6 (utf8.euc) (TeX Live 2025) (preloaded format=platex 2025.5.3)  12 MAY 2025 13:01
+This is e-upTeX, Version 3.141592653-p4.1.2-u2.00-250202-2.6 (utf8.euc) (TeX Live 2025) (preloaded format=platex 2025.5.3)  12 MAY 2025 22:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -162,7 +162,15 @@ File: dvipdfmx.def 2022/09/22 v5.0m Graphics/color driver for dvipdfmx
 ))
 \Gin@req@height=\dimen181
 \Gin@req@width=\dimen182
-) (/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsmath.sty
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2024/06/23 v1.3e Standard LaTeX Color (DPC)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: dvipdfmx.def on input line 149.
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx)) (/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2024/11/05 v2.17t AMS math features
 \@mathmargin=\skip59
 For additional information on amsmath, use the `?' option.
@@ -541,48 +549,157 @@ Overfull \hbox (37.642pt too wide) in paragraph at lines 122--123
  [][] 
  []
 
-LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 7.0pt on input line 132.
-LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 5.0pt on input line 132.
 
 
 [3]
 File: assets/d-ff.png Graphic file (type bmp)
 <assets/d-ff.png>
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 186.
+
+
+[4]
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 7.0pt on input line 191.
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 5.0pt on input line 191.
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 10.0pt on input line 208.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 10.0pt on input line 208.
+LaTeX Font Info:    Font shape `JT1/gt/bx/n' in size <10> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 208.
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 10.0pt on input line 208.
+LaTeX Font Info:    Font shape `JY1/gt/bx/n' in size <10> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 208.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 10.0pt on input line 208.
+
+
+[5]
+
+[6]
+
+[7]
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 284.
 (/usr/local/texlive/2025/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 
-[4]
-Overfull \hbox (45.07967pt too wide) in paragraph at lines 192--196
-[]\OT1/lmr/m/n/10 https://ushitora.net/archives/546 https://toshiba.semicon-storage.com/jp/semiconductor/knowledge/e-
+[8]
+
+[9]
+
+[10]
+
+[11]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 394.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\leavevmode@ifvmode' on input line 394.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                \kern 1.66702pt
+(hyperref)                removed on input line 394.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\Omega' on input line 394.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 394.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 394.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\leavevmode@ifvmode' on input line 394.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                \kern 1.66702pt
+(hyperref)                removed on input line 394.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<let>-command' on input line 394.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\DualLang@Mfontsw' on input line 394.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\mu' on input line 394.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 394.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 394.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\leavevmode@ifvmode' on input line 394.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                \kern 1.66702pt
+(hyperref)                removed on input line 394.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<let>-command' on input line 394.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\DualLang@Mfontsw' on input line 394.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\mu' on input line 394.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 394.
+
+
+
+[12]
+
+[13]
+Underfull \hbox (badness 10000) in paragraph at lines 441--449
+[]\OT1/lmr/m/n/10 https://toshiba.semicon-storage.com/jp/semiconductor/knowledge/e-learning/cmos-logic-
  []
 
 
-Overfull \hbox (125.66106pt too wide) in paragraph at lines 192--196
-\OT1/lmr/m/n/10 learning/cmos-logic-basics/chap2/chap2-2.html https://www.marutsu.co.jp/contents/shop/marutsu/datasheet/74HC107.pdf
- []
 
+[14]
 
-
-[5] (out/report.aux)
+[15] (out/report.aux)
  ***********
 pLaTeX2e <2023-02-14>+1, based on
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-04-14>
  ***********
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: ECF54043E8A9AFC22F630C3740B11E41;1370.
+(rerunfilecheck)             Checksum: 50FD6DC04313C447FA83216F392B810D;6103.
  ) 
 Here is how much of TeX's memory you used:
- 13019 strings out of 470253
- 236673 string characters out of 5485970
- 629814 words of memory out of 5000000
- 39708 multiletter control sequences out of 15000+600000
- 670524 words of font info for 95 fonts, out of 8000000 for 9000
+ 13219 strings out of 470253
+ 240077 string characters out of 5485970
+ 633420 words of memory out of 5000000
+ 39896 multiletter control sequences out of 15000+600000
+ 676861 words of font info for 99 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 81i,15n,103p,966b,515s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 81i,13n,103p,966b,585s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on out/report.dvi (5 pages, 21796 bytes).
+Output written on out/report.dvi (15 pages, 71356 bytes).

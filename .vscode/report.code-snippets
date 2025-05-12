@@ -7,6 +7,7 @@
 			"\\usepackage{amsmath}",
 			"\\usepackage{geometry}",
 			"\\usepackage{float}",
+			"\\usepackage{xcolor}",
 			"\\usepackage{caption}",
 			"\\usepackage{hyperref}",
 			"\\linespread{1.2}",

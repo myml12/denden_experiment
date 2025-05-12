@@ -1,5 +1,6 @@
 \documentclass{jlreq}
 \usepackage[dvipdfmx]{graphicx}
+\usepackage[dvipdfmx]{color}
 \usepackage{amsmath}
 \usepackage{geometry}
 \usepackage{float}
@@ -9,12 +10,11 @@
 \numberwithin{equation}{section}
 \counterwithin{figure}{section}
 \counterwithin{table}{section}
-
 \begin{document}
 
 \section{目的}
 ゲートレベルのICを使って実際に基本ディジタル回路を作成し、動作原理について学び、理解して応用できるようにする。また、ブレッドボードの使い方を習得し、コンデンサーを用いたノイズ除去方法を学ぶ。
-さらに、フリップフロップを用いたカウンタ回路やDRAM回路の動作を確認し、デジタル回路の基本的な回路の動作原理を理解する。
+さらに、フリップフロップを用いたカウンタ回路やDRAM回路の動作を確認し、ディジタル回路の基本的な回路の動作原理を理解する。
 
 \section{原理}
 NOT,NAND,NOR,JK-FF,D-FF について回路図と真理値表を用いて、動作や閾値などを簡潔に説明する。
@@ -127,15 +127,17 @@ JK-FFは、2つの入力信号JとKを持つフリップフロップである。
     \centering
       \captionof{table}{JK-FFの真理値表}
       \label{tab:jk_ff_truth_table}
-      \begin{tabular}{|c|c|c|c|c|}
+      \begin{tabular}{|c|c|c|c|}
         \hline
-        $\overline{\text{CLR}}$ & J & K & $\overline{\text{CK}}$ & Q, $\overline{\text{Q}}$ \\ \hline
-        L & X & X & X & L, H \\ \hline
-        H & L & L & $\downarrow$ & $Q_n$, $\overline{Q_n}$ \\ \hline
-        H & L & H & $\downarrow$ & L, H \\ \hline
-        H & H & L & $\downarrow$ & H, L \\ \hline
-        H & H & H & $\downarrow$ & $\overline{Q_n}$, $Q_n$ \\ \hline
-        H & X & X & $\uparrow$ & $Q_n$, $\overline{Q_n}$ \\ \hline
+        初期状態Q & J & K & 次状態Q(t+1) \\ \hline
+        0 & 0 & 0 & 0 \\ \hline
+        0 & 0 & 1 & 0 \\ \hline
+        0 & 1 & 0 & 1 \\ \hline
+        0 & 1 & 1 & 1 \\ \hline
+        1 & 0 & 0 & 1 \\ \hline
+        1 & 0 & 1 & 0 \\ \hline
+        1 & 1 & 0 & 1 \\ \hline
+        1 & 1 & 1 & 0 \\ \hline
       \end{tabular}
   \end{minipage}
 \end{figure}
@@ -174,26 +176,275 @@ D-FFは、クロック信号の立ち上がりエッジでDの値を出力Qに�
 
 \section{実験手順}
 \subsection{ド・モルガンの法則の確認}
+\begin{enumerate}
+  \item ベン図での確認
+  \item 真理値表での確認
+  \item 論理回路での確認
+  - NOTゲートとNANDゲートを使用した場合
+  - NOTゲートとNORゲートを使用した場合
+  \item 半加算器（HA）
+  - 図3.1の回路の真理値表を完成させる。
+  - 図3.1の回路をNANDゲートとNOTゲートのみを用いて設計し、設計した回路の真理値表が同様であることを確認する。
+\end{enumerate}
 
+\subsection{信号発声器の設計と製作}
+図3.2の回路の各部をオシロスコープで測定し、A点, CLK, 1Q, \(\overline{\text{1Q}}\), S, Rのタイミングチャートを作成する。
+
+\subsection{同期式SR-FFの動作と特性}
+図3.3の回路を制作し、CLK,S,R,a,b,Q,\(\overline{Q}\)のタイミングチャートを作成する。
+
+\subsection{JK-FFの動作と特性}
+図3.4の回路を制作し、CLK,S,1Qのタイミングチャートを作成する。
+
+\subsection{D-FFの動作と特性}
+\begin{enumerate}
+  \item D-FFの真理値表を完成させる。
+  \item JK-FFとNOTゲートを用いてD-FFを構成する。
+  \item 図3.5の回路を制作し、CLK,D,Q,\(\overline{Q}\)のタイミングチャートを作成する。
+\end{enumerate}
+
+\subsection{カウンタの設計}
+\subsubsection{非同期式1/3カウンタ}
+図3.6の回路を制作し、CLK,1J,\(Q_0\),\(Q_1\)のタイミングチャートを作成する。
+
+\subsubsection{同期式1/3カウンタ}
+図3.7の回路を制作し、CLK,1J,\(Q_0\),\(Q_1\)のタイミングチャートを作成する。
+
+\subsection{メモリ機能}
+図3.8の回路を作成し、表3.1の操作をしたときの結果を測定する。なお、1は5V電位、0はGND電位とする。
+\begin{enumerate}
+  \item WRITE=0, CTRL=1, ワード線=1 にすることで2SK679Aはどのような状態になるか
+  \item WRITE=1, CTRL=1, ワード線=1 にすることで2SK679Aはどのような状態になるか
+  \item 呼び出し操作をした際のB点の電圧はいくらになるか
+\end{enumerate}
 
 \section{実験結果}
-\subsection{半加算器（HA）の結果}
+\subsection{ド・モルガンの法則の確認}
+\subsubsection{ベン図での確認}
+図4.1に斜線で示す。
+
+\subsubsection{真理値表での確認}
+4.1.1で作成したベン図をもとに、ある要素xが集合AまたはBに属しているとき○、属していないとき×で表したものを、表4.1に示す。
+
+\subsubsection{論理回路での確認}
+\begin{enumerate}
+  \item NOTゲートとNANDゲートを使用した場合、図4.2のように変換でき、その回路を制作し測定した結果を表4.2に示す。
+  \item NOTゲートとNORゲートを使用した場合、図4.3のように変換でき、その回路を制作し測定した結果を表4.3に示す。
+\end{enumerate}
+
+\subsubsection{半加算器（HA）の設計}
+図3.1の回路の真理値表を表4.4に示す。
+
+また、図3.2の回路をNANDゲートとNOTゲートのみを用いて設計すると、図4.4のようになる。
+
+図4.4の回路の真理地表は表4.5のようになり、表4.4と同様であることが確認できた。
+
+\subsection{信号発生器の設計と製作}
+図3.2の回路の各部のオスロスコープで観測した波形を図4.5に示す。
+
+図4.5より、A点での正弦波がCLK信号では矩形波として現れており、1Qで
+はその矩形波の周期の2倍の矩形波が、\(\overline{1Q}\)ではそれが反転したものが、Sでは1Qの矩形波の周期がさらに2倍になった矩形波が、Rではそれが反転したものが現れていることが確認できた。
+
+\subsection{同期式SR-FFの動作と特性}
+図3.3の回路を制作し、各測定点（CLK, S, R, a, b, Q, \(\overline{Q}\)）のオスロスコープで観測した波形を図4.6に示す。
+
+図4.6より、SではCLKの4倍の周期の矩形波が、Rではそれが反転したものが現れていることが確認できた。
+また、Qでは位相がずれたCLKの4倍の周期の矩形波が現れ、\(\overline{Q}\)ではそれが反転したものが現れていることが確認できた。
+さらに、aとbではS,Rの2倍周期で大きなものと小さなものの2種類がある矩形波が現れていることが確認できた。
+
+\subsection{JK-FFの動作と特性}
+図4.7にJK-FFの回路を、表4.5に真理値表を示す。
+図3.4の回路を制作し、各測定点（CLK, S, 1Q）のオスロスコープで観測した波形を図4.7に示す。
+
+図4.7より、SではCLKの4倍の周期の矩形波が、1QではSがHIGHになった次のCLKの周期でHIGHになっていることが確認できた。
+
+\subsection{D-FFの動作と特性}
+\begin{enumerate}
+  \item D-FFの真理値表を図4.8に示す。
+  \item JK-FFとNOTゲートを用いてD-FFを構成したものを図4.9に示す。
+  \item 図3.5の回路を制作し、各測定点（CLK, D, Q, \(\overline{Q}\)）のオスロスコープで観測した波形を図4.10に示す。
+  図4.10より、DではCLKの4倍の周期の矩形波が現れ、Qでは位相がDと半周期遅れた矩形波が現れ、\(\overline{Q}\)ではそれが反転したものが現れていることが確認できた。
+\end{enumerate}
+
+\subsection{カウンタの設計}
+\subsubsection{非同期式1/3カウンタ}
+図3.6の回路の各測定点（CLK, 1J, \(Q_0\), \(Q_1\)）のオスロスコープで観測した波形を図4.11に示す。
+図4.11より、Q0がクロックの立ち上がりで反転し、Q1はQ0の立ち上がりに応じて反転することで3通りの状態（00→01→11）を順に繰り返していることが確認できる。また、CLR信号がLOWになると、即座にQ0とQ1の出力が00にリセットされる動作が確認できる。
+
+\subsubsection{同期式1/3カウンタ}
+図3.7の回路を制作し、各測定点（CLK, 1J, \(Q_0\), \(Q_1\)）のオスロスコープで観測した波形を図4.12に示す。
+図4.12より、1J,Q0,Q1はそれぞれCLKの3倍周期で規則的に変化していることが確認できる。
+
+\subsection{メモリ機能}
+表4.6にTC74HC126の真理値表を示す。
+図3.8の回路を作成し、表3.1の操作を実施した結果を以下に示す。
+\begin{enumerate}
+  \item WRITE=0, CTRL=1, ワード線=1 の場合
+  \begin{itemize}
+    \item 2SK679Aのドレインにかかる電圧：0.00V
+    \item ゲートにかかる電圧：5.03V
+    \item 状態：オフ状態
+  \end{itemize}
+  \item WRITE=1, CTRL=1, ワード線=1 の場合
+  \begin{itemize}
+    \item 2SK679Aのドレインにかかる電圧：5.03V
+    \item ゲートにかかる電圧：5.03V
+    \item A点の電圧：3.92V
+    \item 理由：ドレインにかかる電圧が5.03Vであるため、2SK679Aはオン状態となり、他の素子に分圧され、A点の電圧は下がる。
+    \item 読み出し操作をしたときのB点の電圧：5.03V
+  \end{itemize}
+\end{enumerate}
 
 \section{考察}
 
-\section{使用機材}
-\begin{itemize}
-  \item オシロスコープ（型番: XXXX）
-  \item 信号発生器（型番: YYYY）
-  \item 電源装置（型番: ZZZZ）
-\end{itemize}
+\subsection{半加算器（HA）}
+\subsubsection{ド・モルガンの法則についての説明}
+ド・モルガンの法則は、以下の2式で表される。
+\begin{equation}
+  \overline{A \cdot B} = \overline{A} + \overline{B}
+\end{equation}
+\begin{equation}
+  \overline{A + B} = \overline{A} \cdot \overline{B}
+\end{equation}
+今回の実験では、ド・モルガンの法則を用いて、NOTゲートとNANDゲートを使用したORゲートの構成と、NOTゲートとNORゲートを使用したANDゲートの構成を確認した。これにより、ド・モルガンの法則が成り立つことが実験的に確認できた。
+
+\subsubsection{ド・モルガンの法則が成り立つメリット}
+ド・モルガンの法則が成り立つことで、論理式の簡略化や、論理回路の設計が容易になる。特に、ディジタル回路の設計においてはは、NANDゲートやNORゲートを用いて他のゲートを構成することで、部品数を節約し、回路の集積度を高めることができる。これにより、回路のコスト削減や、動作速度の向上が期待できる。
+
+\subsubsection{全加算機（FA）と半加算器（HA）の動作・真理値表の記載}
+半加算器は、2つの入力信号AとBを持ち、出力は和SとキャリーCである。半加算器の動作は以下の論理式で表される：
+\begin{align}
+  S &= A \oplus B \\
+  C &= A \cdot B
+\end{align}
+ここで、\(\oplus\)はXOR（排他的論理和）、\(\cdot\)はAND（論理積）を表す。
+
+半加算器の真理値表は以下の表5.1のようになる。
+\begin{table}[H]
+  \centering
+  \caption{半加算器の真理値表}
+  \begin{tabular}{|c|c|c|c|}
+    \hline
+    A & B & S & C \\ \hline
+    0 & 0 & 0 & 0 \\ \hline
+    0 & 1 & 1 & 0 \\ \hline
+    1 & 0 & 1 & 0 \\ \hline
+    1 & 1 & 0 & 1 \\ \hline
+  \end{tabular}
+\end{table}
+
+全加算器は、2つの入力信号AとBに加えて、前回の計算結果を表すキャリー入力Cを持つ。全加算器の出力は、和Sとキャリー出力Coutである。全加算器の真理値表は以下の表5.2ようになる。
+\begin{table}[H]
+  \centering
+  \caption{全加算器の真理値表}
+  \begin{tabular}{|c|c|c|c|c|}
+    \hline
+    A & B & C & S & Cout \\ \hline
+    0 & 0 & 0 & 0 & 0 \\ \hline
+    0 & 0 & 1 & 1 & 0 \\ \hline
+    0 & 1 & 0 & 1 & 0 \\ \hline
+    0 & 1 & 1 & 0 & 1 \\ \hline
+    1 & 0 & 0 & 1 & 0 \\ \hline
+    1 & 0 & 1 & 0 & 1 \\ \hline
+    1 & 1 & 0 & 0 & 1 \\ \hline
+    1 & 1 & 1 & 1 & 1 \\ \hline
+  \end{tabular}
+\end{table}
+
+全加算器は、2つの半加算器と1つのORゲートを組み合わせて構成される。最初の半加算器は入力AとBを受け取り、和S1とキャリー出力C1を生成する。次に、S1とキャリー入力Cを2つ目の半加算器に入力し、最終的な和Sとキャリー出力C2を生成する。最後に、C1とC2をORゲートに入力して最終的なキャリー出力Coutを得る。
+
+全加算器の動作を数式で表すと以下のようになる。
+\begin{align}
+  S1 &= A \oplus B \\
+  C1 &= A \cdot B \\
+  S &= S1 \oplus C \\
+  C2 &= S1 \cdot C \\
+  Cout &= C1 + C2
+\end{align}
+
+全加算器の真理値表は以下のようになる：
+\begin{table}[H]
+  \centering
+  \caption{全加算器の真理値表}
+  \begin{tabular}{|c|c|c|c|c|}
+    \hline
+    A & B & C & S & Cout \\ \hline
+    0 & 0 & 0 & 0 & 0 \\ \hline
+    0 & 0 & 1 & 1 & 0 \\ \hline
+    0 & 1 & 0 & 1 & 0 \\ \hline
+    0 & 1 & 1 & 0 & 1 \\ \hline
+    1 & 0 & 0 & 1 & 0 \\ \hline
+    1 & 0 & 1 & 0 & 1 \\ \hline
+    1 & 1 & 0 & 0 & 1 \\ \hline
+    1 & 1 & 1 & 1 & 1 \\ \hline
+  \end{tabular}
+\end{table}
+
+このように、全加算器は2つの半加算器と1つのORゲートを用いることで、3つの入力信号（A, B, C）に対して和Sとキャリー出力Coutを計算することができる。
+
+\subsubsection{キャリールックアヘッドに関して}
+
+\subsection{信号発生器の設計と作成}
+\subsubsection{信号発生器（SG）からディジタル波形が生じる流れについて}
+信号発生器は、アナログ信号を0と1のディジタル信号に変換するための装置である。図4.5のタイミングチャートより、A点の正弦波が0Vを閾値として、NOTゲートがHIGHとLOWを判定し、出力信号を反転させアナログ信号をディジタル信号に変換して出力していることがわかる。またNOTゲートを直列に繋ぐことで、もとの正弦波と位相を合わせている。\\
+図4.5より、タイミングチャートを図5.1に示す。
+1つ目のJK-FFによってCLK信号をQ1と\(\overline{Q1}\)に分け、周期を2倍にしており、2つ目のJK-FFによってQ1信号をSとRに分け、周期をさらに2倍にしている。これにより、最終的にSとRの信号はCLK信号の4倍の周期となる。
+
+\subsubsection{部品（$50\,\Omega$、$0.1\,\mathrm{\mu F}$、$470\,\mathrm{\mu F}$）の名称と役割についての説明}
+$50\,\Omega$抵抗は信号発生回路のインピーダンス整合に用いられている。$0.1\,\mathrm{\mu F}$コンデンサは高周波信号に対するバイパスコンデンサとして機能している。$470\,\mathrm{\mu F}$コンデンサは、電源からの信号をフィルタリングし、安定した出力信号を得るために使用されている。さらに低周波信号に対するバイパスコンデンサとしても機能している。
+
+\subsection{同期式SR-FFの動作と特性}
+\subsubsection{同期式SR-FFの動作についての説明}
+同期式SR-FF（Set-Resetフリップフロップ）は、2つの入力（S: Set, R: Reset）によって出力Qとその反転$\overline{Q}$を制御する記憶素子である。今回はNANDゲートを用いて構成した。真理値表を表5.4に示す。
+
+\begin{table}[H]
+  \centering
+  \caption{同期式SR-FFの真理値表}
+  \begin{tabular}{|c|c|c|c|}
+    \hline
+    S & R & Q(next) & 備考 \\ \hline
+    1 & 0 & 1 & セット状態 \\ \hline
+    0 & 1 & 0 & リセット状態 \\ \hline
+    1 & 1 & Q & 無変化（保持） \\ \hline
+    0 & 0 & 不定 & 禁止状態 \\ \hline
+  \end{tabular}
+\end{table}
+
+このように、同期式SR-FFは入力SとRの組み合わせによって出力状態を制御し、記憶素子として機能する。ただし、SとRが同時に0になる禁止状態は避ける必要があるため、実際の回路設計ではこの状態が発生しないように工夫される。
+
+\subsubsection{エッジトリガについて}
+図4.6のタイミングチャートより、表5.4の真理値表のとおり、CLKの立ち上がりエッジでSとRの状態に応じて出力Qと$\overline{Q}$が変化することが確認できた。
+
+\subsection{JK-FFの動作と特性}
+
+\subsection{D-FFの動作と特性}
+
+\subsection{1/3カウンタ}
+
+\subsection{メモリ機能}
+
+\subsection{使用機材}
+\begin{table}[H]
+  \centering
+  \caption{使用機材一覧}
+  \begin{tabular}{|c|c|c|c|}
+    \hline
+    名称 & 型式 & 製造元 & 管理番号 \\ \hline
+    直流電流源 & PMC35-1.2DU & KIKUSUI & UK002986 \\ \hline
+    ファンクションジェネレータ & FG-274 & TEXIO & 17073061 \\ \hline
+    オシロスコープ & TDS 2004B & Tektronix & C100578 \\ \hline
+    デジタルマルチメータ & CD731 & Sanwa & 0152985 \\ \hline
+  \end{tabular}
+\end{table}
 
 \section{参考文献}
-https://ushitora.net/archives/546
-https://toshiba.semicon-storage.com/jp/semiconductor/knowledge/e-learning/cmos-logic-basics/chap2/chap2-2.html
-https://www.marutsu.co.jp/contents/shop/marutsu/datasheet/74HC107.pdf
-http://www.ctleec.sakura.ne.jp/2024/01/31/15-フリップフロップ/
-
-\section{感想}
+https://ushitora.net/archives/546 \\
+https://toshiba.semicon-storage.com/jp/semiconductor/knowledge/e-learning/cmos-logic-basics/chap2/chap2-2.html \\
+https://www.marutsu.co.jp/contents/shop/marutsu/datasheet/74HC107.pdf \\
+http://www.ctleec.sakura.ne.jp/2024/01/31/15-フリップフロップ/ \\
+https://ushitora.net/archives/570 \\
+https://ushitora.net/archives/588 \\
+https://tonarism.co.jp/media/media\_detail.php?b\_id=72 \\
+https://www.ques10.com/p/14914/draw-the-circuit-of-jk-ff-using-nand-gates-and-wri/ \\
 
 \end{document}

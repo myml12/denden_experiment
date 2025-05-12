@@ -47,6 +47,17 @@ INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics-def/dvipdfmx.def
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics-def/dvipdfmx.def
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics-def/dvipdfmx.def
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics/color.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics/color.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/color.cfg
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/color.cfg
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/color.cfg
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics/dvipsnam.def
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics/dvipsnam.def
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics/dvipsnam.def
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsmath.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsmath.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsopn.sty
@@ -197,12 +208,16 @@ INPUT ./assets/jk-ff.png
 INPUT ./assets/jk-ff.png
 INPUT ./assets/jk-ff.png
 INPUT extractbb -B cropbox -O assets/jk-ff.png
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/jlreq/jlreq-v.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/jlreq/jlreq-v.tfm
 INPUT ./assets/d-ff.png
 INPUT ./assets/d-ff.png
 INPUT ./assets/d-ff.png
 INPUT extractbb -B cropbox -O assets/d-ff.png
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/jlreq/jlreq-v.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/jlreq/jlreq-v.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/jlreq/jlreqg-v.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/jlreq/jlreqg.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/rm-lmss10.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/rm-lmssbx10.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/lm/ts1lmr.fd
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/lm/ts1lmr.fd
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/lm/ts1lmr.fd
