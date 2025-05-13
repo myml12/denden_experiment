@@ -58,32 +58,10 @@ INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics/dvipsnam.def
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsmath.sty
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsmath.sty
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsopn.sty
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amstext.sty
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amstext.sty
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsgen.sty
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsgen.sty
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsbsy.sty
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsbsy.sty
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsopn.sty
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/geometry/geometry.sty
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/geometry/geometry.sty
-INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/iftex/ifvtex.sty
-INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/iftex/ifvtex.sty
-INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/iftex/iftex.sty
-INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/iftex/iftex.sty
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/float/float.sty
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/float/float.sty
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/tools/array.sty
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/tools/array.sty
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/caption/caption.sty
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/caption/caption.sty
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/caption/caption3.sty
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/caption/caption3.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hyperref.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hyperref.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/iftex/iftex.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/iftex/iftex.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
@@ -125,12 +103,9 @@ INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/atbegshi/atbegshi.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/base/atbegshi-ltx.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/base/atbegshi-ltx.sty
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hdvips.def
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hdvips.def
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hdvips.def
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/pdfmark.def
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/pdfmark.def
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/pdfmark.def
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hdvipdfm.def
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hdvipdfm.def
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hdvipdfm.def
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/atveryend/atveryend.sty
@@ -138,6 +113,28 @@ INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/base/atveryend-ltx.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/base/atveryend-ltx.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsmath.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsmath.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsopn.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amstext.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amstext.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsgen.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsgen.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsbsy.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsbsy.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsopn.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/geometry/geometry.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/geometry/geometry.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/iftex/ifvtex.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/iftex/ifvtex.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/float/float.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/float/float.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/tools/array.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/tools/array.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/caption/caption.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/caption/caption.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/caption/caption3.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/caption/caption3.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/lm/ot1lmr.fd
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/lm/ot1lmr.fd
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/lm/ot1lmr.fd
@@ -324,6 +321,43 @@ INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/lm/ts1lmr.fd
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/lm/ts1lmr.fd
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/lm/ts1lmr.fd
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/ts1-lmr10.tfm
+INPUT ./assets/sgchart.png
+INPUT ./assets/sgchart.png
+INPUT ./assets/sgchart.png
+INPUT extractbb -B cropbox -O assets/sgchart.png
+INPUT ./assets/srffchart.png
+INPUT ./assets/srffchart.png
+INPUT ./assets/srffchart.png
+INPUT extractbb -B cropbox -O assets/srffchart.png
+INPUT ./assets/jkffchart.png
+INPUT ./assets/jkffchart.png
+INPUT ./assets/jkffchart.png
+INPUT extractbb -B cropbox -O assets/jkffchart.png
+INPUT ./assets/dffchart.png
+INPUT ./assets/dffchart.png
+INPUT ./assets/dffchart.png
+INPUT extractbb -B cropbox -O assets/dffchart.png
+INPUT ./assets/hidoukichart.png
+INPUT ./assets/hidoukichart.png
+INPUT ./assets/hidoukichart.png
+INPUT extractbb -B cropbox -O assets/hidoukichart.png
+INPUT ./assets/doukichart.png
+INPUT ./assets/doukichart.png
+INPUT ./assets/doukichart.png
+INPUT extractbb -B cropbox -O assets/doukichart.png
+INPUT ./assets/datasheet.png
+INPUT ./assets/datasheet.png
+INPUT ./assets/datasheet.png
+INPUT extractbb -B cropbox -O assets/datasheet.png
+INPUT ./assets/tc74hc126shinri.png
+INPUT ./assets/tc74hc126shinri.png
+INPUT ./assets/tc74hc126shinri.png
+INPUT extractbb -B cropbox -O assets/tc74hc126shinri.png
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/rm-lmbx10.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/lm/ot1lmtt.fd
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/lm/ot1lmtt.fd
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/lm/ot1lmtt.fd
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/rm-lmtt10.tfm
 INPUT out/report.aux
 INPUT out/report.out
 INPUT out/report.out

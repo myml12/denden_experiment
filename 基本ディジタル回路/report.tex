@@ -1,12 +1,14 @@
 \documentclass{jlreq}
 \usepackage[dvipdfmx]{graphicx}
 \usepackage[dvipdfmx]{color}
+\usepackage[dvipdfmx]{hyperref}
 \usepackage{amsmath}
 \usepackage{geometry}
 \usepackage{float}
 \usepackage{array}
 \usepackage{caption}
 \usepackage{hyperref}
+\usepackage{url}
 \linespread{1.2}
 \numberwithin{equation}{section}
 \counterwithin{figure}{section}
@@ -111,7 +113,7 @@ NORゲートは、ORゲートの出力を反転させたものである。両方
 \end{figure}
 
 \subsection{JK-FF}
-JK-FFは、2つの入力信号JとKを持つフリップフロップである。クロック信号により状態が変化し、JとKの値に応じて出力Qが変化する。
+JK-FFは、2つの入力信号JとKを持つフリップフロップである。クロック信号により状態が変化し、JとKの値に応じて出力Qが変化する。特に、立ち下がりエッジで出力が変化する。
 \begin{equation}
   Q_{next} = J \cdot \overline{Q} + \overline{K} \cdot Q
 \end{equation}
@@ -199,7 +201,7 @@ D-FFは、クロック信号の立ち上がりエッジでDの値を出力Qに�
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.8\textwidth]{assets/SGkairo.png}
+  \includegraphics[width=\textwidth]{assets/SGkairo.png}
   \caption{信号発生器の回路図}
 \end{figure}
 
@@ -360,7 +362,7 @@ D-FFは、クロック信号の立ち上がりエッジでDの値を出力Qに�
   \begin{tabular}{c}
     \includegraphics[width=0.8\textwidth]{assets/hanandnotshinri.png} \\
   \end{tabular}
-  \end{table}
+\end{table}
 
 \subsection{信号発生器の設計と製作}
 図3.2の回路の各部のオスロスコープで観測した波形を図4.5、4.6に示す。
@@ -460,7 +462,7 @@ D-FFは、クロック信号の立ち上がりエッジでDの値を出力Qに�
   \caption{CLK、\(Q_0\)、\(Q_1\)、CLRの観測波形}
 \end{figure}
 
-図4.12より、Q0がクロックの立ち上がりで反転し、Q1はQ0の立ち上がりに応じて反転することで3通りの状態（00→01→11）を順に繰り返していることが確認できる。また、CLR信号がLOWになると、即座にQ0とQ1の出力が00にリセットされる動作が確認できる。
+図4.12より、Q0がクロックの立ち上がりで反転し、Q1はQ0の立ち上がりに応じて反転していることがわかる。
 
 \subsubsection{同期式1/3カウンタ}
 図3.7の回路を制作し、各測定点（CLK, 1J, \(Q_0\), \(Q_1\)）のオスロスコープで観測した波形を図4.13に示す。
@@ -560,7 +562,7 @@ D-FFは、クロック信号の立ち上がりエッジでDの値を出力Qに�
   Cout &= C1 + C2
 \end{align}
 
-全加算器の真理値表は以下のようになる：
+全加算器の真理値表は以下の表5.3のようになる：
 \begin{table}[H]
   \centering
   \caption{全加算器の真理値表}
@@ -582,10 +584,26 @@ D-FFは、クロック信号の立ち上がりエッジでDの値を出力Qに�
 
 \subsubsection{キャリールックアヘッドに関して}
 
+キャリールックアヘッド回路とは、加算回路において各桁のキャリー（繰り上がり）を下位の計算結果を待たずに、入力値から直接計算する仕組みである。各ビットの入力$a_i, b_i$から「生成（generate）」$g_i = a_i b_i$および「伝搬（propagate）」$p_i = a_i \oplus b_i$を求め、これらを用いて各桁のキャリー$C_i$を論理式で一括して計算する。例えば4ビットの場合、キャリーは次式のように表される。
+\begin{align*}
+C_1 &= g_0 + p_0 C_0 \\
+C_2 &= g_1 + p_1 g_0 + p_1 p_0 C_0 \\
+C_3 &= g_2 + p_2 g_1 + p_2 p_1 g_0 + p_2 p_1 p_0 C_0 \\
+C_4 &= g_3 + p_3 g_2 + p_3 p_2 g_1 + p_3 p_2 p_1 g_0 + p_3 p_2 p_1 p_0 C_0
+\end{align*}
+このように、各桁のキャリーを下位桁の入力値から直接求めることで、キャリー伝搬による遅延を大幅に削減することができる。実際の回路設計では、論理ゲートの入力数（ファンイン）制限を考慮し、4ビット単位などで階層的に実装される。
+
 \subsection{信号発生器の設計と作成}
 \subsubsection{信号発生器（SG）からディジタル波形が生じる流れについて}
-信号発生器は、アナログ信号を0と1のディジタル信号に変換するための装置である。図4.5のタイミングチャートより、A点の正弦波が0Vを閾値として、NOTゲートがHIGHとLOWを判定し、出力信号を反転させアナログ信号をディジタル信号に変換して出力していることがわかる。またNOTゲートを直列に繋ぐことで、もとの正弦波と位相を合わせている。\\
-図4.5より、タイミングチャートを図5.1に示す。
+図4.5,4.6のオシロスコープで観測波形より作成したタイミングチャートを図5.1に示す。
+信号発生器は、アナログ信号を0と1のディジタル信号に変換するための装置である。タイミングチャートより、A点の正弦波が0Vを閾値として、NOTゲートがHIGHとLOWを判定し、出力信号を反転させアナログ信号をディジタル信号に変換して出力していることがわかる。またNOTゲートを直列に繋ぐことで、もとの正弦波と位相を合わせている。\\
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.8\textwidth]{assets/sgchart.png}
+  \caption{信号発生器のタイミングチャート}
+\end{figure}
+
 1つ目のJK-FFによってCLK信号をQ1と\(\overline{Q1}\)に分け、周期を2倍にしており、2つ目のJK-FFによってQ1信号をSとRに分け、周期をさらに2倍にしている。これにより、最終的にSとRの信号はCLK信号の4倍の周期となる。
 
 \subsubsection{部品（$50\,\Omega$、$0.1\,\mathrm{\mu F}$、$470\,\mathrm{\mu F}$）の名称と役割についての説明}
@@ -610,18 +628,147 @@ $50\,\Omega$抵抗は信号発生回路のインピーダンス整合に用い�
 
 このように、同期式SR-FFは入力SとRの組み合わせによって出力状態を制御し、記憶素子として機能する。ただし、SとRが同時に0になる禁止状態は避ける必要があるため、実際の回路設計ではこの状態が発生しないように工夫される。
 
+図4.7,4.8のオシロスコープでの観測波形より作成したタイミングチャートを図5.2に示す。
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.8\textwidth]{assets/srffchart.png}
+  \caption{同期式SR-FFのタイミングチャート}
+\end{figure}
+
+図5.2より、SとQの位相が1クロック分ずれていることが確認できる。また、Rと$\overline{Q}$の位相も1クロック分ずれていることが確認できる。
+これは、今回実験で用いたSR-FFがクロック同期式であることと合致する。
+
 \subsubsection{エッジトリガについて}
-図4.6のタイミングチャートより、表5.4の真理値表のとおり、CLKの立ち上がりエッジでSとRの状態に応じて出力Qと$\overline{Q}$が変化することが確認できた。
+図5.2のタイミングチャートより、表5.4の真理値表のとおり、CLKの立ち上がりエッジでSとRの状態に応じて出力Qと$\overline{Q}$が変化することが確認できた。
 
 \subsection{JK-FFの動作と特性}
 
+ 図4.9のオシロスコープでの観測波形より作成したタイミングチャートを図5.3に示す。
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.8\textwidth]{assets/jkffchart.png}
+  \caption{JK-FFのタイミングチャート}
+\end{figure}
+
+表2.4の真理値表より、初期状態が0かつJ=1となったとき（今回の実験では常にK=1）、次のCLKの立ち下がりエッジでQが1に変化することが確認できた。初期状態が1かつJ=1となった次の立ち下がりエッジで、Qが0となることも確認することができた。
+
 \subsection{D-FFの動作と特性}
 
+図4.11のオシロスコープでの観測波形より作成したタイミングチャートを図5.4に示す。
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.8\textwidth]{assets/dffchart.png}
+  \caption{D-FFのタイミングチャート}
+\end{figure}
+
+図5.4より、DとQの位相が1クロック分ずれていることが確認できる。これは表4.6の真理値表とも合致し、さらにCLK信号の立ち下がりエッジでDの状態に応じて出力されていることも確認できた。
+
 \subsection{1/3カウンタ}
+\subsubsection{非同期式でハザードが出るメカニズムと同期式の動作の説明}
+
+図4.12より作成した非同期式1/3カウンタのタイミングチャートを図5.5に示す。
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.8\textwidth]{assets/hidoukichart.png}
+  \caption{非同期式1/3カウンタのタイミングチャート}
+\end{figure}
+
+実験結果より、Q0とQ1が3通りの状態（00→01→10）を順に繰り返していることが確認できる。また、CLR信号がLOWになると、即座にQ0とQ1の出力が00にリセットされる動作が確認できる。\\
+
+図3.5より、CLR信号はQ0とQ1のNAND出力となっていることがわかる。したがって、Q0とQ1の出力が11のとき、CLR信号はLOWとなりQ0とQ1はリセットされる。しかし、Q0とQ1の出力が00に戻されるまでには数十ns程度の時間がかかるため、CLR信号がLOWの状態が数十ns続くことになる。このごく短い出力がハザードとして観測できると考えられる。
+
+図4.13より作成した同期式1/3カウンタのタイミングチャートを図5.6に示す。
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.8\textwidth]{assets/doukichart.png}
+  \caption{同期式1/3カウンタのタイミングチャート}
+\end{figure}
+
+Q0とQ1が3通りの状態（00→01→10）を順に繰り返していることが確認できる。また、カウントはCLKの立ち下がりエッジで行われていることがわかる。
+
+\subsubsection{非同期、同期カウンタのメリットとデメリットについて}
+\begin{enumerate}
+  \item 非同期カウンタ
+  \begin{enumerate}
+    \item メリット \\
+    ・クロック配線がシンプルで、回路規模が小さい場合は構成が簡単である。\\
+    ・フリップフロップ同士を直列につなぐだけでカウンタが構成できるため、回路規模が小さくできる。\\
+    \item デメリット \\
+    ・各フリップフロップにクロックが順次伝播するため、回路内でクロック遅延が発生しやすい。\\
+    ・動作周波数が高くなると遅延が大きくなり、タイミング不良や「すっぽ抜け」などの問題が発生しやすい。\\
+    ・外部要因による遅延変動の影響を受けやすく、実機での動作が不安定になることがある。\\
+  \end{enumerate}
+   \item 同期カウンタ
+  \begin{enumerate}
+    \item メリット \\
+    ・全てのフリップフロップが同一クロックの同一エッジで動作するため、タイミングが揃いやすく、設計の信頼性が高い。
+    ・クロック・スキュー（クロックの到達時間のズレ）が最小になるように調整されるため、データの「すっぽ抜け」や競合などの問題が起こりにくい。\\
+    ・外部要因（電圧変動、温度変化など）による遅延の影響を受けにくく、実機での動作が安定しやすい。
+    \item デメリット \\
+    ・複雑な回路や大規模なデバイスでは、クロック配線が増えて設計や配線が複雑になりやすい。\\
+    ・クロック配線の負荷が大きくなり、消費電力が増える場合がある。
+  \end{enumerate}
+\end{enumerate}
+
+以上の理由より、信頼性・安定性が重要な場合は同期カウンタが推奨される。回路規模が小さく、シンプルさを優先する場合は非同期カウンタも選択肢となるが、高速動作や大規模回路では同期設計が基本となる。
 
 \subsection{メモリ機能}
 
-\subsection{使用機材}
+\subsubsection{DRAM回路の動作説明}
+
+DRAMでは、コンデンサに電荷が溜まっている状態を"1"、溜まっていない状態を"0"としてデータを記憶している。\\
+書き込みは、ワード線の電圧を上げた状態で行い、"1"の書き込み時には、データ線の電圧を上げる。これによりトランジスタがオンになりコンデンサが充電される。"2"の書き込み時には、データ線の電圧を下げることでコンデンサが放電される。\\
+読み出しは、ワード線の電圧を上げることで、トランジスタをONにする。データ線の電位の変化が瞬間的に変化すれば"1"が読み出せ、変化しなければ"0"が読み出せる。 \\
+
+\subsubsection{書き込み時の電圧が4V程度になる理由}
+トランジスタがオンの状態では、ドレインからソースへの電流が流れる。図5.7のデータシートより、トランジスタのドレイン・ソース間のオン抵抗 $R_{\text{DS(on)}}$ は最大で1Ω程度（条件：$V_{GS}=4V, I_D=0.5A$）である。\\
+MOSFETのオン状態では完全に理想的なスイッチではなく、内部抵抗（オン抵抗）があるために、電流が流れるときに電圧降下が発生し、ソース側の電圧が下がる。
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.8\textwidth]{assets/datasheet.png}
+  \caption{2SK679Aのデータシート}
+\end{figure}
+
+\subsubsection{読み出し時に電圧が5Vになる理由}
+今回の実験では、書き込み時に"1"を記録したため、データ線に5Vが出力され、表5.5のTC74HC126の真理値表より、HIGHを出力したためだと考えられる。
+
+\begin{table}[H]
+  \centering
+  \caption{TC74HC126の真理値表}
+  \begin{tabular}{c}
+    \includegraphics[width=0.3\textwidth]{assets/tc74hc126shinri.png} \\
+  \end{tabular}
+\end{table}
+
+\subsubsection{DRAMとSRAMの比較}
+DRAMとSRAMの違いを表5.6に示す。
+
+\begin{table}[H]
+  \centering
+  \caption{DRAMとSRAMの比較}
+  \begin{tabular}{|l|l|l|}
+    \hline
+    項目 & \textbf{DRAM（Dynamic RAM）} & \textbf{SRAM（Static RAM）} \\ \hline
+    記憶方式 & トランジスタ＋キャパシタ（電荷で記憶） & フリップフロップ回路（トランジスタ6個） \\ \hline
+    リフレッシュ & 必要（定期的に電荷を補充） & 不要（電源供給中はデータ保持） \\ \hline
+    アクセス速度 & 遅め（リフレッシュの影響） & 非常に速い \\ \hline
+    集積度 & 高い（構造がシンプル） & 低い（構造が複雑） \\ \hline
+    消費電力 & 比較的高い（常にリフレッシュ） & 待機時は低い、アクセス時は高くなる場合あり \\ \hline
+    コスト & 安価（大容量でも低コスト） & 高価（1ビットに6トランジスタ） \\ \hline
+    主な用途 & メインメモリ（RAM） & キャッシュメモリ、レジスタなど \\ \hline
+  \end{tabular}
+\end{table}
+
+DRAMはキャパシタに電荷を蓄えることで情報を記憶するが、電荷が自然放電するため定期的なリフレッシュが必要である。その分アクセス速度はSRAMに劣る。その代わり、構造がシンプルなため大量のメモリを安価に実装できる。\\
+SRAMはトランジスタのみで構成されるフリップフロップ回路で情報を保持し、リフレッシュ不要で高速アクセスが可能である。ただし、構造が複雑で面積あたりの記憶容量が少なく、高コストとなる。
+
+\section{使用機材}
+表6.1に示す。
 \begin{table}[H]
   \centering
   \caption{使用機材一覧}
@@ -636,13 +783,46 @@ $50\,\Omega$抵抗は信号発生回路のインピーダンス整合に用い�
 \end{table}
 
 \section{参考文献}
-https://ushitora.net/archives/546 \\
-https://toshiba.semicon-storage.com/jp/semiconductor/knowledge/e-learning/cmos-logic-basics/chap2/chap2-2.html \\
-https://www.marutsu.co.jp/contents/shop/marutsu/datasheet/74HC107.pdf \\
-http://www.ctleec.sakura.ne.jp/2024/01/31/15-フリップフロップ/ \\
-https://ushitora.net/archives/570 \\
-https://ushitora.net/archives/588 \\
-https://tonarism.co.jp/media/media\_detail.php?b\_id=72 \\
-https://www.ques10.com/p/14914/draw-the-circuit-of-jk-ff-using-nand-gates-and-wri/ \\
+\begin{itemize}
+\item 「CMOSとは？NOTゲートの動作原理をもとに解説」, \\
+\url{https://ushitora.net/archives/546}, \\
+閲覧日: 2025年5月12日
+\item 「CMOSロジック回路の基礎（第2章2節）」, 東芝デバイス＆ストレージ株式会社, \\
+\url{https://toshiba.semicon-storage.com/jp/semiconductor/knowledge/e-learning/cmos-logic-basics/chap2/chap2-2.html}, \
+閲覧日: 2025年5月12日
+\item 「TC74HC107AP/AF データシート」, matrutsu, \\
+\url{https://www.marutsu.co.jp/contents/shop/marutsu/datasheet/74HC107.pdf}, \\
+閲覧日: 2025年5月12日
+\item 「15. フリップフロップ」, CTLEEC, \\
+\url{http://www.ctleec.sakura.ne.jp/2024/01/31/15-フリップフロップ/ }, \\
+閲覧日: 2025年5月12日
+\item 「半加算器（1bit加算器）の回路図と動作原理, 知能デバイス研究所, \\
+\url{https://ushitora.net/archives/570}, \\
+閲覧日: 2025年5月12日
+\item 全加算器（n bit加算器）の回路図と動作原理, 知能デバイス研究所, \\
+\url{https://ushitora.net/archives/588}, \\
+閲覧日: 2025年5月12日
+\item フリップフロップ回路とは？ ラッチとの違いや種類別の基本構造・動作原理・使用例を解説 \\
+\url{https://tonarism.co.jp/media/media_detail.php?b_id=72}, \\
+閲覧日: 2025年5月12日
+\item Ques10 Draw the circuit of JK FF using NAND gates and write the truth table, \\
+\url{https://www.ques10.com/p/14914/draw-the-circuit-of-jk-ff-using-nand-gates-and-wri/}, \\
+閲覧日: 2025年5月13日
+\item 桁上げ先見加算器、保存加算器の性質, 電気情報の森, \\
+\url{https://denjoforest.com/full-adder}, \\
+閲覧日: 2025年5月13日\
+\item RTL 設計ビギナー必見 同期設計と非同期設計の違い, マクニカ, \\
+\url{https://www.macnica.co.jp/business/semiconductor/articles/intel/119381/}, \\
+閲覧日: 2025年5月13日
+\item 同期式回路と非同期式回路の違い～結論編～, マクニカ, \\
+\url{https://www.macnica.co.jp/business/semiconductor/articles/intel/133451/ }, \\
+閲覧日: 2025年5月13日
+\item DRAMとは：構造と動作原理, セミジャーナル, \\
+\url{https://semi-journal.jp/basics/device/memory/dram-structure.html}, \\
+閲覧日: 2025年5月13日
+\item DRAMとSRAMの違いは？ それぞれの仕組み・特徴・用途を比較, トナリズム, \\
+\url{https://tonarism.co.jp/media/media_detail.php?b_id=33}, \\
+閲覧日: 2025年5月13日
+\end{itemize}
 
 \end{document}
