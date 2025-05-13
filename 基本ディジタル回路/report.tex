@@ -4,6 +4,7 @@
 \usepackage{amsmath}
 \usepackage{geometry}
 \usepackage{float}
+\usepackage{array}
 \usepackage{caption}
 \usepackage{hyperref}
 \linespread{1.2}
@@ -179,39 +180,90 @@ D-FFは、クロック信号の立ち上がりエッジでDの値を出力Qに�
 \begin{enumerate}
   \item ベン図での確認
   \item 真理値表での確認
-  \item 論理回路での確認
-  - NOTゲートとNANDゲートを使用した場合
+  \item 論理回路での確認 \\
+  - NOTゲートとNANDゲートを使用した場合 \\
   - NOTゲートとNORゲートを使用した場合
-  \item 半加算器（HA）
-  - 図3.1の回路の真理値表を完成させる。
+  \item 半加算器（HA） \\
+  - 図3.1の回路の真理値表を完成させる。 \\
   - 図3.1の回路をNANDゲートとNOTゲートのみを用いて設計し、設計した回路の真理値表が同様であることを確認する。
 \end{enumerate}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.6\textwidth]{assets/HAkairo.png}
+  \caption{半加算器（HA）の回路図}
+\end{figure}
 
 \subsection{信号発声器の設計と製作}
 図3.2の回路の各部をオシロスコープで測定し、A点, CLK, 1Q, \(\overline{\text{1Q}}\), S, Rのタイミングチャートを作成する。
 
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.8\textwidth]{assets/SGkairo.png}
+  \caption{信号発生器の回路図}
+\end{figure}
+
 \subsection{同期式SR-FFの動作と特性}
 図3.3の回路を制作し、CLK,S,R,a,b,Q,\(\overline{Q}\)のタイミングチャートを作成する。
 
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.6\textwidth]{assets/srffkairo.png}
+  \caption{同期式SR-FFの回路図}
+\end{figure}
+
 \subsection{JK-FFの動作と特性}
 図3.4の回路を制作し、CLK,S,1Qのタイミングチャートを作成する。
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.6\textwidth]{assets/jkffkairo.png}
+  \caption{JK-FFの回路図}
+\end{figure}
 
 \subsection{D-FFの動作と特性}
 \begin{enumerate}
   \item D-FFの真理値表を完成させる。
   \item JK-FFとNOTゲートを用いてD-FFを構成する。
-  \item 図3.5の回路を制作し、CLK,D,Q,\(\overline{Q}\)のタイミングチャートを作成する。
+  \item 2.で構成した回路を制作し、CLK,D,Q,\(\overline{Q}\)のタイミングチャートを作成する。
 \end{enumerate}
 
 \subsection{カウンタの設計}
 \subsubsection{非同期式1/3カウンタ}
-図3.6の回路を制作し、CLK,1J,\(Q_0\),\(Q_1\)のタイミングチャートを作成する。
+図3.5の回路を制作し、CLK,1J,\(Q_0\),\(Q_1\)のタイミングチャートを作成する。
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.6\textwidth]{assets/hidoukicounter.png}
+  \caption{非同期式1/3カウンタの回路図}
+\end{figure}
 
 \subsubsection{同期式1/3カウンタ}
-図3.7の回路を制作し、CLK,1J,\(Q_0\),\(Q_1\)のタイミングチャートを作成する。
+図3.6の回路を制作し、CLK,1J,\(Q_0\),\(Q_1\)のタイミングチャートを作成する。
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.6\textwidth]{assets/doukicounter.png}
+  \caption{同期式1/3カウンタの回路図}
+\end{figure}
 
 \subsection{メモリ機能}
-図3.8の回路を作成し、表3.1の操作をしたときの結果を測定する。なお、1は5V電位、0はGND電位とする。
+図3.7の回路を作成し、表3.1の操作をしたときの結果を測定する。なお、1は5V電位、0はGND電位とする。
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.6\textwidth]{assets/memorykairo.png}
+  \caption{DRAMのリード・ライト回路図}
+\end{figure}
+
+\begin{table}[H]
+  \centering
+  \caption{DRAMの書き込みと読み出しの手順}
+  \begin{tabular}{c}
+    \includegraphics[width=0.8\textwidth]{assets/memoryctrl.png} \\
+  \end{tabular}
+\end{table}
+
 \begin{enumerate}
   \item WRITE=0, CTRL=1, ワード線=1 にすることで2SK679Aはどのような状態になるか
   \item WRITE=1, CTRL=1, ワード線=1 にすることで2SK679Aはどのような状態になるか
@@ -221,63 +273,209 @@ D-FFは、クロック信号の立ち上がりエッジでDの値を出力Qに�
 \section{実験結果}
 \subsection{ド・モルガンの法則の確認}
 \subsubsection{ベン図での確認}
-図4.1に斜線で示す。
+図4.1に示す。
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.6\textwidth]{assets/benzu.png}
+  \caption{ベン図}
+\end{figure}
 
 \subsubsection{真理値表での確認}
 4.1.1で作成したベン図をもとに、ある要素xが集合AまたはBに属しているとき○、属していないとき×で表したものを、表4.1に示す。
 
+\begin{table}[H]
+  \centering
+  \caption{真理値表}
+  \begin{tabular}{c}
+    \includegraphics[width=0.8\textwidth]{assets/domoshinri.png} \\
+  \end{tabular}
+\end{table}
+
 \subsubsection{論理回路での確認}
 \begin{enumerate}
   \item NOTゲートとNANDゲートを使用した場合、図4.2のように変換でき、その回路を制作し測定した結果を表4.2に示す。
+  
+  \begin{figure}[H]
+  \centering
+  \includegraphics[width=0.6\textwidth]{assets/notnand.png}
+  \caption{NOTゲートとNANDゲートを使用した場合}
+  \end{figure}
+
+  \begin{table}[H]
+  \centering
+  \caption{入力条件と出力条件の各種値}
+  \begin{tabular}{c}
+    \includegraphics[width=0.8\textwidth]{assets/notnandshinri.png} \\
+  \end{tabular}
+  \end{table}
+
   \item NOTゲートとNORゲートを使用した場合、図4.3のように変換でき、その回路を制作し測定した結果を表4.3に示す。
+  
+  \begin{figure}[H]
+  \centering
+  \includegraphics[width=0.6\textwidth]{assets/notnor.png}
+  \caption{NOTゲートとNORゲートを使用した場合}
+  \end{figure}
+
+  \begin{table}[H]
+  \centering
+  \caption{入力条件と出力条件の各種値}
+  \begin{tabular}{c}
+    \includegraphics[width=0.8\textwidth]{assets/notnorshinri.png} \\
+  \end{tabular}
+  \end{table}
+
 \end{enumerate}
 
 \subsubsection{半加算器（HA）の設計}
 図3.1の回路の真理値表を表4.4に示す。
 
+\begin{table}[H]
+  \centering
+  \caption{半加算器（HA）の真理値表}
+  \begin{tabular}{|c|c|c|c|}
+    \hline
+    A & B & S & C \\ \hline
+    0 & 0 & 0 & 0 \\ \hline
+    0 & 1 & 1 & 0 \\ \hline
+    1 & 0 & 1 & 0 \\ \hline
+    1 & 1 & 0 & 1 \\ \hline
+  \end{tabular}
+\end{table}
+
 また、図3.2の回路をNANDゲートとNOTゲートのみを用いて設計すると、図4.4のようになる。
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.6\textwidth]{assets/hanandnot.png}
+  \caption{NANDゲートとNOTゲートを使用した場合}
+\end{figure}
 
 図4.4の回路の真理地表は表4.5のようになり、表4.4と同様であることが確認できた。
 
-\subsection{信号発生器の設計と製作}
-図3.2の回路の各部のオスロスコープで観測した波形を図4.5に示す。
+\begin{table}[H]
+  \centering
+  \caption{図4.4の真理値表}
+  \begin{tabular}{c}
+    \includegraphics[width=0.8\textwidth]{assets/hanandnotshinri.png} \\
+  \end{tabular}
+  \end{table}
 
-図4.5より、A点での正弦波がCLK信号では矩形波として現れており、1Qで
+\subsection{信号発生器の設計と製作}
+図3.2の回路の各部のオスロスコープで観測した波形を図4.5、4.6に示す。
+
+\begin{figure}[H]
+  \centering
+  \begin{minipage}{0.48\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{assets/sg01.png}
+    \caption{A点、CLK、1Q、\(\overline{1Q}\)の観測波形}
+  \end{minipage}
+  \hfill
+  \begin{minipage}{0.48\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{assets/sg02.png}
+    \caption{A点、S、Rの観測波形}
+  \end{minipage}
+\end{figure}
+
+図4.5、4.6より、A点での正弦波がCLK信号では矩形波として現れており、1Qで
 はその矩形波の周期の2倍の矩形波が、\(\overline{1Q}\)ではそれが反転したものが、Sでは1Qの矩形波の周期がさらに2倍になった矩形波が、Rではそれが反転したものが現れていることが確認できた。
 
 \subsection{同期式SR-FFの動作と特性}
-図3.3の回路を制作し、各測定点（CLK, S, R, a, b, Q, \(\overline{Q}\)）のオスロスコープで観測した波形を図4.6に示す。
+図3.3の回路を制作し、各測定点（CLK, S, R, a, b, Q, \(\overline{Q}\)）のオスロスコープで観測した波形を図4.7、4.8に示す。
 
-図4.6より、SではCLKの4倍の周期の矩形波が、Rではそれが反転したものが現れていることが確認できた。
+\begin{figure}[H]
+  \centering
+  \begin{minipage}{0.48\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{assets/srff01.png}
+    \caption{CLK、S、R、aの観測波形}
+  \end{minipage}
+  \hfill
+  \begin{minipage}{0.48\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{assets/srff02.png}
+    \caption{CLK、b、Q、\(\overline{Q}\)の観測波形}
+  \end{minipage}
+\end{figure}
+
+図4.7、4.8より、SではCLKの4倍の周期の矩形波が、Rではそれが反転したものが現れていることが確認できた。
 また、Qでは位相がずれたCLKの4倍の周期の矩形波が現れ、\(\overline{Q}\)ではそれが反転したものが現れていることが確認できた。
 さらに、aとbではS,Rの2倍周期で大きなものと小さなものの2種類がある矩形波が現れていることが確認できた。
 
 \subsection{JK-FFの動作と特性}
-図4.7にJK-FFの回路を、表4.5に真理値表を示す。
-図3.4の回路を制作し、各測定点（CLK, S, 1Q）のオスロスコープで観測した波形を図4.7に示す。
+図3.4の回路を制作し、各測定点（CLK, S, 1Q）のオスロスコープで観測した波形を図4.9に示す。
 
-図4.7より、SではCLKの4倍の周期の矩形波が、1QではSがHIGHになった次のCLKの周期でHIGHになっていることが確認できた。
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.4\textwidth]{assets/jkff.png}
+  \caption{CLK、S、1Qの観測波形}
+\end{figure}
+
+図4.9より、SではCLKの4倍の周期の矩形波が、1QではSがHIGHになった次のCLKの周期でHIGHになっていることが確認できた。
 
 \subsection{D-FFの動作と特性}
 \begin{enumerate}
-  \item D-FFの真理値表を図4.8に示す。
-  \item JK-FFとNOTゲートを用いてD-FFを構成したものを図4.9に示す。
-  \item 図3.5の回路を制作し、各測定点（CLK, D, Q, \(\overline{Q}\)）のオスロスコープで観測した波形を図4.10に示す。
-  図4.10より、DではCLKの4倍の周期の矩形波が現れ、Qでは位相がDと半周期遅れた矩形波が現れ、\(\overline{Q}\)ではそれが反転したものが現れていることが確認できた。
+  \item D-FFの真理値表を表4.6に示す。
+  
+  \begin{table}[H]
+    \centering
+    \caption{D-FFの真理値表}
+    \begin{tabular}{|c|c|c|c|}
+      \hline
+      CLK & D & Q & $\overline{Q}$ \\ \hline
+      $\downarrow$ & 1 & 1 & 0 \\ \hline
+      $\downarrow$ & 0 & 0 & 1 \\ \hline
+    \end{tabular}
+  \end{table}
+
+  \item JK-FFとNOTゲートを用いてD-FFを構成したものを図4.10に示す。
+  
+  \begin{figure}[H]
+  \centering
+  \includegraphics[width=0.6\textwidth]{assets/dffkairo.png}
+  \caption{JK-FFとNOTゲートで構成したD-FFの回路図}
+  \end{figure}
+
+  \item 図4.10の回路を制作し、各測定点（CLK, D, Q, \(\overline{Q}\)）のオスロスコープで観測した波形を図4.11に示す。
+  
+  \begin{figure}[H]
+  \centering
+  \includegraphics[width=0.4\textwidth]{assets/dff.png}
+  \caption{CLK、D、Qの観測波形}
+  \end{figure}
+
+  図4.11より、DではCLKの4倍の周期の矩形波が現れ、Qでは位相がDと1/4周期遅れた矩形波が現れ、\(\overline{Q}\)ではそれが反転したものが現れていることが確認できた。
 \end{enumerate}
 
 \subsection{カウンタの設計}
 \subsubsection{非同期式1/3カウンタ}
-図3.6の回路の各測定点（CLK, 1J, \(Q_0\), \(Q_1\)）のオスロスコープで観測した波形を図4.11に示す。
-図4.11より、Q0がクロックの立ち上がりで反転し、Q1はQ0の立ち上がりに応じて反転することで3通りの状態（00→01→11）を順に繰り返していることが確認できる。また、CLR信号がLOWになると、即座にQ0とQ1の出力が00にリセットされる動作が確認できる。
+図3.6の回路の各測定点（CLK、\(Q_0\)、\(Q_1\)、CLR）のオスロスコープで観測した波形を図4.12に示す。
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.4\textwidth]{assets/hidouki.png}
+  \caption{CLK、\(Q_0\)、\(Q_1\)、CLRの観測波形}
+\end{figure}
+
+図4.12より、Q0がクロックの立ち上がりで反転し、Q1はQ0の立ち上がりに応じて反転することで3通りの状態（00→01→11）を順に繰り返していることが確認できる。また、CLR信号がLOWになると、即座にQ0とQ1の出力が00にリセットされる動作が確認できる。
 
 \subsubsection{同期式1/3カウンタ}
-図3.7の回路を制作し、各測定点（CLK, 1J, \(Q_0\), \(Q_1\)）のオスロスコープで観測した波形を図4.12に示す。
-図4.12より、1J,Q0,Q1はそれぞれCLKの3倍周期で規則的に変化していることが確認できる。
+図3.7の回路を制作し、各測定点（CLK, 1J, \(Q_0\), \(Q_1\)）のオスロスコープで観測した波形を図4.13に示す。
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.4\textwidth]{assets/douki.png}
+  \caption{CLK、1J、\(Q_0\), \(Q_1\)の観測波形}
+\end{figure}
+
+図4.13より、1J,Q0,Q1はそれぞれCLKの3倍周期で規則的に変化していることが確認できる。
 
 \subsection{メモリ機能}
 表4.6にTC74HC126の真理値表を示す。
-図3.8の回路を作成し、表3.1の操作を実施した結果を以下に示す。
+図3.7の回路を作成し、表3.1の操作を実施した結果を以下に示す。
 \begin{enumerate}
   \item WRITE=0, CTRL=1, ワード線=1 の場合
   \begin{itemize}

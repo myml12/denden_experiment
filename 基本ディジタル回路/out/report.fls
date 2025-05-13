@@ -76,6 +76,8 @@ INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/iftex/iftex.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/iftex/iftex.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/float/float.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/float/float.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/tools/array.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/tools/array.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/caption/caption.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/caption/caption.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/caption/caption3.sty
@@ -212,12 +214,112 @@ INPUT ./assets/d-ff.png
 INPUT ./assets/d-ff.png
 INPUT ./assets/d-ff.png
 INPUT extractbb -B cropbox -O assets/d-ff.png
+INPUT ./assets/HAkairo.png
+INPUT ./assets/HAkairo.png
+INPUT ./assets/HAkairo.png
+INPUT extractbb -B cropbox -O assets/HAkairo.png
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/jlreq/jlreq-v.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/jlreq/jlreq-v.tfm
+INPUT ./assets/SGkairo.png
+INPUT ./assets/SGkairo.png
+INPUT ./assets/SGkairo.png
+INPUT extractbb -B cropbox -O assets/SGkairo.png
+INPUT ./assets/srffkairo.png
+INPUT ./assets/srffkairo.png
+INPUT ./assets/srffkairo.png
+INPUT extractbb -B cropbox -O assets/srffkairo.png
+INPUT ./assets/jkffkairo.png
+INPUT ./assets/jkffkairo.png
+INPUT ./assets/jkffkairo.png
+INPUT extractbb -B cropbox -O assets/jkffkairo.png
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/jlreq/jlreqg-v.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/jlreq/jlreqg.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/rm-lmss10.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/rm-lmssbx10.tfm
+INPUT ./assets/hidoukicounter.png
+INPUT ./assets/hidoukicounter.png
+INPUT ./assets/hidoukicounter.png
+INPUT extractbb -B cropbox -O assets/hidoukicounter.png
+INPUT ./assets/doukicounter.png
+INPUT ./assets/doukicounter.png
+INPUT ./assets/doukicounter.png
+INPUT extractbb -B cropbox -O assets/doukicounter.png
+INPUT ./assets/memorykairo.png
+INPUT ./assets/memorykairo.png
+INPUT ./assets/memorykairo.png
+INPUT extractbb -B cropbox -O assets/memorykairo.png
+INPUT ./assets/memoryctrl.png
+INPUT ./assets/memoryctrl.png
+INPUT ./assets/memoryctrl.png
+INPUT extractbb -B cropbox -O assets/memoryctrl.png
+INPUT ./assets/benzu.png
+INPUT ./assets/benzu.png
+INPUT ./assets/benzu.png
+INPUT extractbb -B cropbox -O assets/benzu.png
+INPUT ./assets/domoshinri.png
+INPUT ./assets/domoshinri.png
+INPUT ./assets/domoshinri.png
+INPUT extractbb -B cropbox -O assets/domoshinri.png
+INPUT ./assets/notnand.png
+INPUT ./assets/notnand.png
+INPUT ./assets/notnand.png
+INPUT extractbb -B cropbox -O assets/notnand.png
+INPUT ./assets/notnandshinri.png
+INPUT ./assets/notnandshinri.png
+INPUT ./assets/notnandshinri.png
+INPUT extractbb -B cropbox -O assets/notnandshinri.png
+INPUT ./assets/notnor.png
+INPUT ./assets/notnor.png
+INPUT ./assets/notnor.png
+INPUT extractbb -B cropbox -O assets/notnor.png
+INPUT ./assets/notnorshinri.png
+INPUT ./assets/notnorshinri.png
+INPUT ./assets/notnorshinri.png
+INPUT extractbb -B cropbox -O assets/notnorshinri.png
+INPUT ./assets/hanandnot.png
+INPUT ./assets/hanandnot.png
+INPUT ./assets/hanandnot.png
+INPUT extractbb -B cropbox -O assets/hanandnot.png
+INPUT ./assets/hanandnotshinri.png
+INPUT ./assets/hanandnotshinri.png
+INPUT ./assets/hanandnotshinri.png
+INPUT extractbb -B cropbox -O assets/hanandnotshinri.png
+INPUT ./assets/sg01.png
+INPUT ./assets/sg01.png
+INPUT ./assets/sg01.png
+INPUT extractbb -B cropbox -O assets/sg01.png
+INPUT ./assets/sg02.png
+INPUT ./assets/sg02.png
+INPUT ./assets/sg02.png
+INPUT extractbb -B cropbox -O assets/sg02.png
+INPUT ./assets/srff01.png
+INPUT ./assets/srff01.png
+INPUT ./assets/srff01.png
+INPUT extractbb -B cropbox -O assets/srff01.png
+INPUT ./assets/srff02.png
+INPUT ./assets/srff02.png
+INPUT ./assets/srff02.png
+INPUT extractbb -B cropbox -O assets/srff02.png
+INPUT ./assets/jkff.png
+INPUT ./assets/jkff.png
+INPUT ./assets/jkff.png
+INPUT extractbb -B cropbox -O assets/jkff.png
+INPUT ./assets/dffkairo.png
+INPUT ./assets/dffkairo.png
+INPUT ./assets/dffkairo.png
+INPUT extractbb -B cropbox -O assets/dffkairo.png
+INPUT ./assets/dff.png
+INPUT ./assets/dff.png
+INPUT ./assets/dff.png
+INPUT extractbb -B cropbox -O assets/dff.png
+INPUT ./assets/hidouki.png
+INPUT ./assets/hidouki.png
+INPUT ./assets/hidouki.png
+INPUT extractbb -B cropbox -O assets/hidouki.png
+INPUT ./assets/douki.png
+INPUT ./assets/douki.png
+INPUT ./assets/douki.png
+INPUT extractbb -B cropbox -O assets/douki.png
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/lm/ts1lmr.fd
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/lm/ts1lmr.fd
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/lm/ts1lmr.fd
