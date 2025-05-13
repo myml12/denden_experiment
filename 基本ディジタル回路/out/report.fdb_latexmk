@@ -1,11 +1,11 @@
 # Fdb version 4
-["dvipdf"] 1747140853.68269 "out/report.dvi" "out/report.pdf" "out/report" 1747140862.61858 0
-  "out/report.dvi" 1747140853.65071 89844 e9c5c1eea28c4b2bc3f4ef6334cbf873 "latex"
+["dvipdf"] 1747142412.00396 "out/report.dvi" "out/report.pdf" "out/report" 1747142420.64693 0
+  "out/report.dvi" 1747142411.9712 89848 c0f102e5d9c3ec8a4330996c15b4f221 "latex"
   (generated)
   "out/report.pdf"
   (rewritten before read)
-["latex"] 1747140850.35367 "/Users/myml12/Documents/電気電子情報通信実験/基本ディジタル回路/report.tex" "out/report.dvi" "report" 1747140862.61773 0
-  "/Users/myml12/Documents/電気電子情報通信実験/基本ディジタル回路/report.tex" 1747140848.25404 38593 d312faeab242630beede4c7b9fe786e4 ""
+["latex"] 1747142408.73652 "/Users/myml12/Documents/電気電子情報通信実験/基本ディジタル回路/report.tex" "out/report.dvi" "report" 1747142420.64598 0
+  "/Users/myml12/Documents/電気電子情報通信実験/基本ディジタル回路/report.tex" 1747142402.93458 38594 bbb7c2876c143bd003b8c6713b5ce717 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmr8.tfm" 1136768653 1292 21c1c5bfeaebccffdb478fd231a0997d ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmr9.tfm" 1136768653 1292 6b21b9c2c7bebb38aa2273f7ca0fb3af ""
@@ -137,8 +137,8 @@
   "assets/srffchart.png" 1747128019.03042 1187107 1943cb37d27114e0754d41c328b48a85 ""
   "assets/srffkairo.png" 1747119477.78299 350147 c240678ae229511ccc7813f20cf6c212 ""
   "assets/tc74hc126shinri.png" 1747138112.50595 332518 0a63df99a003f6400df5511391867948 ""
-  "out/report.aux" 1747140853.64861 16546 a15083fb7b006bfceae2922f42ce1f7f "latex"
-  "out/report.out" 1747140853.65049 7166 46c1fd7aba5d3d98c62362372f3cd013 "latex"
+  "out/report.aux" 1747142411.96918 16546 a15083fb7b006bfceae2922f42ce1f7f "latex"
+  "out/report.out" 1747142411.97103 7166 46c1fd7aba5d3d98c62362372f3cd013 "latex"
   (generated)
   "out/report.aux"
   "out/report.dvi"
