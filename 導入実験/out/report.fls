@@ -125,6 +125,19 @@ INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/base/atveryend-ltx.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/base/atveryend-ltx.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/xcolor/xcolor.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/xcolor/xcolor.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/color.cfg
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/color.cfg
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/color.cfg
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/colortbl/colortbl.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/colortbl/colortbl.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/tools/array.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/tools/array.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics/color.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/lm/ot1lmr.fd
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/lm/ot1lmr.fd
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/lm/ot1lmr.fd
@@ -159,10 +172,10 @@ INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/jlreq/jlreqg-v.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/jlreq/jlreqg.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/rm-lmss12.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/rm-lmssbx10.tfm
-INPUT ./kairozu.jpeg
-INPUT ./kairozu.jpeg
-INPUT ./kairozu.jpeg
-INPUT extractbb -B cropbox -O kairozu.jpeg
+INPUT ./kairozu.png
+INPUT ./kairozu.png
+INPUT ./kairozu.png
+INPUT extractbb -B cropbox -O kairozu.png
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/rm-lmr7.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/rm-lmr5.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/lm/omllmm.fd

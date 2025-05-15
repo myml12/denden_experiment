@@ -5,6 +5,7 @@
 \usepackage{float}
 \usepackage{caption}
 \usepackage{hyperref}
+\usepackage[dvipdfmx,table]{xcolor}
 \linespread{1.2}
 \numberwithin{equation}{section}
 \counterwithin{figure}{section}
@@ -20,7 +21,7 @@
 
 \begin{figure}[h]
   \centering
-  \includegraphics[width=100mm]{kairozu.jpeg}
+  \includegraphics[width=100mm]{kairozu.png}
   \caption{オペアンプの回路}
 \end{figure}
 
@@ -251,27 +252,36 @@ Z_{C_3} = \frac{1}{j\omega C_3}
 \subsection{電圧特性の測定}
 入力周波数を50Hzで一定にし、入力電圧の振幅を400mVpp〜1000mVppまで変化させたときの出力電圧をデジタル・オシロスコープで測定した。入力電圧は、信号発生器からの出力をデジタル・オシロスコープで測定し、出力電圧は、OPアンプの出力端子からの信号をデジタル・オシロスコープで測定した。
 IN1,IN2それぞれの計測結果は表4.2,表4.3の通りである。またこれらのグラフを図4.1に示す。グラフは、横軸に入力電圧、縦軸に出力電圧を取ったものである。
+
 \begin{table}[H]
   \centering
   \caption{IN1 の電圧特性の理論値と測定結果}
-  \begin{tabular}{|c|c|c|c|c|c|c|c|}
+  \begin{tabular}{|c|c|c|c|c|}
     \hline
-    入力電圧 [mVpp] (理論値) & 400 & 500 & 600 & 700 & 800 & 900 & 1000 \\ \hline
-    出力電圧 [mVpp] (計算値) & 896& 1120 & 1344 & 1568 & 1792 & 2016 & 2240 \\ \hline
-    入力電圧 [mVpp] (実測値) & 408 & 500 & 600 & 700 & 800 & 920 & 1060 \\ \hline
-    出力電圧 [mVpp] (実測値) & 900 & 1120 & 1320 & 1600 & 1920 & 2160 & 2480 \\ \hline
+      \color{blue}{入力電圧(理論値) [mVpp]} & \color{blue}{出力電圧(理論値) [mVpp]} & \color{blue}{入力電圧(実測値) [mVpp]} & \color{blue}{出力電圧(実測値) [mVpp]} \\ \hline
+      \color{blue}{400} & \color{blue}{896} & \color{blue}{408} & \color{blue}{900} \\ \hline
+      \color{blue}{500} & \color{blue}{1120} & \color{blue}{500} & \color{blue}{1120} \\ \hline
+      \color{blue}{600} & \color{blue}{1344} & \color{blue}{600} & \color{blue}{1320} \\ \hline
+      \color{blue}{700} & \color{blue}{1568} & \color{blue}{700} & \color{blue}{1600} \\ \hline
+      \color{blue}{800} & \color{blue}{1792} & \color{blue}{800} & \color{blue}{1920} \\ \hline
+      \color{blue}{900} & \color{blue}{2016} & \color{blue}{920} & \color{blue}{2160} \\ \hline
+      \color{blue}{1000} & \color{blue}{2240} & \color{blue}{1060} & \color{blue}{2480} \\ \hline
   \end{tabular}
 \end{table}
 
 \begin{table}[H]
   \centering
   \caption{IN2 の電圧特性の理論値と測定結果}
-  \begin{tabular}{|c|c|c|c|c|c|c|c|}
+  \begin{tabular}{|c|c|c|c|}
     \hline
-    入力電圧 [mVpp] (理論値) & 400 & 500 & 600 & 700 & 800 & 900 & 1000 \\ \hline
-    出力電圧 [mVpp] (計算値) & 3000 & 3750 & 4500 & 5250 & 6000 & 6750 & 7500 \\ \hline
-    入力電圧 [mVpp] (実測値) & 404 & 504 & 604 & 704 & 800 & 900 & 1020 \\ \hline
-    出力電圧 [mVpp] (実測値) & 2860 & 3640 & 4380 & 5080 & 5920 & 6640 & 7460 \\ \hline
+      \color{blue}{入力電圧(理論値)} [mVpp] & \color{blue}{出力電圧(理論値) [mVpp]} & \color{blue}{入力電圧(実測値) [mVpp]} & \color{blue}{出力電圧(実測値) [mVpp]} \\ \hline
+      \color{blue}{400} & \color{blue}{3000} & \color{blue}{404} & \color{blue}{2860} \\ \hline
+      \color{blue}{500} & \color{blue}{3750} & \color{blue}{504} & \color{blue}{3640} \\ \hline
+      \color{blue}{600} & \color{blue}{4500} & \color{blue}{604} & \color{blue}{4380} \\ \hline
+      \color{blue}{700} & \color{blue}{5250} & \color{blue}{704} & \color{blue}{5080} \\ \hline
+      \color{blue}{800} & \color{blue}{6000} & \color{blue}{800} & \color{blue}{5920} \\ \hline
+      \color{blue}{900} & \color{blue}{6750} & \color{blue}{900} & \color{blue}{6640} \\ \hline
+      \color{blue}{1000} & \color{blue}{7500} & \color{blue}{1020} & \color{blue}{7460} \\ \hline
   \end{tabular}
 \end{table}
 
