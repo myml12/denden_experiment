@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.2-u2.00-250202-2.6 (utf8.euc) (TeX Live 2025) (preloaded format=platex 2025.5.3)  17 MAY 2025 14:26
+This is e-upTeX, Version 3.141592653-p4.1.2-u2.00-250202-2.6 (utf8.euc) (TeX Live 2025) (preloaded format=platex 2025.5.3)  18 MAY 2025 20:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -553,31 +553,73 @@ LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
 
 
 [2]
+File: assets/yobiex.png Graphic file (type bmp)
+<assets/yobiex.png>
+
 
 [3]
-LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 100.
+File: assets/senkeikairo.png Graphic file (type bmp)
+<assets/senkeikairo.png>
+
+
+[4]
+File: assets/hisenkeikairo.png Graphic file (type bmp)
+<assets/hisenkeikairo.png>
+
+
+[5]
+File: assets/dckairo.png Graphic file (type bmp)
+<assets/dckairo.png>
+
+
+[6]
+File: assets/dckaisekiplot.png Graphic file (type bmp)
+<assets/dckaisekiplot.png>
+
+
+[7]
+File: assets/ackaisekikairo.png Graphic file (type bmp)
+<assets/ackaisekikairo.png>
+
+
+[8]
+File: assets/ackaisekiplot.png Graphic file (type bmp)
+<assets/ackaisekiplot.png>
+File: assets/katokaisekikairo.png Graphic file (type bmp)
+<assets/katokaisekikairo.png>
+
+
+[9]
+File: assets/katokaisekikairo.png Graphic file (type bmp)
+<assets/katokaisekikairo.png>
+File: assets/katokaisekiplot.png Graphic file (type bmp)
+<assets/katokaisekiplot.png>
+
+
+[10]
+LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 268.
 (/usr/local/texlive/2025/texmf-dist/tex/latex/lm/ot1lmtt.fd
 File: ot1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 
-[4]
+[11]
 
-[5] (out/report.aux)
+[12] (out/report.aux)
  ***********
 pLaTeX2e <2023-02-14>+1, based on
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-04-14>
  ***********
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: 59AFD6B94ED87D66BBF9F54E55BDE956;1635.
+(rerunfilecheck)             Checksum: BF16E701B50600837ABB8EC296CF5C06;2115.
  ) 
 Here is how much of TeX's memory you used:
- 13111 strings out of 470253
- 237967 string characters out of 5485970
- 621917 words of memory out of 5000000
- 39797 multiletter control sequences out of 15000+600000
+ 13185 strings out of 470253
+ 239869 string characters out of 5485970
+ 623374 words of memory out of 5000000
+ 39858 multiletter control sequences out of 15000+600000
  675905 words of font info for 97 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 81i,6n,103p,987b,536s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 81i,10n,103p,987b,536s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on out/report.dvi (5 pages, 15972 bytes).
+Output written on out/report.dvi (12 pages, 31108 bytes).

@@ -195,6 +195,45 @@ INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/lm/omxlmex.fd
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/lmex10.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/jlreq/jlreq.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/jlreq/jlreq.tfm
+INPUT ./assets/yobiex.png
+INPUT ./assets/yobiex.png
+INPUT ./assets/yobiex.png
+INPUT extractbb -B cropbox -O assets/yobiex.png
+INPUT ./assets/senkeikairo.png
+INPUT ./assets/senkeikairo.png
+INPUT ./assets/senkeikairo.png
+INPUT extractbb -B cropbox -O assets/senkeikairo.png
+INPUT ./assets/hisenkeikairo.png
+INPUT ./assets/hisenkeikairo.png
+INPUT ./assets/hisenkeikairo.png
+INPUT extractbb -B cropbox -O assets/hisenkeikairo.png
+INPUT ./assets/dckairo.png
+INPUT ./assets/dckairo.png
+INPUT ./assets/dckairo.png
+INPUT extractbb -B cropbox -O assets/dckairo.png
+INPUT ./assets/dckaisekiplot.png
+INPUT ./assets/dckaisekiplot.png
+INPUT ./assets/dckaisekiplot.png
+INPUT extractbb -B cropbox -O assets/dckaisekiplot.png
+INPUT ./assets/ackaisekikairo.png
+INPUT ./assets/ackaisekikairo.png
+INPUT ./assets/ackaisekikairo.png
+INPUT extractbb -B cropbox -O assets/ackaisekikairo.png
+INPUT ./assets/ackaisekiplot.png
+INPUT ./assets/ackaisekiplot.png
+INPUT ./assets/ackaisekiplot.png
+INPUT extractbb -B cropbox -O assets/ackaisekiplot.png
+INPUT ./assets/katokaisekikairo.png
+INPUT ./assets/katokaisekikairo.png
+INPUT ./assets/katokaisekikairo.png
+INPUT extractbb -B cropbox -O assets/katokaisekikairo.png
+INPUT ./assets/katokaisekikairo.png
+INPUT ./assets/katokaisekikairo.png
+INPUT ./assets/katokaisekikairo.png
+INPUT ./assets/katokaisekiplot.png
+INPUT ./assets/katokaisekiplot.png
+INPUT ./assets/katokaisekiplot.png
+INPUT extractbb -B cropbox -O assets/katokaisekiplot.png
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/lm/ot1lmtt.fd
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/lm/ot1lmtt.fd
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/lm/ot1lmtt.fd
