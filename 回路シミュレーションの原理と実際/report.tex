@@ -13,6 +13,8 @@
 \numberwithin{equation}{section}
 \counterwithin{figure}{section}
 \counterwithin{table}{section}
+\ModifyHeading{section}{before_space=20pt, after_space=20pt}
+\ModifyHeading{subsubsection}{before_space=20pt, after_space=20pt}
 
 \begin{document}
 
@@ -165,21 +167,12 @@ y_{n+1} = y_n + \frac{h}{2} \left[ f(t_n, y_n) + f(t_{n+1}, y_{n+1}) \right]
 
 \begin{table}[H]
   \centering
-  \caption{実験結果}
-  \begin{tabular}{|c|c|}
-    \hline
-    \( V_{2} \) [V] & \( I\) [mA] \\ \hline
-    0.1 & 4.08 \\ \hline
-    0.2 & 4.08 \\ \hline
-    0.4 & 4.08 \\ \hline
-    0.6 & 4.08 \\ \hline
-    0.8 & 4.08 \\ \hline
-    1.0 & 4.08 \\ \hline
-    2.0 & 4.09 \\ \hline
-    3.0 & 4.09 \\ \hline
-    4.0 & 4.10 \\ \hline
-    5.0 & 4.10 \\ \hline
-  \end{tabular}
+    \caption{実験結果}
+    \begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|}
+      \hline
+      \( V_{2} \) [V] & 0.1 & 0.2 & 0.4 & 0.6 & 0.8 & 1.0 & 2.0 & 3.0 & 4.0 & 5.0 \\ \hline
+      \( I \) [mA] & 4.08 & 4.08 & 4.08 & 4.08 & 4.08 & 4.08 & 4.09 & 4.09 & 4.10 & 4.10 \\ \hline
+    \end{tabular}
 \end{table}
 
 \begin{figure}[H]
@@ -199,30 +192,22 @@ y_{n+1} = y_n + \frac{h}{2} \left[ f(t_n, y_n) + f(t_{n+1}, y_{n+1}) \right]
 
 \begin{table}[H]
   \centering
-  \caption{AC解析結果}
-  \begin{tabular}{|c|c|}
-    \hline
-    周波数 [Hz] & 電圧 [mV] \\ \hline
-    20 & 400 \\ \hline
-    30 & 400 \\ \hline
-    100 & 600 \\ \hline
-    300 & 600 \\ \hline
-    1k & 600 \\ \hline
-    3k & 1000 \\ \hline
-    10k & 1000 \\ \hline
-    30k & 1000 \\ \hline
-    100k & 1000 \\ \hline
-  \end{tabular}
+    \caption{AC解析結果}
+    \begin{tabular}{|c|c|c|c|c|c|c|c|c|c|}
+      \hline
+      周波数 [Hz] & 20Hz & 30Hz & 100Hz & 300Hz & 1kHz & 3kHz & 10kHz & 30kHz & 100kHz \\ \hline
+      電圧 [mV] & 400 & 400 & 600 & 600 & 600 & 1000 & 1000 & 1000 & 860 \\ \hline
+    \end{tabular}
 \end{table}
 
 \begin{figure}[H]
   \centering
   \includegraphics[width=\textwidth]{assets/ackaisekiplot.png}
-  \caption{過渡解析}
+  \caption{AC解析}
 \end{figure}
 
 \subsection{過渡解析}
-図3.8に示した回路を作成し、ノード2（V）の電圧を測定した結果をもとに表3.6を作成した。オシロスコープでの観測波形を図3.8に示す。なお、周期のはじまりの電位を0V基準かつ時刻t=0とし、そこからのΔVの値を記録した。また、付録に記載したネットリストを用いてSPICEでシミュレーションを実行し、さらに実測値をプロットし作成したグラフを図3.9に示す。
+図3.8に示した回路を作成し、ノード2（V）の電圧を測定した結果をもとに表3.6を作成した。オシロスコープでの観測波形を図3.9に示す。なお、周期のはじまりの電位を0V基準かつ時刻t=0とし、そこからのΔVの値を記録した。また、付録に記載したネットリストを用いてSPICEでシミュレーションを実行し、さらに実測値をプロットし作成したグラフを図3.10に示す。
 
 \begin{figure}[H]
   \centering
@@ -233,24 +218,16 @@ y_{n+1} = y_n + \frac{h}{2} \left[ f(t_n, y_n) + f(t_{n+1}, y_{n+1}) \right]
 \begin{table}[H]
   \centering
   \caption{過渡解析結果}
-  \begin{tabular}{|c|c|}
+  \begin{tabular}{|c|c|c|c|c|c|c|c|c|c|}
     \hline
-    \( t \) [\(\mu\)s] & \( V \) [V] \\ \hline
-    0 & 0 \\ \hline
-    50 & 3.84 \\ \hline
-    100 & 4.64 \\ \hline
-    150 & 4.72 \\ \hline
-    200 & 5.04 \\ \hline
-    250 & 5.12 \\ \hline
-    300 & 1.12 \\ \hline
-    360 & 0.32 \\ \hline
-    400 & 0.08 \\ \hline
+    \( t \) [\(\mu\)s] & 0 & 50 & 100 & 150 & 200 & 250 & 300 & 360 & 400 \\ \hline
+    \( V \) [V] & 0 & 3.84 & 4.64 & 4.72 & 5.04 & 5.12 & 1.12 & 0.32 & 0.08 \\ \hline
   \end{tabular}
 \end{table}
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.8\textwidth]{assets/katokaisekikairo.png}
+  \includegraphics[width=0.5\textwidth]{assets/katooshiro.JPG}
   \caption{オシロスコープでの観測波形}
 \end{figure}
 
@@ -258,6 +235,152 @@ y_{n+1} = y_n + \frac{h}{2} \left[ f(t_n, y_n) + f(t_{n+1}, y_{n+1}) \right]
   \centering
   \includegraphics[width=\textwidth]{assets/katokaisekiplot.png}
   \caption{過渡解析}
+\end{figure}
+
+\section{考察}
+\subsection{線形抵抗回路解析}
+V1, V2, V3に関しては、シミュレーション値と実測値に大きな誤差は現れなかった。軽度の誤差は電圧計の測定精度等によるものだと考えられる。\\
+電流値に関しては13％程度の誤差が確認され、電流計の内部抵抗によるものであると考えられる。電流計の内部抵抗を \( R_m \) とすると、測定される電流 \( I_m \) は以下のように表される。
+
+\[
+I_m = \frac{V}{R + R_m}
+\]
+
+ここで、 \( R \) は回路の抵抗、 \( V \) は電源電圧である。内部抵抗 \( R_m \) が無視できない場合、実際の電流 \( I \) よりも小さい値が測定されるため、誤差が生じる。この理論と実際の計測結果は一致する。
+今回、5.0Vの電圧を加えてシミュレーションでは \( I = 52.3 \, \mathrm{mA} \) より、抵抗値 \( R \) は以下のように計算される。
+
+\[
+R \approx \frac{V}{I} = \frac{5.0}{0.0523} \approx 95.6 \, \Omega
+\]
+
+一方、実測値では \( I = 45.4 \, \mathrm{mA} \) より、回路全体の抵抗値 \( R + R_m \) は以下のように計算される。
+
+\[
+R + R_m \approx \frac{V}{I} = \frac{5.0}{0.0454} \approx 110.1 \, \Omega
+\]
+
+これらの結果から、電流計の内部抵抗 \( R_m \) は以下のように求められる。
+
+\[
+R_m \approx 110.1 - 95.6 \approx 15 \, \Omega
+\]
+
+したがって、電流計の内部抵抗 \( R_m \) は約 \( 15 \, \Omega \) であると考えられる。
+
+\subsection{非線形抵抗回路解析}
+\subsubsection{コレクタ電圧の初期値を設定した場合のシミュレーション}
+図3.3の回路において、Q1のコレクタ電圧の初期値を設定した場合のシミュレーション結果を表4.1に示す。
+\begin{table}[H]
+  \centering
+  \caption{非線形抵抗回路解析シミュレーション結果}
+  \begin{tabular}{|c|c|c|c|c|}
+    \hline
+    初期値 [V] & \( V(1) \) [V] & \( V(2) \) [V] & \( V(3) \) [V] & \( I \) [mA] \\ \hline
+    0.2 & 5.00 & 0.238 & 0.644 & 0.283 \\ \hline
+    0.6 & 5.00 & 0.603 & 0.603 & 0.267 \\ \hline
+    0.8 & 5.00 & 0.644 & 0.238 & 0.283 \\ \hline
+  \end{tabular}
+\end{table}
+
+\subsection{DC解析}
+
+
+\subsection{AC解析}
+実験値はシミュレーション値と異なり、100kHz付近で電圧が減少している。この原因として、プローブの影響が考えられる。プローブには寄生容量 \( C \) と抵抗 \( R \) が存在し、これらが回路に並列に接続されることで、回路全体の周波数特性に影響を与える。
+
+プローブの影響を考慮すると、回路の高周波特性は以下のようなローパスフィルタとして振る舞う。
+\[
+f_c = \frac{1}{2 \pi R C}
+\]
+
+ここで、 \( f_c \) はカットオフ周波数であり、 \( R \) はプローブの入力抵抗、 \( C \) はプローブの入力容量である。カットオフ周波数を超えると、信号の振幅が減少し始める。
+
+今回の実験では、プローブの入力容量が比較的大きかったため、100kHz付近で信号の減衰が顕著になったと考えられる。一方、シミュレーションでは理想的な条件が仮定されているため、プローブの影響が考慮されず、減衰が見られなかった。(4)
+
+\subsection{過渡解析}
+
+
+\section{追加課題}
+
+\subsection{過渡解析の各種数値計算法比較}
+
+\subsection{フィルタ回路の作成}
+\subsubsection{53Hz以上の周波数を通過させる回路（ハイパスフィルタ）}
+抵抗とコンデンサを用いてカットオフ周波数を計算し、設計した回路を図5.1に示す。また、V1を1.0V（p-p値）にして周波数を5Hzから10kHzまで変化させたときのV2の実測値を表5.1にまとめ、シミュレーション結果と実測値をプロットしたグラフを図5.2に示す。
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.6\textwidth]{assets/highpasskairo.png}
+  \caption{ハイパスフィルタ回路}
+\end{figure}
+
+\begin{table}[H]
+  \centering
+  \caption{ハイパスフィルタ実測値}
+  \begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|}
+    \hline
+    周波数 [Hz] & 5 & 10 & 20 & 50 & 100 & 200 & 500 & 1k & 2k & 5k & 10k \\ \hline
+    電圧 [mV] & 100 & 240 & 720 & 960 & 1000 & 1000 & 1000 & 1000 & 1000 & 1000 & 1000 \\ \hline
+  \end{tabular}
+\end{table}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{assets/highpass.png}
+  \caption{シミュレーション結果}
+\end{figure}
+
+\subsubsection{160kHz以下の周波数を通過させる回路（ローパスフィルタ）}
+抵抗とコンデンサを用いてカットオフ周波数を計算し、設計した回路を図5.3に示す。また、V1を1.0V（p-p値）にして周波数を5kHzから1MHHzまで変化させたときのV2の実測値を表5.2にまとめ、シミュレーション結果と実測値をプロットしたグラフを図5.4に示す。
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.6\textwidth]{assets/lowpasskairo.png}
+  \caption{ローパスフィルタ回路}
+\end{figure}
+
+\begin{table}[H]
+  \centering
+  \caption{ローパスフィルタ実測値}
+  \begin{tabular}{|c|c|c|c|c|c|c|c|}
+    \hline
+    周波数 [kHz] & 5 & 10 & 50 & 100 & 200 & 500 & 1000 \\ \hline
+    電圧 [mV] & 1000 & 1000 & 1000 & 900 & 680 & 380 & 240 \\ \hline
+  \end{tabular}
+\end{table}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{assets/lowpass.png}
+  \caption{シミュレーション結果}
+\end{figure}
+
+\subsubsection{53Hz以上かつ160kHz以下の周波数を通過させる回路（バンドパスフィルタ）}
+抵抗とコンデンサを用いてカットオフ周波数を計算し、設計した回路を図5.3に示す。また、V1を1.0V（p-p値）にして周波数を5Hzから1MHHzまで変化させたときのV2の実測値を表5.3にまとめ、シミュレーション結果と実測値をプロットしたグラフを図5.3に示す。
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.6\textwidth]{assets/bandpasskairo.png}
+  \caption{バンドパスフィルタ回路}
+\end{figure}
+
+\begin{table}[H]
+  \centering
+    \caption{バンドパスフィルタ実測値}
+    \begin{tabular}{|c|c|c|c|c|c|c|c|c|c|}
+      \hline
+      周波数 [Hz] & 5 & 10 & 20 & 50 & 100 & 200 & 500 & 1k & 2k \\ \hline
+      電圧 [mV] & 184 & 528 & 744 & 896 & 920 & 936 & 980 & 980 & 1000 \\ \hline
+      \hline
+      周波数 [Hz] & 5k & 10k & 20k & 50k & 100k & 200k & 500k & 1M & - \\ \hline
+      電圧 [mV] & 1000 & 1000 & 1000 & 960 & 820 & 640 & 380 & 220 & - \\ \hline
+    \end{tabular}
+\end{table}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{assets/bandpass.png}
+  \caption{シミュレーション結果}
 \end{figure}
 
 \section{使用機材}
@@ -271,6 +394,9 @@ y_{n+1} = y_n + \frac{h}{2} \left[ f(t_n, y_n) + f(t_{n+1}, y_{n+1}) \right]
     \url{https://spiceman.jp/circuit-simulator-merit-demerit/}\\
     閲覧日：2025年5月17日
   \item 長尾佑紀, 『数値計算の常識を変える！ 安定性で選ぶ常微分方程式の数値解法』, 共立出版, 2022年.
+  \item プローブの基礎, YOKOGAWA \\
+  \url{https://tmi.yokogawa.com/jp/library/resources/measurement-tips/probe_basics/} \\
+  閲覧日：2025年5月19日
 \end{enumerate}
 
 \section{付録}
