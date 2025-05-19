@@ -92,8 +92,7 @@ y_{n+1} = y_n + \frac{h}{2} \left[ f(t_n, y_n) + f(t_{n+1}, y_{n+1}) \right]
 
 \section{実験結果}
 \subsection{予備実験回路解析}
-図3.1に示した回路を構築し、付録に記載したネットリストを用いてSPICEでシミュレーションを実行した結果を基に、表3.1を作成した。
-
+図3.1に示した回路を構築し、8.1節に記載したネットリストを用いてSPICEでシミュレーションを実行した結果をもとに、表3.1を作成した。
 
 \begin{figure}[H]
   \centering
@@ -115,7 +114,7 @@ y_{n+1} = y_n + \frac{h}{2} \left[ f(t_n, y_n) + f(t_{n+1}, y_{n+1}) \right]
 \end{table}
 
 \subsection{線形抵抗回路解析}
-図3.2に示した回路を構築し、付録に記載したネットリストを用いてSPICEでシミュレーションを実行した結果を基に、表3.2を作成した。
+図3.2に示した回路を構築し、8.2節に記載したネットリストを用いてSPICEでシミュレーションを実行した結果を基に、表3.2を作成した。
 
 \begin{figure}[H]
   \centering
@@ -136,7 +135,7 @@ y_{n+1} = y_n + \frac{h}{2} \left[ f(t_n, y_n) + f(t_{n+1}, y_{n+1}) \right]
 \end{table}
 
 \subsection{非線形抵抗回路解析}
-図3.3に示した回路を構築し、付録に記載したネットリストを用いてSPICEでシミュレーションを実行した結果を基に、表3.3を作成した。
+図3.3に示した回路を構築し、8.3節に記載したネットリストを用いてSPICEでシミュレーションを実行した結果を基に、表3.3を作成した。
 
 \begin{figure}[H]
   \centering
@@ -157,7 +156,7 @@ y_{n+1} = y_n + \frac{h}{2} \left[ f(t_n, y_n) + f(t_{n+1}, y_{n+1}) \right]
 \end{table}
 
 \subsection{DC解析}
-図3.4に示した回路を作成し、V2の電圧を0.1Vから5.0Vまで変化させたときの電流Iを測定することで表3.4を作成した。また、付録に記載したネットリストを用いてSPICEでシミュレーションを実行し作成したグラフを図3.5に示す。
+図3.4に示した回路を作成し、V2の電圧を0.1Vから5.0Vまで変化させたときの電流Iを測定することで表3.4を作成した。また、8.4節に記載したネットリストを用いてSPICEでシミュレーションを実行し作成したグラフを図3.5に示す。
 
 \begin{figure}[H]
   \centering
@@ -182,7 +181,7 @@ y_{n+1} = y_n + \frac{h}{2} \left[ f(t_n, y_n) + f(t_{n+1}, y_{n+1}) \right]
 \end{figure}
 
 \subsection{AC解析}
-図3.6に示した回路を作成し、V1の周波数を20Hzから100kHzまで変化させたときのノード4（Vout）の電圧を測定した結果をもとに表3.5を作成した。また、付録に記載したネットリストを用いてSPICEでシミュレーションを実行し、さらに実測値をプロットし作成したグラフを図3.7に示す。
+図3.6に示した回路を作成し、V1の周波数を20Hzから100kHzまで変化させたときのノード4（Vout）の電圧を測定した結果をもとに表3.5を作成した。また、8.5節に記載したネットリストを用いてSPICEでシミュレーションを実行し、さらに実測値をプロットし作成したグラフを図3.7に示す。
 
 \begin{figure}[H]
   \centering
@@ -207,7 +206,7 @@ y_{n+1} = y_n + \frac{h}{2} \left[ f(t_n, y_n) + f(t_{n+1}, y_{n+1}) \right]
 \end{figure}
 
 \subsection{過渡解析}
-図3.8に示した回路を作成し、ノード2（V）の電圧を測定した結果をもとに表3.6を作成した。オシロスコープでの観測波形を図3.9に示す。なお、周期のはじまりの電位を0V基準かつ時刻t=0とし、そこからのΔVの値を記録した。また、付録に記載したネットリストを用いてSPICEでシミュレーションを実行し、さらに実測値をプロットし作成したグラフを図3.10に示す。
+図3.8に示した回路を作成し、ノード2（V）の電圧を測定した結果をもとに表3.6を作成した。オシロスコープでの観測波形を図3.9に示す。なお、周期のはじまりの電位を0V基準かつ時刻t=0とし、そこからのΔVの値を記録した。また、8.6節に記載したネットリストを用いてSPICEでシミュレーションを実行し、さらに実測値をプロットし作成したグラフを図3.10に示す。
 
 \begin{figure}[H]
   \centering
@@ -218,10 +217,10 @@ y_{n+1} = y_n + \frac{h}{2} \left[ f(t_n, y_n) + f(t_{n+1}, y_{n+1}) \right]
 \begin{table}[H]
   \centering
   \caption{過渡解析結果}
-  \begin{tabular}{|c|c|c|c|c|c|c|c|c|c|}
+  \begin{tabular}{|c|c|c|c|c|c|c|c|}
     \hline
-    \( t \) [\(\mu\)s] & 0 & 50 & 100 & 150 & 200 & 250 & 300 & 360 & 400 \\ \hline
-    \( V \) [V] & 0 & 3.84 & 4.64 & 4.72 & 5.04 & 5.12 & 1.12 & 0.32 & 0.08 \\ \hline
+    \( t \) [\(\mu\)s] & 0 & 50 & 100 & 150 & 200 & 250 & 300 \\ \hline
+    \( V \) [V] & 0 & 3.84 & 4.64 & 4.72 & 5.04 & 5.12 & 1.12 \\ \hline
   \end{tabular}
 \end{table}
 
@@ -268,8 +267,10 @@ R_m \approx 110.1 - 95.6 \approx 15 \, \Omega
 したがって、電流計の内部抵抗 \( R_m \) は約 \( 15 \, \Omega \) であると考えられる。
 
 \subsection{非線形抵抗回路解析}
-\subsubsection{コレクタ電圧の初期値を設定した場合のシミュレーション}
-図3.3の回路において、Q1のコレクタ電圧の初期値を設定した場合のシミュレーション結果を表4.1に示す。
+V1,V2,Iに関してはシミュレーション結果と概ね一致しているといえるが、V3に関しては実測値がシミュレーション結果より極端に小さくなっていることがわかる。\\
+
+\paragraph{コレクタ電圧の初期値を設定した場合のシミュレーション}
+図3.3の回路において、Q1のコレクタ電圧の初期値を設定した場合のシミュレーション結果を表4.1に示す。またシミュレーションで使用したネットリストを8.3節に示す。
 \begin{table}[H]
   \centering
   \caption{非線形抵抗回路解析シミュレーション結果}
@@ -282,8 +283,14 @@ R_m \approx 110.1 - 95.6 \approx 15 \, \Omega
   \end{tabular}
 \end{table}
 
-\subsection{DC解析}
+コレクタ電圧を0.6Vとしたときは、初期値を設定しなかったときとシミュレーション結果は変化しなかったが、初期値を0.2VとしたときにはV2の低下かつV3の増加、0.8VとしたときにはV2の増加かつV3の低下が対称的にみられた。
 
+この主な要因として、SPICEシミュレーションでは非線形回路方程式の解法にニュートン法が用いられていることが挙げられる。非線形回路には複数の解（動作点）が存在し、安定解と不安定解が混在する。ニュートン法は初期値の設定によって収束する解が変わるため、実験と異なる動作点に収束する場合がある。今回のシミュレーションでは、コレクタ電圧の初期値を変えることでV2とV3の値が対称的に変化する現象が見られ、これは非線形系特有の多重解や双安定性が影響していると考えられる。(4)(5)
+
+\subsection{DC解析}
+シミュレーションでは値が一定であるのに対し、実測値では電圧が上がるにつれてわずかに電流値も大きくなっていることが確認された。
+
+この現象の主な原因として考えられるのは、実際のトランジスタにおける「アーリー効果」である。アーリー効果とは、トランジスタのコレクタ-エミッタ間電圧 (VCE) が増加すると、実効的なベース幅が減少し、その結果コレクタ電流がわずかに増加する現象である。シミュレーションでは理想的なトランジスタモデルが使用されている可能性があり、このアーリー効果が十分に考慮されていないことが原因と考えられる。(6)
 
 \subsection{AC解析}
 実験値はシミュレーション値と異なり、100kHz付近で電圧が減少している。この原因として、プローブの影響が考えられる。プローブには寄生容量 \( C \) と抵抗 \( R \) が存在し、これらが回路に並列に接続されることで、回路全体の周波数特性に影響を与える。
@@ -295,7 +302,7 @@ f_c = \frac{1}{2 \pi R C}
 
 ここで、 \( f_c \) はカットオフ周波数であり、 \( R \) はプローブの入力抵抗、 \( C \) はプローブの入力容量である。カットオフ周波数を超えると、信号の振幅が減少し始める。
 
-今回の実験では、プローブの入力容量が比較的大きかったため、100kHz付近で信号の減衰が顕著になったと考えられる。一方、シミュレーションでは理想的な条件が仮定されているため、プローブの影響が考慮されず、減衰が見られなかった。(4)
+今回の実験では、プローブの入力容量が比較的大きかったため、100kHz付近で信号の減衰が顕著になったと考えられる。一方、シミュレーションでは理想的な条件が仮定されているため、プローブの影響が考慮されず、減衰が見られなかったと考えられる。(7)
 
 \subsection{過渡解析}
 
@@ -303,10 +310,67 @@ f_c = \frac{1}{2 \pi R C}
 \section{追加課題}
 
 \subsection{過渡解析の各種数値計算法比較}
+ここでは、RC回路の過渡応答を数値的に計算する。$0$から$300\,\mu\mathrm{s}$の範囲で、前進オイラー法、後退オイラー法、台形法を用いてシミュレーションを行う。
+
+RC回路の微分方程式は次式で表される。
+\[
+i = C \frac{dv}{dt}
+\]
+よって両辺を \( C \) で割れば \( v \) を \( t \) で微分した値が得られる。
+
+\[
+f(v, t) = \frac{dv}{dt},\quad v_0 = 0
+\]
+
+2.4節より、各数値解析法による計算をした結果を表5.1に示す。
+各手法の差分方程式は以下のようになる。
+
+\begin{enumerate}
+  \item \textbf{前進オイラー法}
+  \[
+    v_{n+1} = v_n + \frac{h}{RC}(V_0 - v_n)
+  \]
+  \item \textbf{後退オイラー法}
+  \[
+    v_{n+1} = \frac{V_0 h + RC v_n}{h + RC}
+  \]
+  \item \textbf{台形法}
+  \[
+    v_{n+1} = \frac{2 V_0 h + 2 (RC - h) v_n}{h + 2RC}
+  \]
+\end{enumerate}
+
+ここで、\( h \) は時間刻み幅、\( RC \) は回路の時定数、\( V_0 \) は入力電圧である。
+
+今回 \( h = 50 \, \mu\mathrm{s}, V_0 = 5 \, \mathrm{V}, C = 1 \, \mathrm{nF}, R = 33 \, \mathrm{k}\Omega \) を代入して計算する。
+それぞれの計算結果を表5.1に示す。
+
+\begin{table}[H]
+  \centering
+  \caption{各手法による計算結果}
+  \begin{tabular}{|c|c|c|c|c|c|c|c|}
+    \hline
+    時間 [\(\mu\)s] & 0 & 50 & 100 & 150 & 200 & 250 & 300 \\ \hline
+    厳密解 [V] & 0.000 & 3.90 & 4.76 & 4.95 & 4.99 & 5.00 & 5.00 \\ \hline
+    前進オイラー [V] & 0.000 & 7.58 & 3.67 & 5.68 & 4.65 & 5.18 & 4.91 \\ \hline
+    後退オイラー [V] & 0.000 & 3.01 & 4.21 & 4.69 & 4.88 & 4.95 & 4.98 \\ \hline
+    台形法 [V] & 0.000 & 4.31 & 4.90 & 4.99 & 5.00 & 5.00 & 5.00 \\ \hline
+  \end{tabular}
+\end{table}
+
+この結果から、台形法、後退オイラー法、前進オイラー法の順に誤差が少ないことがわかる。
+
+また、この結果より図5.1を作成した。
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{assets/katohikakuplot.png}
+  \caption{各手法による計算結果の比較}
+\end{figure}
 
 \subsection{フィルタ回路の作成}
 \subsubsection{53Hz以上の周波数を通過させる回路（ハイパスフィルタ）}
-抵抗とコンデンサを用いてカットオフ周波数を計算し、設計した回路を図5.1に示す。また、V1を1.0V（p-p値）にして周波数を5Hzから10kHzまで変化させたときのV2の実測値を表5.1にまとめ、シミュレーション結果と実測値をプロットしたグラフを図5.2に示す。
+抵抗とコンデンサを用いてカットオフ周波数を計算し、設計した回路を図5.2に示す。また、V1を1.0V（p-p値）にして周波数を5Hzから10kHzまで変化させたときのV2の実測値を表5.2にまとめ、8.7節のネットリストによるシミュレーション結果と実測値をプロットしたグラフを図5.3に示す。
 
 \begin{figure}[H]
   \centering
@@ -331,7 +395,7 @@ f_c = \frac{1}{2 \pi R C}
 \end{figure}
 
 \subsubsection{160kHz以下の周波数を通過させる回路（ローパスフィルタ）}
-抵抗とコンデンサを用いてカットオフ周波数を計算し、設計した回路を図5.3に示す。また、V1を1.0V（p-p値）にして周波数を5kHzから1MHHzまで変化させたときのV2の実測値を表5.2にまとめ、シミュレーション結果と実測値をプロットしたグラフを図5.4に示す。
+抵抗とコンデンサを用いてカットオフ周波数を計算し、設計した回路を図5.4に示す。また、V1を1.0V（p-p値）にして周波数を5kHzから1MHHzまで変化させたときのV2の実測値を表5.3にまとめ、8.8節のネットリストによるシミュレーション結果と実測値をプロットしたグラフを図5.5に示す。
 
 \begin{figure}[H]
   \centering
@@ -356,7 +420,7 @@ f_c = \frac{1}{2 \pi R C}
 \end{figure}
 
 \subsubsection{53Hz以上かつ160kHz以下の周波数を通過させる回路（バンドパスフィルタ）}
-抵抗とコンデンサを用いてカットオフ周波数を計算し、設計した回路を図5.3に示す。また、V1を1.0V（p-p値）にして周波数を5Hzから1MHHzまで変化させたときのV2の実測値を表5.3にまとめ、シミュレーション結果と実測値をプロットしたグラフを図5.3に示す。
+抵抗とコンデンサを用いてカットオフ周波数を計算し、設計した回路を図5.6に示す。また、V1を1.0V（p-p値）にして周波数を5Hzから1MHHzまで変化させたときのV2の実測値を表5.4にまとめ、8.9節のネットリストによるシミュレーション結果と実測値をプロットしたグラフを図5.7に示す。
 
 \begin{figure}[H]
   \centering
@@ -383,7 +447,22 @@ f_c = \frac{1}{2 \pi R C}
   \caption{シミュレーション結果}
 \end{figure}
 
+概ねシミュレーション結果と同様の実測値が得られた。
+
 \section{使用機材}
+表6.1に示す。
+\begin{table}[H]
+  \centering
+  \caption{使用機材一覧}
+  \begin{tabular}{|c|c|c|c|}
+    \hline
+    名称 & 型式 & 製造元 & 管理番号 \\ \hline
+    直流電流源 & PMC35-1.2DU & KIKUSUI & UK002986 \\ \hline
+    ファンクションジェネレータ & FG-274 & TEXIO & 17073061 \\ \hline
+    オシロスコープ & TDS 2004B & Tektronix & C100578 \\ \hline
+    デジタルマルチメータ & CD731 & Sanwa & 0152985 \\ \hline
+  \end{tabular}
+\end{table}
 
 \section{参考文献}
 \begin{enumerate}
@@ -394,6 +473,15 @@ f_c = \frac{1}{2 \pi R C}
     \url{https://spiceman.jp/circuit-simulator-merit-demerit/}\\
     閲覧日：2025年5月17日
   \item 長尾佑紀, 『数値計算の常識を変える！ 安定性で選ぶ常微分方程式の数値解法』, 共立出版, 2022年.
+  \item SPICE におけるニュートン法の課題と対策\\
+  \url{https://qiita.com/sukimaengineer/items/0dbce87dc5fb2c17aeb5} \\
+  閲覧日：2025年5月19日
+   \item LTspiceの優位性\\
+  \url{https://www.analog.com/jp/resources/technical-articles/spice-differentiation.html} \\
+  閲覧日：2025年5月19日
+  \item アーリー効果とは？メカニズムとアーリー電圧の求め方, Analogista \\
+  \url{https://analogista.jp/early-effect/} \\
+  閲覧日：2025年5月19日
   \item プローブの基礎, YOKOGAWA \\
   \url{https://tmi.yokogawa.com/jp/library/resources/measurement-tips/probe_basics/} \\
   閲覧日：2025年5月19日
@@ -401,14 +489,168 @@ f_c = \frac{1}{2 \pi R C}
 
 \section{付録}
 本実験のシミュレーションで使用したSPICEのネットリストを以下に示す。
+
+なお、今回の実験で使用したトランジスタのモデル定義については以下であり、各節では省略している。
+\begin{verbatim}
+.MODEL     SC1815Y-1  NPN  (                  is   = 9.37282E-15  
+   + bf    = 170.4435407  nf   = 0.9950205    vaf  = 289.6037168  
+   + ikf   = 0.8720864    ise  = 1.60756E-15  ne   = 1.5936166 
+   + br    = 5.0638521    nr   = 0.9955386    var  = 15.8262796  
+   + ikr   = 2.33473E-3   isc  = 9.62491E-15  nc   = 1.0344131  
+   + rb    = 55           re   = 0.8331605    rc   = 0.7956197  
+   + cje   = 1.48343E-11  vje  = 0.544257     mje  = 0.2984869  
+   + tf    = 5.3964E-10   xtf  = 0.1584639    vtf  = 5.843019  
+   + itf   = 1.48869E-3   cjc  = 4.62178E-12  vjc  = 0.440088  
+   + mjc   = 0.3482488    fc   = 0.8176782	 )
+\end{verbatim}
+
+\subsection{予備実験回路解析}
+\begin{verbatim}
+Pre Ex
+V 1 0 5V
+R1 1 2 100
+R2 2 3 30
+R3 3 0 200
+.OP
+.END
+\end{verbatim}
+
 \subsection{線形抵抗回路解析}
+\begin{verbatim}
+Linear Analye
+V 1 0 5V
+R1 1 2 30
+R2 2 0 100
+R3 1 3 300
+R4 3 0 200
+R5 2 3 33
+.OP
+.END
+\end{verbatim}
 
 \subsection{非線形抵抗回路解析}
+\subsubsection{コレクタ電圧の初期値設定なし}
+\begin{verbatim}
+Non-linear Analyze
+V 1 0 5V
+R1 1 2 33k
+R2 1 3 33k
+Q1 2 3 0 SC1815Y-1
+Q2 3 2 0 SC1815Y-1
+.OP
+.END
+\end{verbatim}
+
+\subsubsection{コレクタ電圧の初期値を0.2Vに設定}
+\begin{verbatim}
+Non-linear Analyze 0.2
+V 1 0 5V
+R1 1 2 33k
+R2 1 3 33k
+Q1 2 3 0 SC1815Y-1
+Q2 3 2 0 SC1815Y-1
+.nodeset V(2) 0.2
+.OP
+.END
+\end{verbatim}
+
+\subsubsection{コレクタ電圧の初期値を0.6Vに設定}
+\begin{verbatim}
+Non-linear Analyze 0.6
+V 1 0 5V
+R1 1 2 33k
+R2 1 3 33k
+Q1 2 3 0 SC1815Y-1
+Q2 3 2 0 SC1815Y-1
+.nodeset V(2) 0.6
+.OP
+.END
+\end{verbatim}
+
+\subsubsection{コレクタ電圧の初期値を0.8Vに設定}
+\begin{verbatim}
+Non-linear Analyze 0.8
+V 1 0 5V
+R1 1 2 33k
+R2 1 3 33k
+Q1 2 3 0 SC1815Y-1
+Q2 3 2 0 SC1815Y-1
+.nodeset V(2) 0.8
+.OP
+.END
+\end{verbatim}
 
 \subsection{DC解析}
+\begin{verbatim}
+DC Analyze
+V1 1 0 5V
+V2 3 0 5V
+R1 1 2 1k
+Q1 2 2 0 SC1815Y-1
+Q2 3 2 0 SC1815Y-1
+.DC V2 0 5 1m
+.PROBE
+.END
+\end{verbatim}
 
 \subsection{AC解析}
+\begin{verbatim}
+AC Analyze
+V1 1 0 AC 0.5V
+V2 3 0 6V
+C1 1 2 10uF
+R1 2 3 300
+R2 2 0 300
+R3 3 4 33k
+R4 5 0 33k
+Q1 4 2 5 SC1815Y-1
+.AC DEC 49999 20Hz 100kHz
+.PROBE
+.END
+\end{verbatim}
 
 \subsection{過渡解析}
+\begin{verbatim}
+Transient Analyze
+V1 1 0 PULSE(0 5 0 0 0 250u 500u)
+R1 1 2 33k
+C1 2 0 1n
+.TRAN 1u 1m
+.PROBE
+.END
+\end{verbatim}
+
+\subsection{ハイパスフィルタ}
+\begin{verbatim}
+High Pass Filter
+V1 1 0 AC 1V
+R1 2 0 1k
+C1 1 2 10u
+.AC DEC 10000 1Hz 10000kHz
+.PROBE
+.END
+\end{verbatim}
+
+\subsection{ローパスフィルタ}
+\begin{verbatim}
+Low Pass Filter
+V1 1 0 AC 1V
+R1 1 2 1k
+C1 2 0 1n
+.AC DEC 10000 1Hz 10000kHz
+.PROBE
+.END
+\end{verbatim}
+
+\subsection{バンドパスフィルタ}
+\begin{verbatim}
+Band Pass Filter
+V1 1 0 AC 1V
+R1 1 2 1k
+C1 2 0 1n
+.AC DEC 10000 1Hz 10000kHz
+.PROBE
+.END
+\end{verbatim}
 
 \end{document}

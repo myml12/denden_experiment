@@ -235,6 +235,11 @@ INPUT ./assets/katokaisekiplot.png
 INPUT ./assets/katokaisekiplot.png
 INPUT ./assets/katokaisekiplot.png
 INPUT extractbb -B cropbox -O assets/katokaisekiplot.png
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/rm-lmbx10.tfm
+INPUT ./assets/katohikakuplot.png
+INPUT ./assets/katohikakuplot.png
+INPUT ./assets/katohikakuplot.png
+INPUT extractbb -B cropbox -O assets/katohikakuplot.png
 INPUT ./assets/highpasskairo.png
 INPUT ./assets/highpasskairo.png
 INPUT ./assets/highpasskairo.png
