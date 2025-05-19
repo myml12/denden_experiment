@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.2-u2.00-250202-2.6 (utf8.euc) (TeX Live 2025) (preloaded format=platex 2025.5.3)  19 MAY 2025 20:16
+This is e-upTeX, Version 3.141592653-p4.1.2-u2.00-250202-2.6 (utf8.euc) (TeX Live 2025) (preloaded format=platex 2025.5.3)  19 MAY 2025 20:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -602,23 +602,23 @@ File: assets/katokaisekiplot.png Graphic file (type bmp)
 
 [12]
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 329.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 336.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 10.0pt on input line 329.
+(Font)              scaled to size 10.0pt on input line 336.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 329.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 336.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 10.0pt on input line 329.
+(Font)              scaled to size 10.0pt on input line 336.
 
 
 [13]
 File: assets/katohikakuplot.png Graphic file (type bmp)
 <assets/katohikakuplot.png>
-File: assets/highpasskairo.png Graphic file (type bmp)
-<assets/highpasskairo.png>
 
 
 [14]
+File: assets/highpasskairo.png Graphic file (type bmp)
+<assets/highpasskairo.png>
 File: assets/highpass.png Graphic file (type bmp)
 <assets/highpass.png>
 
@@ -638,18 +638,18 @@ File: assets/bandpass.png Graphic file (type bmp)
 
 
 [17]
-LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 470.
+LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 477.
 (/usr/local/texlive/2025/texmf-dist/tex/latex/lm/ot1lmtt.fd
 File: ot1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 
 [18]
-Overfull \hbox (6.99515pt too wide) in paragraph at lines 479--482
+Overfull \hbox (6.99515pt too wide) in paragraph at lines 486--489
 [][]$\OT1/lmtt/m/n/10 https : / / www . analog . com / jp / resources / technical-[]articles / spice-[]differentiation .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 485--488
+Underfull \hbox (badness 10000) in paragraph at lines 492--495
 [][]$\OT1/lmtt/m/n/10 https : / / tmi . yokogawa . com / jp / library / resources / measurement-[]tips / probe _
  []
 
@@ -683,4 +683,4 @@ Here is how much of TeX's memory you used:
  929 hyphenation exceptions out of 8191
  81i,10n,103p,987b,620s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on out/report.dvi (24 pages, 64728 bytes).
+Output written on out/report.dvi (24 pages, 64708 bytes).
