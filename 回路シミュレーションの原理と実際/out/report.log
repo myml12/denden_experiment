@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.2-u2.00-250202-2.6 (utf8.euc) (TeX Live 2025) (preloaded format=platex 2025.5.3)  20 MAY 2025 12:53
+This is e-upTeX, Version 3.141592653-p4.1.2-u2.00-250202-2.6 (utf8.euc) (TeX Live 2025) (preloaded format=platex 2025.5.3)  20 MAY 2025 13:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -614,32 +614,32 @@ LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 
 
 [14]
-File: assets/katohikakuplot.png Graphic file (type bmp)
-<assets/katohikakuplot.png>
+File: assets/katohikakuplot.jpg Graphic file (type bmp)
+<assets/katohikakuplot.jpg>
 File: assets/highpasskairo.png Graphic file (type bmp)
 <assets/highpasskairo.png>
 
 
 [15]
-File: assets/highpass.png Graphic file (type bmp)
-<assets/highpass.png>
+File: assets/highpass.jpg Graphic file (type bmp)
+<assets/highpass.jpg>
 
 
 [16]
 File: assets/lowpasskairo.png Graphic file (type bmp)
 <assets/lowpasskairo.png>
-File: assets/lowpass.png Graphic file (type bmp)
-<assets/lowpass.png>
+File: assets/lowpass.jpg Graphic file (type bmp)
+<assets/lowpass.jpg>
 
 
 [17]
 File: assets/bandpasskairo.png Graphic file (type bmp)
 <assets/bandpasskairo.png>
-File: assets/bandpass.png Graphic file (type bmp)
-<assets/bandpass.png>
 
 
 [18]
+File: assets/bandpass.jpg Graphic file (type bmp)
+<assets/bandpass.jpg>
 LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 501.
 (/usr/local/texlive/2025/texmf-dist/tex/latex/lm/ot1lmtt.fd
 File: ot1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
@@ -679,10 +679,10 @@ Package rerunfilecheck Info: File `report.out' has not changed.
 Here is how much of TeX's memory you used:
  13245 strings out of 470253
  241327 string characters out of 5485970
- 627077 words of memory out of 5000000
+ 628077 words of memory out of 5000000
  39907 multiletter control sequences out of 15000+600000
  678851 words of font info for 98 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  81i,10n,103p,987b,620s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on out/report.dvi (25 pages, 68056 bytes).
+Output written on out/report.dvi (25 pages, 68004 bytes).

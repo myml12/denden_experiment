@@ -236,34 +236,34 @@ INPUT ./assets/katokaisekiplot.jpg
 INPUT ./assets/katokaisekiplot.jpg
 INPUT extractbb -B cropbox -O assets/katokaisekiplot.jpg
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/rm-lmbx10.tfm
-INPUT ./assets/katohikakuplot.png
-INPUT ./assets/katohikakuplot.png
-INPUT ./assets/katohikakuplot.png
-INPUT extractbb -B cropbox -O assets/katohikakuplot.png
+INPUT ./assets/katohikakuplot.jpg
+INPUT ./assets/katohikakuplot.jpg
+INPUT ./assets/katohikakuplot.jpg
+INPUT extractbb -B cropbox -O assets/katohikakuplot.jpg
 INPUT ./assets/highpasskairo.png
 INPUT ./assets/highpasskairo.png
 INPUT ./assets/highpasskairo.png
 INPUT extractbb -B cropbox -O assets/highpasskairo.png
-INPUT ./assets/highpass.png
-INPUT ./assets/highpass.png
-INPUT ./assets/highpass.png
-INPUT extractbb -B cropbox -O assets/highpass.png
+INPUT ./assets/highpass.jpg
+INPUT ./assets/highpass.jpg
+INPUT ./assets/highpass.jpg
+INPUT extractbb -B cropbox -O assets/highpass.jpg
 INPUT ./assets/lowpasskairo.png
 INPUT ./assets/lowpasskairo.png
 INPUT ./assets/lowpasskairo.png
 INPUT extractbb -B cropbox -O assets/lowpasskairo.png
-INPUT ./assets/lowpass.png
-INPUT ./assets/lowpass.png
-INPUT ./assets/lowpass.png
-INPUT extractbb -B cropbox -O assets/lowpass.png
+INPUT ./assets/lowpass.jpg
+INPUT ./assets/lowpass.jpg
+INPUT ./assets/lowpass.jpg
+INPUT extractbb -B cropbox -O assets/lowpass.jpg
 INPUT ./assets/bandpasskairo.png
 INPUT ./assets/bandpasskairo.png
 INPUT ./assets/bandpasskairo.png
 INPUT extractbb -B cropbox -O assets/bandpasskairo.png
-INPUT ./assets/bandpass.png
-INPUT ./assets/bandpass.png
-INPUT ./assets/bandpass.png
-INPUT extractbb -B cropbox -O assets/bandpass.png
+INPUT ./assets/bandpass.jpg
+INPUT ./assets/bandpass.jpg
+INPUT ./assets/bandpass.jpg
+INPUT extractbb -B cropbox -O assets/bandpass.jpg
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/lm/ot1lmtt.fd
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/lm/ot1lmtt.fd
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/lm/ot1lmtt.fd
