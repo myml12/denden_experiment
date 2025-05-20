@@ -1,11 +1,11 @@
 # Fdb version 4
-["dvipdf"] 1747702774.69784 "out/report.dvi" "out/report.pdf" "out/report" 1747702783.39522 0
-  "out/report.dvi" 1747702774.66633 91252 49e36be913405589ad29959bf9a2003b "latex"
+["dvipdf"] 1747703624.74254 "out/report.dvi" "out/report.pdf" "out/report" 1747703633.24297 0
+  "out/report.dvi" 1747703624.71045 91092 0e7fb01348dd2fa608f74ed4985d17b3 "latex"
   (generated)
   "out/report.pdf"
   (rewritten before read)
-["latex"] 1747702771.41255 "/Users/myml12/Documents/電気電子情報通信実験/基本ディジタル回路/report.tex" "out/report.dvi" "report" 1747702783.39425 0
-  "/Users/myml12/Documents/電気電子情報通信実験/基本ディジタル回路/report.tex" 1747702769.24183 38995 56350db8bb6ec67ec5bca34c28114f68 ""
+["latex"] 1747703621.52211 "/Users/myml12/Documents/電気電子情報通信実験/基本ディジタル回路/report.tex" "out/report.dvi" "report" 1747703633.24205 0
+  "/Users/myml12/Documents/電気電子情報通信実験/基本ディジタル回路/report.tex" 1747703501.79615 38936 587457c9696068d85eb84066e5a3837a ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmr8.tfm" 1136768653 1292 21c1c5bfeaebccffdb478fd231a0997d ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmr9.tfm" 1136768653 1292 6b21b9c2c7bebb38aa2273f7ca0fb3af ""
@@ -124,7 +124,7 @@
   "assets/memorykairo.png" 1747120258.31573 588119 fa3849d56af28395a94ea264bd059bf2 ""
   "assets/nand.png" 1747014865.46087 597932 ea3bcb46fcba36d697ffa890810d78ed ""
   "assets/nor.png" 1747014951.42578 613750 0eee90106be5d19b5e51ae12cd097ad3 ""
-  "assets/not.png" 1747014093.48597 30868 20b9390f0044d4f1152b24ece469d998 ""
+  "assets/not.png" 1747703595.05082 25989 ae88ed2dbbc66c5ca8d14b7a753a9c0f ""
   "assets/notnand.png" 1747121651.7595 69176 640d72e269c3fc422b8b1f101d00affe ""
   "assets/notnandshinri.png" 1747121757.93832 325495 d5b01464990fb90c2a20e8be29268142 ""
   "assets/notnor.png" 1747121820.88597 125869 9ecc354c6bf0534fc53038f37a3616d6 ""
@@ -137,8 +137,8 @@
   "assets/srffchart.png" 1747128019.03042 1187107 1943cb37d27114e0754d41c328b48a85 ""
   "assets/srffkairo.png" 1747119477.78299 350147 c240678ae229511ccc7813f20cf6c212 ""
   "assets/tc74hc126shinri.png" 1747138112.50595 332518 0a63df99a003f6400df5511391867948 ""
-  "out/report.aux" 1747702774.66445 16553 d31f57438e69ec3cf89e3b5e43c0e01f "latex"
-  "out/report.out" 1747702774.66616 7166 a46807bc8c79c562449940ecad92ba31 "latex"
+  "out/report.aux" 1747703624.70869 16553 d31f57438e69ec3cf89e3b5e43c0e01f "latex"
+  "out/report.out" 1747703624.71029 7166 a46807bc8c79c562449940ecad92ba31 "latex"
   (generated)
   "out/report.aux"
   "out/report.dvi"
