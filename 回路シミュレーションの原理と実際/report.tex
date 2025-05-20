@@ -13,7 +13,7 @@
 \numberwithin{equation}{section}
 \counterwithin{figure}{section}
 \counterwithin{table}{section}
-\ModifyHeading{section}{before_space=20pt, after_space=20pt}
+\ModifyHeading{section}{before_space=30pt, after_space=20pt}
 \ModifyHeading{subsubsection}{before_space=20pt, after_space=20pt}
 
 \begin{document}
@@ -201,7 +201,7 @@ y_{n+1} = y_n + \frac{h}{2} \left[ f(t_n, y_n) + f(t_{n+1}, y_{n+1}) \right]
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=\textwidth]{assets/ackaisekiplot.png}
+  \includegraphics[width=\textwidth]{assets/ackaisekiplot.jpg}
   \caption{AC解析}
 \end{figure}
 
@@ -232,7 +232,7 @@ y_{n+1} = y_n + \frac{h}{2} \left[ f(t_n, y_n) + f(t_{n+1}, y_{n+1}) \right]
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=\textwidth]{assets/katokaisekiplot.png}
+  \includegraphics[width=\textwidth]{assets/katokaisekiplot.jpg}
   \caption{過渡解析}
 \end{figure}
 
@@ -312,22 +312,46 @@ RC = \frac{1}{2\pi \times 1.0 \times 10^5} \approx 1.59\,\mu\mathrm{s}
 一方、シミュレーションでは理想的な条件が仮定されているため、プローブの影響が考慮されず、減衰が見られなかったと考えられる。(7)
 
 \subsection{過渡解析}
+本実験において、図3.10よりコンデンサの充電過程に関するシミュレーション結果では約 $200\,\mu\mathrm{s}$ 時点で電圧が定常状態に達したとみなされていると読み取れる。一方、実測データでは $250\,\mu\mathrm{s}$ 程度までわずかに電圧が上昇し続ける様子が観測された。
 
+RC回路におけるコンデンサの電圧変化は
+\[
+V(t) = E\left(1 - e^{-t/RC}\right)
+\]
+であり、理論的には $t \to \infty$ のとき初めて $V(t) = E$ に達する。つまり、このプロセスは有限時間内に完結することはなく、常に漸近的に平衡状態へと近づく挙動を示す。
+
+シミュレーションでは、電圧が起電力 $E$ の 99\% または 99.9\% に達した時点で「定常状態」とみなされることが多く、これにより $200\,\mu\mathrm{s}$ 付近で電圧の変化が打ち切られる。しかし、実測値ではこうした近似を行わないため、指数関数的にわずかに残る電圧上昇が $250\,\mu\mathrm{s}$ 付近まで可視化されると考えられる。(8)
+
+また、プローブの寄生容量や内部抵抗などによっても時定数に影響が出ると考えられる。
+
+さらに、詳しくは5.1節で言及するが、シミュレーターが使用している数値計算法の誤差も大きな要因として考えられる。
 
 \section{追加課題}
 
 \subsection{過渡解析の各種数値計算法比較}
 ここでは、RC回路の過渡応答を数値的に計算する。$0$から$300\,\mu\mathrm{s}$の範囲で、前進オイラー法、後退オイラー法、台形法を用いてシミュレーションを行う。
 
-RC回路の微分方程式は次式で表される。
+厳密解について、RC回路の微分方程式は次式で表される。
 \[
-i = C \frac{dv}{dt}
+i(t) = C \frac{dv_C}{dt}
 \]
-よって両辺を \( C \) で割れば \( v \) を \( t \) で微分した値が得られる。
+また、オームの法則より
+\[
+i(t) = \frac{E - v_C(t)}{R}
+\]
+したがって、これらを連立すると
+\[
+C \frac{dv_C}{dt} = \frac{E - v_C(t)}{R}
+\]
+\[
+\frac{dv_C}{dt} + \frac{1}{RC} v_C(t) = \frac{E}{RC}
+\]
 
+この微分方程式の厳密解は、初期条件 \( v_C(0) = 0 \) のもとで
 \[
-f(v, t) = \frac{dv}{dt},\quad v_0 = 0
+v_C(t) = E \left( 1 - e^{- \frac{t}{RC}} \right)
 \]
+となる。
 
 2.4節より、各数値解析法による計算をした結果を表5.1に示す。
 各手法の差分方程式は以下のようになる。
@@ -491,6 +515,9 @@ f(v, t) = \frac{dv}{dt},\quad v_0 = 0
   閲覧日：2025年5月19日
   \item プローブの基礎, YOKOGAWA \\
   \url{https://tmi.yokogawa.com/jp/library/resources/measurement-tips/probe_basics/} \\
+  閲覧日：2025年5月19日
+  \item コンデンサの役割を学ぶ, APS, 組み込み氷解専門メディア \\
+  \url{https://www.aps-web.jp/academy/ec/188/} \\
   閲覧日：2025年5月19日
 \end{enumerate}
 

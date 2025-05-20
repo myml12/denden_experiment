@@ -219,10 +219,10 @@ INPUT ./assets/ackaisekikairo.png
 INPUT ./assets/ackaisekikairo.png
 INPUT ./assets/ackaisekikairo.png
 INPUT extractbb -B cropbox -O assets/ackaisekikairo.png
-INPUT ./assets/ackaisekiplot.png
-INPUT ./assets/ackaisekiplot.png
-INPUT ./assets/ackaisekiplot.png
-INPUT extractbb -B cropbox -O assets/ackaisekiplot.png
+INPUT ./assets/ackaisekiplot.jpg
+INPUT ./assets/ackaisekiplot.jpg
+INPUT ./assets/ackaisekiplot.jpg
+INPUT extractbb -B cropbox -O assets/ackaisekiplot.jpg
 INPUT ./assets/katokaisekikairo.png
 INPUT ./assets/katokaisekikairo.png
 INPUT ./assets/katokaisekikairo.png
@@ -231,10 +231,10 @@ INPUT ./assets/katooshiro.JPG
 INPUT ./assets/katooshiro.JPG
 INPUT ./assets/katooshiro.JPG
 INPUT extractbb -B cropbox -O assets/katooshiro.JPG
-INPUT ./assets/katokaisekiplot.png
-INPUT ./assets/katokaisekiplot.png
-INPUT ./assets/katokaisekiplot.png
-INPUT extractbb -B cropbox -O assets/katokaisekiplot.png
+INPUT ./assets/katokaisekiplot.jpg
+INPUT ./assets/katokaisekiplot.jpg
+INPUT ./assets/katokaisekiplot.jpg
+INPUT extractbb -B cropbox -O assets/katokaisekiplot.jpg
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/rm-lmbx10.tfm
 INPUT ./assets/katohikakuplot.png
 INPUT ./assets/katohikakuplot.png

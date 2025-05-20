@@ -1,11 +1,11 @@
 # Fdb version 4
-["dvipdf"] 1747655130.63199 "out/report.dvi" "out/report.pdf" "out/report" 1747655132.07885 0
-  "out/report.dvi" 1747655130.60617 64708 62e6ee01a670541c222f585033ffc056 "latex"
+["dvipdf"] 1747713211.04734 "out/report.dvi" "out/report.pdf" "out/report" 1747713212.39443 0
+  "out/report.dvi" 1747713211.02243 68056 1989f6c8a88b9df1868ebc860ae950ab "latex"
   (generated)
   "out/report.pdf"
   (rewritten before read)
-["latex"] 1747655128.87359 "/Users/myml12/Documents/電気電子情報通信実験/回路シミュレーションの原理と実際/report.tex" "out/report.dvi" "report" 1747655132.07813 0
-  "/Users/myml12/Documents/電気電子情報通信実験/回路シミュレーションの原理と実際/report.tex" 1747655128.65442 27501 85bb45c42e0f2102b1335eceea0e802d ""
+["latex"] 1747713209.35579 "/Users/myml12/Documents/電気電子情報通信実験/回路シミュレーションの原理と実際/report.tex" "out/report.dvi" "report" 1747713212.39365 0
+  "/Users/myml12/Documents/電気電子情報通信実験/回路シミュレーションの原理と実際/report.tex" 1747713207.45867 29340 141178e4d58ffe2c843ea55669d9db99 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmr8.tfm" 1136768653 1292 21c1c5bfeaebccffdb478fd231a0997d ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmr9.tfm" 1136768653 1292 6b21b9c2c7bebb38aa2273f7ca0fb3af ""
@@ -98,7 +98,7 @@
   "/usr/local/texlive/2025/texmf-var/web2c/euptex/platex.fmt" 1746262225 3566234 84703b41ac5cb2c970950cc56e5eabb1 ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
   "assets/ackaisekikairo.png" 1747475019.52973 230336 9d60aa98b713d87d3ebc810d8063a090 ""
-  "assets/ackaisekiplot.png" 1747565823.08052 22754 2a8a0eefa1e7b3b2e763c91ee70b3d01 ""
+  "assets/ackaisekiplot.jpg" 1747706050.4343 144694 172d3d2d9210d2fc50990024c7fb5ab7 ""
   "assets/bandpass.png" 1747633917.16216 20334 be3410938d17b49ee3abb868db8ce441 ""
   "assets/bandpasskairo.png" 1747633217.76903 138204 d239f1f941a6925c6f81c1b9674be774 ""
   "assets/dckairo.png" 1747462082.63122 577883 aaa4b88dc413cd5369575b68356313bb ""
@@ -108,15 +108,15 @@
   "assets/hisenkeikairo.png" 1747461553.82777 180554 eb422c8088b01112a43bb602f60113cb ""
   "assets/katohikakuplot.png" 1747649900.85109 23571 6214a127d66d4348306612d6fe55c08e ""
   "assets/katokaisekikairo.png" 1747566567.39618 396422 a8a006a3a2a6b805babe84d42ba79df3 ""
-  "assets/katokaisekiplot.png" 1747626102.93746 38110 d77501dd11ccb26dc9e45d120f45a673 ""
+  "assets/katokaisekiplot.jpg" 1747707356.5379 229835 39dd0b1cd75a892f63eaa304b21c36ad ""
   "assets/katooshiro.JPG" 1747626276.85809 109764 939fdaddbf9182a11e12fbcaef764ccb ""
   "assets/lowpass.png" 1747636710.11879 29396 52306d379596fb731a62e7aabc7fba8a ""
   "assets/lowpasskairo.png" 1747633204.7612 79620 fd7b1a11ad47ece5e481abb4f9c63d40 ""
   "assets/senkeikairo.png" 1747460404.29128 162855 7931040a5f2a13b228fd290c22313db3 ""
   "assets/yobiex.png" 1747459846.53158 128890 0c41748510a17e3eacc2640797c169ae ""
-  "out/report.aux" 1747655130.60495 10431 d77ea7d6e5a9cb08c5f807bcc4ca47b4 "latex"
-  "out/report.out" 1747655130.606 4953 6239783d67395ce9885d6ac713a8430e "latex"
-  "report.tex" 1747655128.65442 27501 85bb45c42e0f2102b1335eceea0e802d ""
+  "out/report.aux" 1747713211.02096 10431 9ac6d5a7d2d2a194cf50f8849d27e7ea "latex"
+  "out/report.out" 1747713211.02223 4953 6239783d67395ce9885d6ac713a8430e "latex"
+  "report.tex" 1747713207.45867 29340 141178e4d58ffe2c843ea55669d9db99 ""
   (generated)
   "out/report.aux"
   "out/report.dvi"

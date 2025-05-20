@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.2-u2.00-250202-2.6 (utf8.euc) (TeX Live 2025) (preloaded format=platex 2025.5.3)  19 MAY 2025 20:45
+This is e-upTeX, Version 3.141592653-p4.1.2-u2.00-250202-2.6 (utf8.euc) (TeX Live 2025) (preloaded format=platex 2025.5.3)  20 MAY 2025 12:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -580,8 +580,8 @@ File: assets/dckaisekiplot.png Graphic file (type bmp)
 [7]
 File: assets/ackaisekikairo.png Graphic file (type bmp)
 <assets/ackaisekikairo.png>
-File: assets/ackaisekiplot.png Graphic file (type bmp)
-<assets/ackaisekiplot.png>
+File: assets/ackaisekiplot.jpg Graphic file (type bmp)
+<assets/ackaisekiplot.jpg>
 
 
 [8]
@@ -592,8 +592,8 @@ File: assets/katooshiro.JPG Graphic file (type bmp)
 
 
 [9]
-File: assets/katokaisekiplot.png Graphic file (type bmp)
-<assets/katokaisekiplot.png>
+File: assets/katokaisekiplot.jpg Graphic file (type bmp)
+<assets/katokaisekiplot.jpg>
 
 
 [10]
@@ -601,61 +601,61 @@ File: assets/katokaisekiplot.png Graphic file (type bmp)
 [11]
 
 [12]
-LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 336.
-LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 10.0pt on input line 336.
-LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 336.
-LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 10.0pt on input line 336.
-
 
 [13]
-File: assets/katohikakuplot.png Graphic file (type bmp)
-<assets/katohikakuplot.png>
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 360.
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 10.0pt on input line 360.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 360.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 10.0pt on input line 360.
 
 
 [14]
+File: assets/katohikakuplot.png Graphic file (type bmp)
+<assets/katohikakuplot.png>
 File: assets/highpasskairo.png Graphic file (type bmp)
 <assets/highpasskairo.png>
+
+
+[15]
 File: assets/highpass.png Graphic file (type bmp)
 <assets/highpass.png>
 
 
-[15]
+[16]
 File: assets/lowpasskairo.png Graphic file (type bmp)
 <assets/lowpasskairo.png>
 File: assets/lowpass.png Graphic file (type bmp)
 <assets/lowpass.png>
 
 
-[16]
+[17]
 File: assets/bandpasskairo.png Graphic file (type bmp)
 <assets/bandpasskairo.png>
 File: assets/bandpass.png Graphic file (type bmp)
 <assets/bandpass.png>
 
 
-[17]
-LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 477.
+[18]
+LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 501.
 (/usr/local/texlive/2025/texmf-dist/tex/latex/lm/ot1lmtt.fd
 File: ot1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 
-[18]
-Overfull \hbox (6.99515pt too wide) in paragraph at lines 486--489
+[19]
+Overfull \hbox (6.99515pt too wide) in paragraph at lines 510--513
 [][]$\OT1/lmtt/m/n/10 https : / / www . analog . com / jp / resources / technical-[]articles / spice-[]differentiation .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 492--495
+Underfull \hbox (badness 10000) in paragraph at lines 516--519
 [][]$\OT1/lmtt/m/n/10 https : / / tmi . yokogawa . com / jp / library / resources / measurement-[]tips / probe _
  []
 
 
-
-[19]
 
 [20]
 
@@ -665,7 +665,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 492--495
 
 [23]
 
-[24] (out/report.aux)
+[24]
+
+[25] (out/report.aux)
  ***********
 pLaTeX2e <2023-02-14>+1, based on
 LaTeX2e <2024-11-01> patch level 2
@@ -675,12 +677,12 @@ Package rerunfilecheck Info: File `report.out' has not changed.
 (rerunfilecheck)             Checksum: 6239783D67395CE9885D6AC713A8430E;4953.
  ) 
 Here is how much of TeX's memory you used:
- 13244 strings out of 470253
- 241323 string characters out of 5485970
+ 13245 strings out of 470253
+ 241327 string characters out of 5485970
  627077 words of memory out of 5000000
  39907 multiletter control sequences out of 15000+600000
  678851 words of font info for 98 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  81i,10n,103p,987b,620s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on out/report.dvi (24 pages, 64708 bytes).
+Output written on out/report.dvi (25 pages, 68056 bytes).
