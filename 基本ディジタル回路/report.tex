@@ -13,6 +13,8 @@
 \numberwithin{equation}{section}
 \counterwithin{figure}{section}
 \counterwithin{table}{section}
+\ModifyHeading{section}{before_space=20pt, after_space=20pt}
+\ModifyHeading{subsubsection}{before_space=20pt, after_space=20pt}
 \begin{document}
 
 \section{目的}
@@ -365,7 +367,7 @@ D-FFは、クロック信号の立ち上がりエッジでDの値を出力Qに�
 \end{table}
 
 \subsection{信号発生器の設計と製作}
-図3.2の回路の各部のオスロスコープで観測した波形を図4.5、4.6に示す。
+図3.2の回路の各部のオスロスコープで観測した波形を図4.5（上から順にA 点、CLK、1Q、1Q）、4.6（上から順にA 点、S、R）に示す。
 
 \begin{figure}[H]
   \centering
@@ -382,11 +384,19 @@ D-FFは、クロック信号の立ち上がりエッジでDの値を出力Qに�
   \end{minipage}
 \end{figure}
 
-図4.5、4.6より、A点での正弦波がCLK信号では矩形波として現れており、1Qで
+また、図 4.5,4.6 のオシロスコープで観測波形より作成したタイミングチャートを図 4.7 に示す。
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.8\textwidth]{assets/sgchart.png}
+  \caption{信号発生器のタイミングチャート}
+\end{figure}
+
+図4.7より、A点での正弦波がCLK信号では矩形波として現れており、1Qで
 はその矩形波の周期の2倍の矩形波が、\(\overline{1Q}\)ではそれが反転したものが、Sでは1Qの矩形波の周期がさらに2倍になった矩形波が、Rではそれが反転したものが現れていることが確認できた。
 
 \subsection{同期式SR-FFの動作と特性}
-図3.3の回路を制作し、各測定点（CLK, S, R, a, b, Q, \(\overline{Q}\)）のオスロスコープで観測した波形を図4.7、4.8に示す。
+図3.3の回路を制作し、各測定点（CLK, S, R, a, b, Q, \(\overline{Q}\)）のオスロスコープで観測した波形を図4.8（上から順にCLK、S、R、a）、4.9（上から順にCLK、b、Q、Q）に示す。
 
 \begin{figure}[H]
   \centering
@@ -403,12 +413,20 @@ D-FFは、クロック信号の立ち上がりエッジでDの値を出力Qに�
   \end{minipage}
 \end{figure}
 
-図4.7、4.8より、SではCLKの4倍の周期の矩形波が、Rではそれが反転したものが現れていることが確認できた。
+また、図 4.8,4.9 のオシロスコープでの観測波形より作成したタイミングチャートを図4.10 に示す。
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.8\textwidth]{assets/srffchart.png}
+  \caption{同期式SR-FFのタイミングチャート}
+\end{figure}
+
+図4.10より、SではCLKの4倍の周期の矩形波が、Rではそれが反転したものが現れていることが確認できた。
 また、Qでは位相がずれたCLKの4倍の周期の矩形波が現れ、\(\overline{Q}\)ではそれが反転したものが現れていることが確認できた。
 さらに、aとbではS,Rの2倍周期で大きなものと小さなものの2種類がある矩形波が現れていることが確認できた。
 
 \subsection{JK-FFの動作と特性}
-図3.4の回路を制作し、各測定点（CLK, S, 1Q）のオスロスコープで観測した波形を図4.9に示す。
+図3.4の回路を制作し、各測定点（CLK, S, 1Q）のオスロスコープで観測した波形を図4.11に示す。
 
 \begin{figure}[H]
   \centering
@@ -416,7 +434,15 @@ D-FFは、クロック信号の立ち上がりエッジでDの値を出力Qに�
   \caption{CLK、S、1Qの観測波形}
 \end{figure}
 
-図4.9より、SではCLKの4倍の周期の矩形波が、1QではSがHIGHになった次のCLKの周期でHIGHになっていることが確認できた。
+また、図4.11のオシロスコープでの観測波形より作成したタイミングチャートを図4.12に示す。
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.8\textwidth]{assets/jkffchart.png}
+  \caption{JK-FFのタイミングチャート}
+\end{figure}
+
+図4.12より、SではCLKの4倍の周期の矩形波が、1QではSがHIGHになった次のCLKの周期でHIGHになっていることが確認できた。
 
 \subsection{D-FFの動作と特性}
 \begin{enumerate}
@@ -433,7 +459,7 @@ D-FFは、クロック信号の立ち上がりエッジでDの値を出力Qに�
     \end{tabular}
   \end{table}
 
-  \item JK-FFとNOTゲートを用いてD-FFを構成したものを図4.10に示す。
+  \item JK-FFとNOTゲートを用いてD-FFを構成したものを図4.13に示す。
   
   \begin{figure}[H]
   \centering
@@ -441,7 +467,7 @@ D-FFは、クロック信号の立ち上がりエッジでDの値を出力Qに�
   \caption{JK-FFとNOTゲートで構成したD-FFの回路図}
   \end{figure}
 
-  \item 図4.10の回路を制作し、各測定点（CLK, D, Q, \(\overline{Q}\)）のオスロスコープで観測した波形を図4.11に示す。
+  \item 図4.10の回路を制作し、各測定点（CLK, D, Q, \(\overline{Q}\)）のオスロスコープで観測した波形を図4.14（上から順にCLK、D、Q）に示す。
   
   \begin{figure}[H]
   \centering
@@ -449,12 +475,19 @@ D-FFは、クロック信号の立ち上がりエッジでDの値を出力Qに�
   \caption{CLK、D、Qの観測波形}
   \end{figure}
 
-  図4.11より、DではCLKの4倍の周期の矩形波が現れ、Qでは位相がDと1/4周期遅れた矩形波が現れ、\(\overline{Q}\)ではそれが反転したものが現れていることが確認できた。
+  また、図4.14のオシロスコープでの観測波形より作成したタイミングチャートを図4.15に示す。
+  \begin{figure}[H]
+  \centering
+  \includegraphics[width=0.8\textwidth]{assets/dffchart.png}
+  \caption{D-FFのタイミングチャート}
+  \end{figure}
+
+  図4.15より、DではCLKの4倍の周期の矩形波が現れ、Qでは位相がDと1/4周期遅れた矩形波が現れ、\(\overline{Q}\)ではそれが反転したものが現れていることが確認できた。
 \end{enumerate}
 
 \subsection{カウンタの設計}
 \subsubsection{非同期式1/3カウンタ}
-図3.6の回路の各測定点（CLK、\(Q_0\)、\(Q_1\)、CLR）のオスロスコープで観測した波形を図4.12に示す。
+図3.6の回路の各測定点（CLK、\(Q_0\)、\(Q_1\)、CLR）のオスロスコープで観測した波形を図4.12（上から順にCLK、Q0、Q1、CLR）に示す。
 
 \begin{figure}[H]
   \centering
@@ -462,10 +495,18 @@ D-FFは、クロック信号の立ち上がりエッジでDの値を出力Qに�
   \caption{CLK、\(Q_0\)、\(Q_1\)、CLRの観測波形}
 \end{figure}
 
-図4.12より、Q0がクロックの立ち上がりで反転し、Q1はQ0の立ち上がりに応じて反転していることがわかる。
+また、図4.16より作成した非同期式1/3カウンタのタイミングチャートを図4.17に示す。
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.8\textwidth]{assets/hidoukichart.png}
+  \caption{非同期式1/3カウンタのタイミングチャート}
+\end{figure}
+
+図4.17より、Q0がクロックの立ち上がりで反転し、Q1はQ0の立ち上がりに応じて反転していることがわかる。
 
 \subsubsection{同期式1/3カウンタ}
-図3.7の回路を制作し、各測定点（CLK, 1J, \(Q_0\), \(Q_1\)）のオスロスコープで観測した波形を図4.13に示す。
+図3.7の回路を制作し、各測定点（CLK, 1J, \(Q_0\), \(Q_1\)）のオスロスコープで観測した波形を図4.18（上から順にCLK、1J、Q0, Q1）に示す。
 
 \begin{figure}[H]
   \centering
@@ -473,7 +514,15 @@ D-FFは、クロック信号の立ち上がりエッジでDの値を出力Qに�
   \caption{CLK、1J、\(Q_0\), \(Q_1\)の観測波形}
 \end{figure}
 
-図4.13より、1J,Q0,Q1はそれぞれCLKの3倍周期で規則的に変化していることが確認できる。
+また、図4.18より作成した同期式1/3カウンタのタイミングチャートを図4.19に示す。
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.8\textwidth]{assets/doukichart.png}
+  \caption{同期式1/3カウンタのタイミングチャート}
+\end{figure}
+
+図4.19より、1J,Q0,Q1はそれぞれCLKの3倍周期で規則的に変化していることが確認できる。
 
 \subsection{メモリ機能}
 図3.7の回路を作成し、表3.1の操作を実施した結果を以下に示す。
@@ -594,15 +643,7 @@ C_4 &= g_3 + p_3 g_2 + p_3 p_2 g_1 + p_3 p_2 p_1 g_0 + p_3 p_2 p_1 p_0 C_0
 
 \subsection{信号発生器の設計と作成}
 \subsubsection{信号発生器（SG）からディジタル波形が生じる流れについて}
-図4.5,4.6のオシロスコープで観測波形より作成したタイミングチャートを図5.1に示す。
 信号発生器は、アナログ信号を0と1のディジタル信号に変換するための装置である。タイミングチャートより、A点の正弦波が0Vを閾値として、NOTゲートがHIGHとLOWを判定し、出力信号を反転させアナログ信号をディジタル信号に変換して出力していることがわかる。またNOTゲートを直列に繋ぐことで、もとの正弦波と位相を合わせている。\\
-
-\begin{figure}[H]
-  \centering
-  \includegraphics[width=0.8\textwidth]{assets/sgchart.png}
-  \caption{信号発生器のタイミングチャート}
-\end{figure}
-
 1つ目のJK-FFによってCLK信号をQ1と\(\overline{Q1}\)に分け、周期を2倍にしており、2つ目のJK-FFによってQ1信号をSとRに分け、周期をさらに2倍にしている。これにより、最終的にSとRの信号はCLK信号の4倍の周期となる。
 
 \subsubsection{部品（$50\,\Omega$、$0.1\,\mathrm{\mu F}$、$470\,\mathrm{\mu F}$）の名称と役割についての説明}
@@ -627,65 +668,23 @@ $50\,\Omega$抵抗は信号発生回路のインピーダンス整合に用い�
 
 このように、同期式SR-FFは入力SとRの組み合わせによって出力状態を制御し、記憶素子として機能する。ただし、SとRが同時に0になる禁止状態は避ける必要があるため、実際の回路設計ではこの状態が発生しないように工夫される。
 
-図4.7,4.8のオシロスコープでの観測波形より作成したタイミングチャートを図5.2に示す。
-
-\begin{figure}[H]
-  \centering
-  \includegraphics[width=0.8\textwidth]{assets/srffchart.png}
-  \caption{同期式SR-FFのタイミングチャート}
-\end{figure}
-
-図5.2より、SとQの位相が1クロック分ずれていることが確認できる。また、Rと$\overline{Q}$の位相も1クロック分ずれていることが確認できる。
+図4.10より、SとQの位相が1クロック分ずれていることが確認できる。また、Rと$\overline{Q}$の位相も1クロック分ずれていることが確認できる。
 これは、今回実験で用いたSR-FFがクロック同期式であることと合致する。
 
 \subsubsection{エッジトリガについて}
 図5.2のタイミングチャートより、表5.4の真理値表のとおり、CLKの立ち上がりエッジでSとRの状態に応じて出力Qと$\overline{Q}$が変化することが確認できた。
 
 \subsection{JK-FFの動作と特性}
-
- 図4.9のオシロスコープでの観測波形より作成したタイミングチャートを図5.3に示す。
-
-\begin{figure}[H]
-  \centering
-  \includegraphics[width=0.8\textwidth]{assets/jkffchart.png}
-  \caption{JK-FFのタイミングチャート}
-\end{figure}
-
 表2.4の真理値表より、初期状態が0かつJ=1となったとき（今回の実験では常にK=1）、次のCLKの立ち下がりエッジでQが1に変化することが確認できた。初期状態が1かつJ=1となった次の立ち下がりエッジで、Qが0となることも確認することができた。
 
 \subsection{D-FFの動作と特性}
-
-図4.11のオシロスコープでの観測波形より作成したタイミングチャートを図5.4に示す。
-\begin{figure}[H]
-  \centering
-  \includegraphics[width=0.8\textwidth]{assets/dffchart.png}
-  \caption{D-FFのタイミングチャート}
-\end{figure}
-
-図5.4より、DとQの位相が1クロック分ずれていることが確認できる。これは表4.6の真理値表とも合致し、さらにCLK信号の立ち下がりエッジでDの状態に応じて出力されていることも確認できた。
+図4.15より、DとQの位相が1クロック分ずれていることが確認できる。これは表4.6の真理値表とも合致し、さらにCLK信号の立ち下がりエッジでDの状態に応じて出力されていることも確認できた。
 
 \subsection{1/3カウンタ}
 \subsubsection{非同期式でハザードが出るメカニズムと同期式の動作の説明}
-
-図4.12より作成した非同期式1/3カウンタのタイミングチャートを図5.5に示す。
-
-\begin{figure}[H]
-  \centering
-  \includegraphics[width=0.8\textwidth]{assets/hidoukichart.png}
-  \caption{非同期式1/3カウンタのタイミングチャート}
-\end{figure}
-
-実験結果より、Q0とQ1が3通りの状態（00→01→10）を順に繰り返していることが確認できる。また、CLR信号がLOWになると、即座にQ0とQ1の出力が00にリセットされる動作が確認できる。\\
+図4.17より、Q0とQ1が3通りの状態（00→01→10）を順に繰り返していることが確認できる。また、CLR信号がLOWになると、即座にQ0とQ1の出力が00にリセットされる動作が確認できる。\\
 
 図3.5より、CLR信号はQ0とQ1のNAND出力となっていることがわかる。したがって、Q0とQ1の出力が11のとき、CLR信号はLOWとなりQ0とQ1はリセットされる。しかし、Q0とQ1の出力が00に戻されるまでには数十ns程度の時間がかかるため、CLR信号がLOWの状態が数十ns続くことになる。このごく短い出力がハザードとして観測できると考えられる。\\
-
-図4.13より作成した同期式1/3カウンタのタイミングチャートを図5.6に示す。
-
-\begin{figure}[H]
-  \centering
-  \includegraphics[width=0.8\textwidth]{assets/doukichart.png}
-  \caption{同期式1/3カウンタのタイミングチャート}
-\end{figure}
 
 Q0とQ1が3通りの状態（00→01→10）を順に繰り返していることが確認できる。また、カウントはCLKの立ち下がりエッジで行われていることがわかる。
 
@@ -724,7 +723,7 @@ DRAMでは、コンデンサに電荷が溜まっている状態を"1"、溜ま�
 読み出しは、ワード線の電圧を上げることで、トランジスタをONにする。データ線の電位の変化が瞬間的に変化すれば"1"が読み出せ、変化しなければ"0"が読み出せる。 \\
 
 \subsubsection{書き込み時の電圧が4V程度になる理由}
-トランジスタがオンの状態では、ドレインからソースへの電流が流れる。図5.7のデータシートより、トランジスタのドレイン・ソース間のオン抵抗 $R_{\text{DS(on)}}$ は最大で1Ω程度（条件：$V_{GS}=4V, I_D=0.5A$）である。\\
+トランジスタがオンの状態では、ドレインからソースへの電流が流れる。図5.1のデータシートより、トランジスタのドレイン・ソース間のオン抵抗 $R_{\text{DS(on)}}$ は最大で1Ω程度（条件：$V_{GS}=4V, I_D=0.5A$）である。\\
 書き込み時、すなわちMOSFETのオン状態ではオン抵抗があるために、電流が流れるときに電圧降下が発生し、ソース側の電圧が下がるためであると考えられる。
 
 \begin{figure}[H]
@@ -782,7 +781,7 @@ SRAMはトランジスタのみで構成されるフリップフロップ回路�
 \end{table}
 
 \section{参考文献}
-\begin{itemize}
+\begin{enumerate}
 \item 「CMOSとは？NOTゲートの動作原理をもとに解説」, \\
 \url{https://ushitora.net/archives/546}, \\
 閲覧日: 2025年5月12日
@@ -822,6 +821,6 @@ SRAMはトランジスタのみで構成されるフリップフロップ回路�
 \item DRAMとSRAMの違いは？ それぞれの仕組み・特徴・用途を比較, トナリズム, \\
 \url{https://tonarism.co.jp/media/media_detail.php?b_id=33}, \\
 閲覧日: 2025年5月13日
-\end{itemize}
+\end{enumerate}
 
 \end{document}

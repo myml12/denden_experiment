@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.2-u2.00-250202-2.6 (utf8.euc) (TeX Live 2025) (preloaded format=platex 2025.5.3)  15 MAY 2025 09:55
+This is e-upTeX, Version 3.141592653-p4.1.2-u2.00-250202-2.6 (utf8.euc) (TeX Live 2025) (preloaded format=platex 2025.5.3)  20 MAY 2025 09:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -399,7 +399,7 @@ See the caption package documentation for explanation.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 )
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 16.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 18.
 (/usr/local/texlive/2025/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-dvips.def
@@ -412,29 +412,29 @@ File: l3backend-dvips.def 2025-04-14 L3 backend support: dvips
 ) (out/report.aux)
 \openout1 = `report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-Package hyperref Info: Link coloring OFF on input line 16.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+Package hyperref Info: Link coloring OFF on input line 18.
 (out/report.out) (out/report.out)
 \@outlinefile=\write3
 \openout3 = `report.out'.
@@ -476,63 +476,63 @@ Package hyperref Info: Link coloring OFF on input line 16.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 14.0pt on input line 19.
+(Font)              scaled to size 14.0pt on input line 21.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 14.0pt on input line 19.
+(Font)              scaled to size 14.0pt on input line 21.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 14.0pt on input line 19.
+(Font)              scaled to size 14.0pt on input line 21.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 14.0pt on input line 19.
-LaTeX Font Info:    Trying to load font information for OT1+lmss on input line 19.
+(Font)              scaled to size 14.0pt on input line 21.
+LaTeX Font Info:    Trying to load font information for OT1+lmss on input line 21.
 (/usr/local/texlive/2025/texmf-dist/tex/latex/lm/ot1lmss.fd
 File: ot1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `JT1/gt/bx/n' in size <14> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 19.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 21.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 14.0pt on input line 19.
+(Font)              scaled to size 14.0pt on input line 21.
 LaTeX Font Info:    Font shape `JY1/gt/bx/n' in size <14> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 19.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 21.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 14.0pt on input line 19.
+(Font)              scaled to size 14.0pt on input line 21.
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 12.0pt on input line 27.
+(Font)              scaled to size 12.0pt on input line 29.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 12.0pt on input line 27.
+(Font)              scaled to size 12.0pt on input line 29.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 12.0pt on input line 27.
+(Font)              scaled to size 12.0pt on input line 29.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 12.0pt on input line 27.
+(Font)              scaled to size 12.0pt on input line 29.
 LaTeX Font Info:    Font shape `JT1/gt/bx/n' in size <12> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 27.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 29.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 12.0pt on input line 27.
+(Font)              scaled to size 12.0pt on input line 29.
 LaTeX Font Info:    Font shape `JY1/gt/bx/n' in size <12> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 27.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 29.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 12.0pt on input line 27.
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 28.
+(Font)              scaled to size 12.0pt on input line 29.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 30.
 (/usr/local/texlive/2025/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 28.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 30.
 (/usr/local/texlive/2025/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 28.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 30.
 (/usr/local/texlive/2025/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 28.
+(Font)              <10> on input line 30.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 28.
+(Font)              <7> on input line 30.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 28.
+(Font)              <5> on input line 30.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 7.0pt on input line 28.
+(Font)              scaled to size 7.0pt on input line 30.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 5.0pt on input line 28.
+(Font)              scaled to size 5.0pt on input line 30.
 File: assets/not.png Graphic file (type bmp)
 <assets/not.png>
 
@@ -550,7 +550,7 @@ File: assets/nor.png Graphic file (type bmp)
 File: assets/jk-ff.png Graphic file (type bmp)
 <assets/jk-ff.png>
 
-Overfull \hbox (37.642pt too wide) in paragraph at lines 125--126
+Overfull \hbox (37.642pt too wide) in paragraph at lines 127--128
  [][] 
  []
 
@@ -565,9 +565,9 @@ File: assets/d-ff.png Graphic file (type bmp)
 File: assets/HAkairo.png Graphic file (type bmp)
 <assets/HAkairo.png>
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 7.0pt on input line 200.
+(Font)              scaled to size 7.0pt on input line 202.
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 5.0pt on input line 200.
+(Font)              scaled to size 5.0pt on input line 202.
 File: assets/SGkairo.png Graphic file (type bmp)
 <assets/SGkairo.png>
 
@@ -581,17 +581,17 @@ File: assets/jkffkairo.png Graphic file (type bmp)
 
 [6]
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 10.0pt on input line 235.
+(Font)              scaled to size 10.0pt on input line 237.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 10.0pt on input line 235.
+(Font)              scaled to size 10.0pt on input line 237.
 LaTeX Font Info:    Font shape `JT1/gt/bx/n' in size <10> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 235.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 237.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 10.0pt on input line 235.
+(Font)              scaled to size 10.0pt on input line 237.
 LaTeX Font Info:    Font shape `JY1/gt/bx/n' in size <10> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 235.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 237.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 10.0pt on input line 235.
+(Font)              scaled to size 10.0pt on input line 237.
 File: assets/hidoukicounter.png Graphic file (type bmp)
 <assets/hidoukicounter.png>
 
@@ -613,31 +613,33 @@ File: assets/benzu.png Graphic file (type bmp)
 [9]
 File: assets/domoshinri.png Graphic file (type bmp)
 <assets/domoshinri.png>
+File: assets/notnand.png Graphic file (type bmp)
+<assets/notnand.png>
 
 
 [10]
-File: assets/notnand.png Graphic file (type bmp)
-<assets/notnand.png>
 File: assets/notnandshinri.png Graphic file (type bmp)
 <assets/notnandshinri.png>
 File: assets/notnor.png Graphic file (type bmp)
 <assets/notnor.png>
+File: assets/notnorshinri.png Graphic file (type bmp)
+<assets/notnorshinri.png>
 
 
 [11]
-File: assets/notnorshinri.png Graphic file (type bmp)
-<assets/notnorshinri.png>
 File: assets/hanandnot.png Graphic file (type bmp)
 <assets/hanandnot.png>
+File: assets/hanandnotshinri.png Graphic file (type bmp)
+<assets/hanandnotshinri.png>
 
 
 [12]
-File: assets/hanandnotshinri.png Graphic file (type bmp)
-<assets/hanandnotshinri.png>
 File: assets/sg01.png Graphic file (type bmp)
 <assets/sg01.png>
 File: assets/sg02.png Graphic file (type bmp)
 <assets/sg02.png>
+File: assets/sgchart.png Graphic file (type bmp)
+<assets/sgchart.png>
 
 
 [13]
@@ -648,140 +650,138 @@ File: assets/srff02.png Graphic file (type bmp)
 
 
 [14]
-File: assets/jkff.png Graphic file (type bmp)
-<assets/jkff.png>
-File: assets/dffkairo.png Graphic file (type bmp)
-<assets/dffkairo.png>
-
-
-[15]
-File: assets/dff.png Graphic file (type bmp)
-<assets/dff.png>
-File: assets/hidouki.png Graphic file (type bmp)
-<assets/hidouki.png>
-
-
-[16]
-File: assets/douki.png Graphic file (type bmp)
-<assets/douki.png>
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 483.
-(/usr/local/texlive/2025/texmf-dist/tex/latex/lm/ts1lmr.fd
-File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-
-[17]
-
-[18]
-
-[19]
-
-[20]
-
-[21]
-File: assets/sgchart.png Graphic file (type bmp)
-<assets/sgchart.png>
-
-
-[22]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 609.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\leavevmode@ifvmode' on input line 609.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                \kern 1.66702pt
-(hyperref)                removed on input line 609.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\Omega' on input line 609.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 609.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 609.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\leavevmode@ifvmode' on input line 609.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                \kern 1.66702pt
-(hyperref)                removed on input line 609.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 609.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\DualLang@Mfontsw' on input line 609.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\mu' on input line 609.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 609.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 609.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\leavevmode@ifvmode' on input line 609.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                \kern 1.66702pt
-(hyperref)                removed on input line 609.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 609.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\DualLang@Mfontsw' on input line 609.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\mu' on input line 609.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 609.
-
 File: assets/srffchart.png Graphic file (type bmp)
 <assets/srffchart.png>
 
 
-[23]
+[15]
+File: assets/jkff.png Graphic file (type bmp)
+<assets/jkff.png>
+
+
+[16]
 File: assets/jkffchart.png Graphic file (type bmp)
 <assets/jkffchart.png>
 
 
-[24]
+[17]
+File: assets/dffkairo.png Graphic file (type bmp)
+<assets/dffkairo.png>
+File: assets/dff.png Graphic file (type bmp)
+<assets/dff.png>
 File: assets/dffchart.png Graphic file (type bmp)
 <assets/dffchart.png>
 
 
-[25]
+[18]
+File: assets/hidouki.png Graphic file (type bmp)
+<assets/hidouki.png>
 File: assets/hidoukichart.png Graphic file (type bmp)
 <assets/hidoukichart.png>
+
+
+[19]
+File: assets/douki.png Graphic file (type bmp)
+<assets/douki.png>
 File: assets/doukichart.png Graphic file (type bmp)
 <assets/doukichart.png>
 
+
+[20]
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 532.
+(/usr/local/texlive/2025/texmf-dist/tex/latex/lm/ts1lmr.fd
+File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+
+[21]
+
+[22]
+
+[23]
+
+[24]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 650.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\leavevmode@ifvmode' on input line 650.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                \kern 1.66702pt
+(hyperref)                removed on input line 650.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\Omega' on input line 650.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 650.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 650.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\leavevmode@ifvmode' on input line 650.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                \kern 1.66702pt
+(hyperref)                removed on input line 650.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<let>-command' on input line 650.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\DualLang@Mfontsw' on input line 650.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\mu' on input line 650.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 650.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 650.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\leavevmode@ifvmode' on input line 650.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                \kern 1.66702pt
+(hyperref)                removed on input line 650.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<let>-command' on input line 650.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\DualLang@Mfontsw' on input line 650.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\mu' on input line 650.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 650.
+
+
+
+[25]
 
 [26]
 
@@ -792,40 +792,41 @@ File: assets/datasheet.png Graphic file (type bmp)
 <assets/datasheet.png>
 File: assets/tc74hc126shinri.png Graphic file (type bmp)
 <assets/tc74hc126shinri.png>
-LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 755.
-LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 10.0pt on input line 755.
-LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 755.
-LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 10.0pt on input line 755.
 
-Overfull \hbox (73.11194pt too wide) in paragraph at lines 753--764
+
+[29]
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 754.
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 10.0pt on input line 754.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 754.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 10.0pt on input line 754.
+
+Overfull \hbox (73.11194pt too wide) in paragraph at lines 752--763
  [][] 
  []
 
 
 
-[29]
-
 [30]
-LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 787.
+LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 786.
 (/usr/local/texlive/2025/texmf-dist/tex/latex/lm/ot1lmtt.fd
 File: ot1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-Underfull \hbox (badness 10000) in paragraph at lines 789--792
+Underfull \hbox (badness 10000) in paragraph at lines 788--791
 [][]$\OT1/lmtt/m/n/10 https : / / toshiba . semicon-[]storage . com / jp / semiconductor / knowledge / e-[]learning /
- []
-
-
-Overfull \hbox (40.02283pt too wide) in paragraph at lines 807--810
-[][]$\OT1/lmtt/m/n/10 https : / / www . ques10 . com / p / 14914 / draw-[]the-[]circuit-[]of-[]jk-[]ff-[]using-[]nand-[]gates-[]and-[]wri/$[]\OT1/lmr/m/n/10 , 
  []
 
 
 
 [31]
+Overfull \hbox (40.02283pt too wide) in paragraph at lines 806--809
+[][]$\OT1/lmtt/m/n/10 https : / / www . ques10 . com / p / 14914 / draw-[]the-[]circuit-[]of-[]jk-[]ff-[]using-[]nand-[]gates-[]and-[]wri/$[]\OT1/lmr/m/n/10 , 
+ []
+
+
 
 [32] (out/report.aux)
  ***********
@@ -834,15 +835,15 @@ LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-04-14>
  ***********
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: 46C1FD7ABA5D3D98C62362372F3CD013;7166.
+(rerunfilecheck)             Checksum: A46807BC8C79C562449940ECAD92BA31;7166.
  ) 
 Here is how much of TeX's memory you used:
- 13429 strings out of 470253
- 245607 string characters out of 5485970
- 633297 words of memory out of 5000000
- 40069 multiletter control sequences out of 15000+600000
+ 13427 strings out of 470253
+ 245506 string characters out of 5485970
+ 633468 words of memory out of 5000000
+ 40067 multiletter control sequences out of 15000+600000
  680118 words of font info for 101 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  81i,13n,103p,966b,611s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on out/report.dvi (32 pages, 89760 bytes).
+Output written on out/report.dvi (32 pages, 91252 bytes).

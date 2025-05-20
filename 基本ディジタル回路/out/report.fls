@@ -289,6 +289,10 @@ INPUT ./assets/sg02.png
 INPUT ./assets/sg02.png
 INPUT ./assets/sg02.png
 INPUT extractbb -B cropbox -O assets/sg02.png
+INPUT ./assets/sgchart.png
+INPUT ./assets/sgchart.png
+INPUT ./assets/sgchart.png
+INPUT extractbb -B cropbox -O assets/sgchart.png
 INPUT ./assets/srff01.png
 INPUT ./assets/srff01.png
 INPUT ./assets/srff01.png
@@ -297,10 +301,18 @@ INPUT ./assets/srff02.png
 INPUT ./assets/srff02.png
 INPUT ./assets/srff02.png
 INPUT extractbb -B cropbox -O assets/srff02.png
+INPUT ./assets/srffchart.png
+INPUT ./assets/srffchart.png
+INPUT ./assets/srffchart.png
+INPUT extractbb -B cropbox -O assets/srffchart.png
 INPUT ./assets/jkff.png
 INPUT ./assets/jkff.png
 INPUT ./assets/jkff.png
 INPUT extractbb -B cropbox -O assets/jkff.png
+INPUT ./assets/jkffchart.png
+INPUT ./assets/jkffchart.png
+INPUT ./assets/jkffchart.png
+INPUT extractbb -B cropbox -O assets/jkffchart.png
 INPUT ./assets/dffkairo.png
 INPUT ./assets/dffkairo.png
 INPUT ./assets/dffkairo.png
@@ -309,42 +321,30 @@ INPUT ./assets/dff.png
 INPUT ./assets/dff.png
 INPUT ./assets/dff.png
 INPUT extractbb -B cropbox -O assets/dff.png
-INPUT ./assets/hidouki.png
-INPUT ./assets/hidouki.png
-INPUT ./assets/hidouki.png
-INPUT extractbb -B cropbox -O assets/hidouki.png
-INPUT ./assets/douki.png
-INPUT ./assets/douki.png
-INPUT ./assets/douki.png
-INPUT extractbb -B cropbox -O assets/douki.png
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/lm/ts1lmr.fd
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/lm/ts1lmr.fd
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/lm/ts1lmr.fd
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/ts1-lmr10.tfm
-INPUT ./assets/sgchart.png
-INPUT ./assets/sgchart.png
-INPUT ./assets/sgchart.png
-INPUT extractbb -B cropbox -O assets/sgchart.png
-INPUT ./assets/srffchart.png
-INPUT ./assets/srffchart.png
-INPUT ./assets/srffchart.png
-INPUT extractbb -B cropbox -O assets/srffchart.png
-INPUT ./assets/jkffchart.png
-INPUT ./assets/jkffchart.png
-INPUT ./assets/jkffchart.png
-INPUT extractbb -B cropbox -O assets/jkffchart.png
 INPUT ./assets/dffchart.png
 INPUT ./assets/dffchart.png
 INPUT ./assets/dffchart.png
 INPUT extractbb -B cropbox -O assets/dffchart.png
+INPUT ./assets/hidouki.png
+INPUT ./assets/hidouki.png
+INPUT ./assets/hidouki.png
+INPUT extractbb -B cropbox -O assets/hidouki.png
 INPUT ./assets/hidoukichart.png
 INPUT ./assets/hidoukichart.png
 INPUT ./assets/hidoukichart.png
 INPUT extractbb -B cropbox -O assets/hidoukichart.png
+INPUT ./assets/douki.png
+INPUT ./assets/douki.png
+INPUT ./assets/douki.png
+INPUT extractbb -B cropbox -O assets/douki.png
 INPUT ./assets/doukichart.png
 INPUT ./assets/doukichart.png
 INPUT ./assets/doukichart.png
 INPUT extractbb -B cropbox -O assets/doukichart.png
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/lm/ts1lmr.fd
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/lm/ts1lmr.fd
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/lm/ts1lmr.fd
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/ts1-lmr10.tfm
 INPUT ./assets/datasheet.png
 INPUT ./assets/datasheet.png
 INPUT ./assets/datasheet.png
