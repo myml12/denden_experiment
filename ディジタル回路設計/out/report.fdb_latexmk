@@ -1,11 +1,11 @@
 # Fdb version 4
-["dvipdf"] 1747796342.58825 "out/report.dvi" "out/report.pdf" "out/report" 1747796343.03474 0
-  "out/report.dvi" 1747796342.56585 19104 f5125978d7c7973b6aa1bf6f77c1cfa8 "latex"
+["dvipdf"] 1748075591.52464 "out/report.dvi" "out/report.pdf" "out/report" 1748075592.567 0
+  "out/report.dvi" 1748075591.50048 25400 7f51b3bce11fbfd414e53d1a88950a2b "latex"
   (generated)
   "out/report.pdf"
   (rewritten before read)
-["latex"] 1747796342.08027 "/Users/myml12/Documents/電気電子情報通信実験/ディジタル回路設計/report.tex" "out/report.dvi" "report" 1747796343.03405 0
-  "/Users/myml12/Documents/電気電子情報通信実験/ディジタル回路設計/report.tex" 1747796341.3692 4981 a86de005c822df70b6078eba677dc45d ""
+["latex"] 1748075590.14161 "/Users/myml12/Documents/電気電子情報通信実験/ディジタル回路設計/report.tex" "out/report.dvi" "report" 1748075592.56626 0
+  "/Users/myml12/Documents/電気電子情報通信実験/ディジタル回路設計/report.tex" 1748075589.95678 11660 01227eb6aceda401be19e85308fdf60f ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmr8.tfm" 1136768653 1292 21c1c5bfeaebccffdb478fd231a0997d ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmr9.tfm" 1136768653 1292 6b21b9c2c7bebb38aa2273f7ca0fb3af ""
@@ -83,7 +83,6 @@
   "/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-dvips.def" 1745869811 36609 5d7a470ce89ffbecc33e3efba4b5566d ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/listings/listings.cfg" 1727126400 1865 301ae3c26fb8c0243307b619a6aa2dd3 ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/listings/listings.sty" 1727126400 81640 997090b6c021dc4af9ee00a97b85c5b4 ""
-  "/usr/local/texlive/2025/texmf-dist/tex/latex/listings/lstlang1.sty" 1727126400 206518 4eb59a801ad842a713fa168c34227290 ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/listings/lstmisc.sty" 1727126400 77051 be68720e5402397a830abb9eed5a2cb4 ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/listings/lstpatch.sty" 1710360531 353 9024412f43e92cd5b21fe9ded82d0610 ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/lm/lmodern.sty" 1616454256 1608 b00724785a9e9c599e5181bb8729160b ""
@@ -101,11 +100,22 @@
   "/usr/local/texlive/2025/texmf-dist/web2c/texmf.cnf" 1739380943 42148 61becc7c670cd061bb319c643c27fdd4 ""
   "/usr/local/texlive/2025/texmf-var/web2c/euptex/platex.fmt" 1746262225 3566234 84703b41ac5cb2c970950cc56e5eabb1 ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
-  "PulseGen01.vhd" 1747792751.89747 622 bf217dc09fa1ffb9c57578966bf1d67e ""
   "assets/EP1K10_stracture.png" 1747794453.70114 606941 3ea880fdb0cafa3e6847cee56fbb1fda ""
-  "out/report.aux" 1747796342.56513 2114 c124e137f9563ce63e1d0323ce98b215 "latex"
-  "out/report.out" 1747796342.56569 1465 529bdc28749de2426f7e5c4d85cf99e2 "latex"
-  "report.tex" 1747796341.3692 4981 a86de005c822df70b6078eba677dc45d ""
+  "assets/PulseGen01.png" 1748067275.1093 233934 3b3618dc5144d157a47ab3c88f5523c8 ""
+  "assets/PulseGen02.png" 1748067301.71355 242093 ced060f190d60cfd0e8337feb08585c0 ""
+  "assets/RTL01.png" 1748070850.09072 18382 523772fb64ccd944c1b31983f1174e70 ""
+  "assets/RTL02.png" 1748070875.44063 16503 d2a006be895669c42b6ffaa7133718ae ""
+  "assets/RTL_All.png" 1748070810.58471 19964 3b7103d20dc9b8689ce932b9cc9f2785 ""
+  "assets/SEG7LED.png" 1748075139.4174 64920 2b54f46d2ac367403f2c70eb469f3c75 ""
+  "assets/StopWatch_kairo.png" 1748063558.15772 250520 fb7a2aff8e7e2051e7db942fb516a5ad ""
+  "assets/flowchart01.png" 1748065125.55771 127179 1b9dde10ffcd8564df4351abc91ff8ac ""
+  "assets/flowchart02.png" 1748067825.45139 131116 c947f3256e63d25f7f6d502f31f31e82 ""
+  "assets/simulation01.png" 1748073460.10595 20323 b81ccfa6ac452fd76cdd71d046150c5a ""
+  "assets/simulation02.png" 1748073477.61863 24152 5498417e326a5857f5db7578a56291f3 ""
+  "assets/simulation03.png" 1748073492.17074 23255 fb6b47a860c2e22024d2124862964749 ""
+  "out/report.aux" 1748075591.49947 4860 d35dd709390a9d0ec604ac0f95eeb121 "latex"
+  "out/report.out" 1748075591.50027 2213 e49032f21b0b55ba29778fdbe243accf "latex"
+  "report.tex" 1748075589.95678 11660 01227eb6aceda401be19e85308fdf60f ""
   (generated)
   "out/report.aux"
   "out/report.dvi"

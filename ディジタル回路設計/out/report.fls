@@ -186,20 +186,30 @@ INPUT ./assets/EP1K10_stracture.png
 INPUT extractbb -B cropbox -O assets/EP1K10_stracture.png
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/rm-lmr9.tfm
 OUTPUT out/report.dvi
+INPUT ./assets/StopWatch_kairo.png
+INPUT ./assets/StopWatch_kairo.png
+INPUT ./assets/StopWatch_kairo.png
+INPUT extractbb -B cropbox -O assets/StopWatch_kairo.png
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/jlreq/jlreqg-v.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/jlreq/jlreqg.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/rm-lmss10.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/rm-lmssbx10.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/listings/lstlang1.sty
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/listings/lstlang1.sty
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/listings/lstlang1.sty
-INPUT ./PulseGen01.vhd
-INPUT ./PulseGen01.vhd
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/lm/ot1lmtt.fd
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/lm/ot1lmtt.fd
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/lm/ot1lmtt.fd
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/rm-lmtt10.tfm
-INPUT PulseGen01.vhd
+INPUT ./assets/PulseGen01.png
+INPUT ./assets/PulseGen01.png
+INPUT ./assets/PulseGen01.png
+INPUT extractbb -B cropbox -O assets/PulseGen01.png
+INPUT ./assets/PulseGen02.png
+INPUT ./assets/PulseGen02.png
+INPUT ./assets/PulseGen02.png
+INPUT extractbb -B cropbox -O assets/PulseGen02.png
+INPUT ./assets/flowchart01.png
+INPUT ./assets/flowchart01.png
+INPUT ./assets/flowchart01.png
+INPUT extractbb -B cropbox -O assets/flowchart01.png
+INPUT ./assets/flowchart02.png
+INPUT ./assets/flowchart02.png
+INPUT ./assets/flowchart02.png
+INPUT extractbb -B cropbox -O assets/flowchart02.png
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/rm-lmr7.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/rm-lmr5.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/lm/omllmm.fd
@@ -220,6 +230,38 @@ INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/lm/omxlmex.fd
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/lmex10.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/jlreq/jlreq.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/jlreq/jlreq.tfm
+INPUT ./assets/RTL_All.png
+INPUT ./assets/RTL_All.png
+INPUT ./assets/RTL_All.png
+INPUT extractbb -B cropbox -O assets/RTL_All.png
+INPUT ./assets/RTL01.png
+INPUT ./assets/RTL01.png
+INPUT ./assets/RTL01.png
+INPUT extractbb -B cropbox -O assets/RTL01.png
+INPUT ./assets/RTL02.png
+INPUT ./assets/RTL02.png
+INPUT ./assets/RTL02.png
+INPUT extractbb -B cropbox -O assets/RTL02.png
+INPUT ./assets/simulation01.png
+INPUT ./assets/simulation01.png
+INPUT ./assets/simulation01.png
+INPUT extractbb -B cropbox -O assets/simulation01.png
+INPUT ./assets/simulation02.png
+INPUT ./assets/simulation02.png
+INPUT ./assets/simulation02.png
+INPUT extractbb -B cropbox -O assets/simulation02.png
+INPUT ./assets/simulation03.png
+INPUT ./assets/simulation03.png
+INPUT ./assets/simulation03.png
+INPUT extractbb -B cropbox -O assets/simulation03.png
+INPUT ./assets/SEG7LED.png
+INPUT ./assets/SEG7LED.png
+INPUT ./assets/SEG7LED.png
+INPUT extractbb -B cropbox -O assets/SEG7LED.png
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/lm/ot1lmtt.fd
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/lm/ot1lmtt.fd
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/lm/ot1lmtt.fd
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/rm-lmtt10.tfm
 INPUT out/report.aux
 INPUT out/report.out
 INPUT out/report.out
